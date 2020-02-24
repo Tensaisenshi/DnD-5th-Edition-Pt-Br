@@ -5,11 +5,11 @@
     "version": "0.1.0",
     "minimumCoreVersion" : "0.4.5",
     "author": "Caua539",
-        
+    "systems": ["dnd5e"],
     "scripts": [],
     "styles": [],
     "packs": [],
-    
+    "esmodules": ["ptbr5e.js"],
     "languages": [
       {
         "lang": "pt-BR",
@@ -20,6 +20,6 @@
     
     "url": "https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese",
 	  "manifest": "https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese/raw/master/dnd5e_pt-BR/module.json",
-	  "download": "https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese/raw/master/dnd5e_pt-BR.zip"
+	  "download": "https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese/-/jobs/artifacts/master/raw/dnd5e_pt-BR.zip?job=build"
   }
   
