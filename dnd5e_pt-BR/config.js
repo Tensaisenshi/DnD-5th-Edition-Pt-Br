@@ -50,28 +50,28 @@ DND5E.alignments = {
  * @type {Object}
  */
 DND5E.armorProficiencies = {
-  "lgt": "Light Armor",
-  "med": "Medium Armor",
-  "hvy": "Heavy Armor",
-  "shl": "Shields"
+  "lgt": "Armaduras Leves",
+  "med": "Armaduras Médias",
+  "hvy": "Armaduras Pesadas",
+  "shl": "Escudos"
 };
 
 DND5E.weaponProficiencies = {
-  "sim": "Simple Weapons",
-  "mar": "Martial Weapons"
+  "sim": "Armas Simples",
+  "mar": "Armas Marciais"
 };
 
 DND5E.toolProficiencies = {
-  "art": "Artisan's Tools",
-  "disg": "Disguise Kit",
-  "forg": "Forgery Kit",
-  "game": "Gaming Set",
-  "herb": "Herbalism Kit",
-  "music": "Musical Instrument",
-  "navg": "Navigator's Tools",
-  "pois": "Poisoner's Kit",
-  "thief": "Thieves' Tools",
-  "vehicle": "Vehicle (Land or Water)"
+  "art": "Ferramentas de artesão",
+  "disg": "Kit de disfarce",
+  "forg": "Kit de falsificação",
+  "game": "Kit de jogos",
+  "herb": "Kit de herbalismo",
+  "music": "Instrumento musical",
+  "navg": "Ferramentas de navegador",
+  "pois": "Kit de veneno",
+  "thief": "Ferramentas de ladrão",
+  "vehicle": "Veículos (terra ou água)"
 };
 
 /* -------------------------------------------- */
@@ -81,28 +81,28 @@ DND5E.toolProficiencies = {
  * @type {Object}
  */
 DND5E.abilityActivationTypes = {
-  "none": "None",
-  "action": "Action",
-  "bonus": "Bonus Action",
-  "reaction": "Reaction",
-  "minute": "Minute",
-  "hour": "Hour",
-  "day": "Day",
-  "special": "Special",
-  "legendary": "Legendary",
-  "lair": "Lair"
+  "none": "DND5E.None",
+  "action": "Ação",
+  "bonus": "Ação Bônus",
+  "reaction": "Reação",
+  "minute": "Minuto",
+  "hour": "Hora",
+  "day": "Dia",
+  "special": "Especial",
+  "legendary": "Lendária",
+  "lair": "Covil"
 };
 
 /* -------------------------------------------- */
 
 // Creature Sizes
 DND5E.actorSizes = {
-  "tiny": "Tiny",
-  "sm": "Small",
-  "med": "Medium",
-  "lg": "Large",
-  "huge": "Huge",
-  "grg": "Gargantuan"
+  "tiny": "Minúsculo",
+  "sm": "Pequeno",
+  "med": "Médio",
+  "lg": "Grande",
+  "huge": "Enorme",
+  "grg": "Gigantesco"
 };
 
 DND5E.tokenSizes = {
@@ -457,10 +457,10 @@ DND5E.spellLevels = {
  * @type {Object}
  */
 DND5E.proficiencyLevels = {
-  0: "Not Proficient",
-  1: "Proficient",
-  0.5: "Jack of all Trades",
-  2: "Expertise"
+  0: "Não Proficiente",
+  1: "Proficiente",
+  0.5: "Pau pra Toda Obra",
+  2: "Especialista"
 };
 
 /* -------------------------------------------- */
@@ -488,7 +488,7 @@ DND5E.conditionTypes = {
 
 // Languages
 DND5E.languages = {
-  "common": "Common",
+  "common": "Comum",
   "aarakocra": "Aarakocra",
   "abyssal": "Abyssal",
   "aquan": "Aquan",
@@ -496,23 +496,23 @@ DND5E.languages = {
   "celestial": "Celestial",
   "deep": "Deep Speech",
   "draconic": "Draconic",
-  "druidic": "Druidic",
-  "dwarvish": "Dwarvish",
-  "elvish": "Elvish",
-  "giant": "Giant",
+  "druidic": "Druídico",
+  "dwarvish": "Anão",
+  "elvish": "Élfico",
+  "giant": "Gigante",
   "gith": "Gith",
-  "gnomish": "Gnomish",
+  "gnomish": "Gnômico",
   "goblin": "Goblin",
   "gnoll": "Gnoll",
-  "halfling": "Halfling",
+  "halfling": "Pequenino",
   "ignan": "Ignan",
   "infernal": "Infernal",
   "orc": "Orc",
   "primordial": "Primordial",
   "sylvan": "Sylvan",
   "terran": "Terran",
-  "cant": "Thieves' Cant",
-  "undercommon": "Undercommon"
+  "cant": "Gíria de Ladrão",
+  "undercommon": "Subcomum"
 };
 
 // Character Level XP Requirements
