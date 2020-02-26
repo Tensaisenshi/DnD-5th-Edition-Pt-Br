@@ -1,7 +1,7 @@
 // PTBR5eSheet
 // @author Caua539
 // @version 0.2.0
-import { DND5E } from "config.js";
+import { DND5E } from "../../systems/dnd5e/module/config.js";
 import { Dice5e } from "../../systems/dnd5e/module/dice.js";
 import { Actor5e } from "../../systems/dnd5e/module/actor/entity.js";
 import { ActorSheet5eCharacter } from "../../systems/dnd5e/module/actor/sheets/character.js";
@@ -16,12 +16,12 @@ Hooks.once('init', () => loadTemplates([
 ]));
 
 Hooks.once('init', function() {
-    Actors.registerSheet('dnd5e', PtBrSheet5eCharacter, {
+    Actors.registerSheet('dnd5e', PtBr5eSheet, {
 		types: ['character']
     });
 });
 
-export class PtBrSheet5eCharacter extends ActorSheet5eCharacter {
+export class PtBr5eSheet extends ActorSheet5eCharacter {
 	get template() {
 		if ( !game.user.isGM && this.actor.limited ) return super.template;
 		return "modules/dnd5e_pt-BR/templates/ptbr-sheet.html";

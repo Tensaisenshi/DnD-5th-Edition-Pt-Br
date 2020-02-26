@@ -13,4 +13,7 @@ Na tela de SETUP do FoundryVTT, escolha a opção "Add-On Modules" e então cliq
   
 Alternativamente, você pode fazer o download do seguinte arquivo [dnd5e_pt-BR.zip](https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese/raw/master/dnd5e_pt-BR.zip) e extraí-lo na pasta ```Data/modules```.
   
-Após ter feito isso, você deve ativar o módulo nas configurações do mundo em que pretende usá-lo e depois mudando o idioma nas configurações.
+Após ter feito isso, você deve ativar o módulo nas configurações do mundo em que pretende usá-lo e depois mudando o idioma nas configurações. 
+
+# Versão Placeholder
+Essa versão é diferente da versão principal pois ela traduz vários outros elementos da ficha de personagem do DND5E porém através de substituição da ficha original pois existem muitos textos na ficha principal que não são localizáveis. Por isso, o jogador deve selecionar a ficha PtBr5eSheet para seu personagem dentro do FoundryVTT.
