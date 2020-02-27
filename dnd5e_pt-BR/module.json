@@ -1,6 +1,6 @@
 {
     "name": "dnd5e_pt-BR",
-    "title": "D&D5e - Português (Brasil)",
+    "title": "FoundryVTT - D&D5e - Português (Brasil)",
     "description": "<p>Adiciona o idioma Português (Brasil) para o sistema de jogo D&D 5E.</p><p>OBS. Esse módulo traduz somente os termos relacionados ao sistema de D&D 5E, como as fichas e rolagens. Esse módulo não traduz outras partes do FoundryVTT</p>",
     "version": "0.3.0",
     "minimumCoreVersion" : "0.4.5",
