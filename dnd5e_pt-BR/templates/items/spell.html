@@ -1,0 +1,151 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+
+    {{!-- Item Sheet Header --}}
+    <header class="sheet-header flexrow">
+        <img class="profile" src="{{item.img}}" title="{{item.name}}" data-edit="img"/>
+
+        <div class="header-details flexrow">
+            <h1 class="charname">
+                <input name="name" type="text" value="{{item.name}}" placeholder="Nome da Magia"/>
+            </h1>
+
+            <div class="item-subtitle">
+                <h4 class="item-type">Magia</h4>
+                <span class="item-status">{{itemStatus}}</span>
+            </div>
+
+            <ul class="summary">
+                <li>
+                    {{labels.level}}
+                </li>
+                <li>
+                    {{labels.school}}
+                </li>
+                <li>
+                    <input type="text" name="data.source" value="{{data.source}}" placeholder="Fonte"/>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    {{!-- Item Sheet Navigation --}}
+    <nav class="sheet-navigation tabs" data-group="primary">
+        <a class="item active" data-tab="description">{{ localize "DND5E.Description" }}</a>
+        <a class="item" data-tab="details">{{ localize "DND5E.Details" }}</a>
+    </nav>
+
+    {{!-- Item Sheet Body --}}
+    <section class="sheet-body">
+
+        {{!-- Description Tab --}}
+        {{> "modules/dnd5e_pt-BR/templates/items/parts/item-description.html"}}
+
+        {{!-- Details Tab --}}
+        <div class="tab details" data-group="primary" data-tab="details">
+            <h3 class="form-header">Detalhes da Magia</h3>
+
+            {{!-- Spell Level --}}
+            <div class="form-group">
+                <label>Nível da Magia</label>
+                <select name="data.level" data-dtype="Number">
+                    {{#select data.level}}
+                    {{#each config.spellLevels as |name lvl|}}
+                    <option value="{{lvl}}">{{name}}</option>
+                    {{/each}}
+                    {{/select}}
+                </select>
+            </div>
+
+            {{!-- Spell School --}}
+            <div class="form-group">
+                <label>Escola da Magia</label>
+                <select name="data.school">
+                    {{#select data.school}}
+                    {{#each config.spellSchools as |name sch|}}
+                    <option value="{{sch}}">{{name}}</option>
+                    {{/each}}
+                    {{/select}}
+                </select>
+            </div>
+
+            {{!-- Spell Components --}}
+            <div class="spell-components form-group stacked">
+                <label>Componentes de Magia</label>
+                <label class="checkbox">
+                    <input type="checkbox" name="data.components.vocal" {{checked data.components.vocal}}/> Verbal
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" name="data.components.somatic" {{checked data.components.somatic}}/> Somático
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" name="data.components.material" {{checked data.components.material}}/> Material
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" name="data.components.concentration" {{checked data.components.concentration}}/> Concentração
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" name="data.components.ritual" {{checked data.components.ritual}}/> Ritual
+                </label>
+            </div>
+
+            {{!-- Material Components --}}
+            <div class="form-group stacked">
+                <label>Materiais de Conjuração</label>
+                <input class="materials" type="text" name="data.materials.value" value="{{data.materials.value}}"/>
+                {{#if data.materials.value}}
+                <div class="spell-materials flexrow">
+                    <label>Quantidade</label>
+                    <input type="text" name="data.materials.supply" value="{{data.materials.supply}}" data-dtype="Number" Placeholder="0"/>
+                    <label>Custo (PO)</label>
+                    <input type="text" name="data.materials.cost" value="{{data.materials.cost}}" data-dtype="Number" Placeholder="-"/>
+                    <label>Consumido</label>
+                    <input type="checkbox" name="data.materials.consumed" {{checked data.materials.consumed}}/>
+                </div>
+                {{/if}}
+            </div>
+
+            {{!-- Preparation Mode --}}
+            <div class="form-group input-select">
+                <label>Modo de Preparo da Magia</label>
+                <div class="form-fields">
+                    <label class="checkbox prepared">
+                        Preparada <input type="checkbox" name="data.preparation.prepared" {{checked data.preparation.prepared}}/>
+                    </label>
+                    <select name="data.preparation.mode">
+                        {{#select data.preparation.mode}}
+                        <option value=""></option>
+                        {{#each config.spellPreparationModes as |name key|}}
+                        <option value="{{key}}">{{name}}</option>
+                        {{/each}}
+                        {{/select}}
+                    </select>
+                </div>
+            </div>
+
+            <h3 class="form-header">Conjuração</h3>
+
+            {{!-- Item Activation Template --}}
+            {{> "modules/dnd5e_pt-BR/templates/items/parts/item-activation.html"}}
+
+            <h3 class="form-header">Efeitos da Magia</h3>
+
+            {{!-- Item Action Template --}}
+            {{> "modules/dnd5e_pt-BR/templates/items/parts/item-action.html"}}
+
+            {{!-- Spell Level Scaling --}}
+            <div class="form-group">
+                <label>Escala de Nível</label>
+                <div class="form-fields">
+                    <select name="data.scaling.mode">
+                        {{#select data.scaling.mode}}
+                        {{#each config.spellScalingModes as |name key|}}
+                        <option value="{{key}}">{{name}}</option>
+                        {{/each}}
+                        {{/select}}
+                    </select>
+                    <input type="text" name="data.scaling.formula" value="{{data.scaling.formula}}" placeholder="Fórmula de Escala"/>
+                </div>
+            </div>
+        </div>
+    </section>
+</form>
