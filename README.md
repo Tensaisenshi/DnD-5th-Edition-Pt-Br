@@ -5,7 +5,7 @@ FoundryVTT 5th Edition Brazilian Portuguese
 
 ## Português
 
-Esse módulo adiciona o idioma *Português (Brasil)* como uma opção a ser selecionada nas configurações do FoundryVTT. Selecionar essa opção traduzirá vários aspectos do programa relacionados ao sistema [DND5E](https://gitlab.com/foundrynet/dnd5e "Foundry VTT 5th Edition"), como as fichas de personagem, rolagens, compêndio de magias, entre outros.
+Esse módulo adiciona o idioma *Português (Brasil)* como uma opção a ser selecionada nas configurações do FoundryVTT. Selecionar essa opção traduzirá vários aspectos do programa relacionados ao sistema [DND5E](https://gitlab.com/foundrynet/dnd5e "Foundry VTT 5th Edition"), como as fichas de personagem, rolagens, compêndio de magias (com o módulo [Babele](https://gitlab.com/riccisi/foundryvtt-babele "Babele")), entre outros.
   
 Obs. Esse módulo traduz somente aspectos relacionados ao sistema de D&D 5E. Esse módulo não traduz outras partes do software FoundryVTT, como a interface principal. Para isso, confira o módulo [FoundryVTT Brazilian (Portuguese)](https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese/).
 
@@ -31,7 +31,7 @@ Feito isso ative o módulo nas configurações do mundo em que pretende usá-lo 
 
 ## English
 
-This module adds the language *Português (Brasil)* as an option to be selected in the FoundryVTT settings. Selecting this option will translate various aspects of the program interface related to the [DND5E](https://gitlab.com/foundrynet/dnd5e "Foundry VTT 5th Edition") system, like character sheets, rolls, spell compendiums, among others.
+This module adds the language *Português (Brasil)* as an option to be selected in the FoundryVTT settings. Selecting this option will translate various aspects of the program interface related to the [DND5E](https://gitlab.com/foundrynet/dnd5e "Foundry VTT 5th Edition") system, like character sheets, rolls, spell compendiums (with the [Babele](https://gitlab.com/riccisi/foundryvtt-babele "Babele") module), among others.
 
 Obs. This module translates only aspects related to the D&D 5E system. This module doesn't translate other parts of the FoundryVTT software, like the main interface. For that, take a look at the [FoundryVTT Brazilian (Portuguese)](https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese/) module.
 
