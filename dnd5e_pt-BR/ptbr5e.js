@@ -2,6 +2,9 @@
 // @author Caua539
 // @version 0.4.0
 import { DND5E } from "../../systems/dnd5e/module/config.js";
+import { ActorSheet5eCharacter as Actor} from "../../systems/dnd5e/module/actor/sheets/character.js";
+import { ActorSheet5eNPC as NPC} from "../../systems/dnd5e/module/actor/sheets/npc.js";
+import { ItemSheet5e as Item} from "../../systems/dnd5e/module/item/sheet.js";
 
 //Translate non localized strings from the DND5E.CONFIG
 Hooks.once('ready', function() {
@@ -30,7 +33,7 @@ Hooks.once('ready', function() {
 			"vehicle": "Veículos (terra ou água)"
 		};
 		DND5E.abilityActivationTypes = {
-			"none": "DND5E.None",
+			"none": "Nenhuma",
 			"action": "Ação",
 			"bonus": "Ação Bônus",
 			"reaction": "Reação",
@@ -180,5 +183,57 @@ Hooks.once('init', () => {
 			}
 
 		});
+	}
+});
+
+export class ActorSheet5eCharacter extends Actor {
+	static get defaultOptions() {
+		return mergeObject(super.defaultOptions, {
+			  classes: ["ptbr5e", "dnd5e", "sheet", "actor", "character"],
+			  width: 800,
+			  height: 800
+		  });
+	  }
+}
+
+export class ActorSheet5eNPC extends NPC {
+	static get defaultOptions() {
+		return mergeObject(super.defaultOptions, {
+			  classes: ["ptbr5e", "dnd5e", "sheet", "actor", "npc"],
+			  width: 700,
+			  height: 700
+		  });
+	}
+}
+
+export class ItemSheet5e extends Item {
+	static get defaultOptions() {
+		return mergeObject(super.defaultOptions, {
+		width: 600,
+		height: 420,
+		classes: ["ptbr5e", "dnd5e", "sheet", "item"],
+		resizable: false,
+		scrollY: [".tab.details"]
+	  });
+	}
+}
+
+Hooks.once('ready', function() {
+	let lang = game.i18n.lang;
+	if (lang === "pt-BR") {
+		Actors.unregisterSheet("dnd5e", Actor);
+		Actors.registerSheet('dnd5e', ActorSheet5eCharacter, {
+			types: ['character'],
+			makeDefault: true
+		});
+
+		Actors.unregisterSheet("dnd5e", NPC);
+		Actors.registerSheet('dnd5e', ActorSheet5eNPC, {
+			types: ['npc'],
+			makeDefault: true
+		});
+
+		Items.unregisterSheet("dnd5e", Item);
+		Items.registerSheet("dnd5e", ItemSheet5e);
 	}
 });
