@@ -16,7 +16,7 @@
    "SETTINGS.5eAutoCollapseCardN": "Fechar Cartões de Item no chat",
    "SETTINGS.5eAutoCollapseCardL": "Fechar automaticamente descrições de Cartões de Item no registro de chat",
    "SETTINGS.5eAutoSpellTemplateN": "Sempre empregar Modelos de Magia",
-   "SETTINGS.5eAutoSpellTemplateL": "When a spell is cast, defaults to begin the process to create the corresponding Measured Template if any (requires TRUSTED or higher player role)",
+   "SETTINGS.5eAutoSpellTemplateL": "Quando uma magia for conjurada, por padrão inicia o processo de criar um Modelo Medido correspondente se houver (requer cargo de jogador CONFIÁVEL ou superior)",
    "SETTINGS.5eAllowPolymorphingN": "Permitir Polimorfia",
    "SETTINGS.5eAllowPolymorphingL": "Permitir a jogadores polimorfarem seus próprios atores.",
 
