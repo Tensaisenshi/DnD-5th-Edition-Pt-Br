@@ -1,6 +1,6 @@
 // DND5E-PTBR
 // @author Caua539
-// @version 0.4.0
+// @version 0.4.1
 import { DND5E } from "../../systems/dnd5e/module/config.js";
 import { ActorSheet5eCharacter as Actor} from "../../systems/dnd5e/module/actor/sheets/character.js";
 import { ActorSheet5eNPC as NPC} from "../../systems/dnd5e/module/actor/sheets/npc.js";
