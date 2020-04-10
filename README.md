@@ -1,4 +1,4 @@
-[![Version: 0.4.0](https://img.shields.io/badge/Version-0.4.0-blue)](https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese) [![Foundry version: >=0.5.0](https://img.shields.io/badge/FoundryVTT-%3E%3D0.5.0-brightgreen)](http://foundryvtt.com/) [![FVTT DND5E version: >=0.8.5](https://img.shields.io/badge/FoundryVTT_DND5E-%3E%3D0.8.5-brightgreen)](https://gitlab.com/foundrynet/dnd5e) [![Translation](https://img.shields.io/endpoint?url=https%3A%2F%2Ffvttptbr.herokuapp.com%2Ftranslation5e)](https://poeditor.com/join/project/leehlpnRDx)
+[![Version: 0.4.1](https://img.shields.io/badge/Version-0.4.1-blue)](https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese) [![Foundry version: >=0.5.0](https://img.shields.io/badge/FoundryVTT-%3E%3D0.5.0-brightgreen)](http://foundryvtt.com/) [![FVTT DND5E version: >=0.8.5](https://img.shields.io/badge/FoundryVTT_DND5E-%3E%3D0.8.5-brightgreen)](https://gitlab.com/foundrynet/dnd5e) [![Translation](https://img.shields.io/endpoint?url=https%3A%2F%2Ffvttptbr.herokuapp.com%2Ftranslation5e)](https://poeditor.com/join/project/leehlpnRDx)
 
 FoundryVTT 5th Edition Brazilian Portuguese
 =================================
