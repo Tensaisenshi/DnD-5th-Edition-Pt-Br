@@ -1,4 +1,4 @@
-[![Version: 0.4.1](https://img.shields.io/badge/Version-0.4.1-blue)](https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese) [![Foundry version: >=0.5.0](https://img.shields.io/badge/FoundryVTT-%3E%3D0.5.0-brightgreen)](http://foundryvtt.com/) [![FVTT DND5E version: >=0.8.5](https://img.shields.io/badge/FoundryVTT_DND5E-%3E%3D0.8.5-brightgreen)](https://gitlab.com/foundrynet/dnd5e) [![Translation](https://img.shields.io/endpoint?url=https%3A%2F%2Ffvttptbr.herokuapp.com%2Ftranslation5e)](https://poeditor.com/join/project/leehlpnRDx)
+[![Version: 0.87.1](https://img.shields.io/badge/Version-0.87.1-blue)](https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese) [![Foundry version: >=0.5.0](https://img.shields.io/badge/FoundryVTT-%3E%3D0.5.0-brightgreen)](http://foundryvtt.com/) [![FVTT DND5E version: >=0.8.7](https://img.shields.io/badge/FoundryVTT_DND5E-%3E%3D0.8.7-brightgreen)](https://gitlab.com/foundrynet/dnd5e)
 
 FoundryVTT 5th Edition Brazilian Portuguese
 =================================
@@ -11,22 +11,26 @@ Obs. Esse módulo traduz somente aspectos relacionados ao sistema de D&D 5E. Ess
 
 Se encontrar algum erro na tradução ou tiver uma sugestão de algum termo melhor para ser usado em alguma parte dela você pode abrir uma nova [*issue*](https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese/issues "issues") ou enviar uma mensagem para **Melithian539#0625** no Discord.
 
-> Atualizado para funcionar com a versão 0.5.3 do FoundryVTT e com a versão 0.86 do sistema 5th Edition.
+> Atualizado para funcionar com a versão 0.5.5 do FoundryVTT e com a versão 0.87 do sistema 5th Edition.
 
 ### Instalação
+
+A tradução está disponível na lista de Módulos Complementares para instalar com o nome de `Translation: Brazilian Portuguese for [D&D 5e]`.
+
+#### Instalação por Manifesto
 
 Na opção `Add-On Modules` clique em `Install Module` e coloque o seguinte link no campo `Manifest URL`
 
 `https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese/raw/master/dnd5e_pt-BR/module.json`
 
-Se essa opção não funcionar faça o download do arquivo [dnd5e_pt-BR.zip](https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese/-/jobs/artifacts/master/raw/dnd5e_pt-BR.zip?job=build "dnd5e_pt-BR.zip") e extraia o conteúdo dele dentro da pasta `Data/modules/`
+#### Instalação Manual
+
+Se as opções acima não funcionarem, faça o download do arquivo [dnd5e_pt-BR.zip](https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese/-/jobs/artifacts/master/raw/dnd5e_pt-BR.zip?job=build "dnd5e_pt-BR.zip") e extraia o conteúdo dele dentro da pasta `Data/modules/`
 
 Feito isso ative o módulo nas configurações do mundo em que pretende usá-lo e depois altere o idioma nas configurações.
 
 
 ---
-
-
 
 
 ## English
@@ -37,14 +41,20 @@ Obs. This module translates only aspects related to the D&D 5E system. This modu
 
 If you find a mistake in the translation or have a suggestion of a better term to use somewhere in it you can open a new [*issue*](https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese/issues "issues") or send a message to **Melithian539#0625** at Discord.
 
-> Updated to work with version 0.5.3 of FoundryVTT and with version 0.86 of the 5th Edition System.
+> Updated to work with version 0.5.5 of FoundryVTT and with version 0.87 of the 5th Edition System.
 
 ### Installation
+
+The translation is available in the Add-on Modules list to install with the name `Translation: Brazilian Portuguese for [D&D 5e]`.
+
+#### Manifest Installation
 
 In the `Add-On Modules` option click on `Install Module` and place the following link in the field `Manifest URL`
 
 `https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese/raw/master/dnd5e_pt-BR/module.json`
 
-If this option does not work download the [dnd5e_pt-BR.zip](https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese/-/jobs/artifacts/master/raw/dnd5e_pt-BR.zip?job=build "dnd5e_pt-BR.zip") file and extract its contents into the `Data/modules/` folder
+#### Manual Installation
+
+If the above options do not work, download the [dnd5e_pt-BR.zip](https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese/-/jobs/artifacts/master/raw/dnd5e_pt-BR.zip?job=build "dnd5e_pt-BR.zip") file and extract its contents into the `Data/modules/` folder
 
 Once this is done, enable the module in the settings of the world in which you intend to use it and then change the language in the settings.

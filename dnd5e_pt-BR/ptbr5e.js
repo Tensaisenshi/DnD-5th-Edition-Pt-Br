@@ -1,6 +1,6 @@
 // DND5E-PTBR
 // @author Caua539
-// @version 0.4.1
+// @version 0.87.1
 import { DND5E } from "../../systems/dnd5e/module/config.js";
 import { ActorSheet5eCharacter as Actor} from "../../systems/dnd5e/module/actor/sheets/character.js";
 import { ActorSheet5eNPC as NPC} from "../../systems/dnd5e/module/actor/sheets/npc.js";
@@ -16,22 +16,6 @@ Hooks.once('ready', function() {
 			"hvy": "Armaduras Pesadas",
 			"shl": "Escudos"
 		};
-		DND5E.weaponProficiencies = {
-			"sim": "Armas Simples",
-			"mar": "Armas Marciais"
-		};
-		DND5E.toolProficiencies = {
-			"art": "Ferramentas de artesão",
-			"disg": "Kit de disfarce",
-			"forg": "Kit de falsificação",
-			"game": "Kit de jogos",
-			"herb": "Kit de herbalismo",
-			"music": "Instrumento musical",
-			"navg": "Ferramentas de navegador",
-			"pois": "Kit de veneno",
-			"thief": "Ferramentas de ladrão",
-			"vehicle": "Veículos (terra ou água)"
-		};
 		DND5E.abilityActivationTypes = {
 			"none": "Nenhuma",
 			"action": "Ação",
@@ -41,55 +25,12 @@ Hooks.once('ready', function() {
 			"hour": "Hora",
 			"day": "Dia",
 			"special": "Especial",
-			"legendary": "Lendária",
-			"lair": "Covil"
+			"legendary": "Ação Lendária",
+			"lair": "Ação de Covil"
 		};
-		DND5E.actorSizes = {
-			"tiny": "Minúsculo",
-			"sm": "Pequeno",
-			"med": "Médio",
-			"lg": "Grande",
-			"huge": "Enorme",
-			"grg": "Gigantesco"
-		};
-		DND5E.proficiencyLevels = {
-			0: "Não Proficiente",
-			1: "Proficiente",
-			0.5: "Pau pra Toda Obra",
-			2: "Especialista"
-		};
-	
-		DND5E.languages = {
-			"common": "Comum",
-			"aarakocra": "Aarakocra",
-			"abyssal": "Abissal",
-			"aquan": "Aquan",
-			"auran": "Auran",
-			"celestial": "Celestial",
-			"deep": "Dialeto Obscuro",
-			"draconic": "Dracônico",
-			"druidic": "Druídico",
-			"dwarvish": "Anão",
-			"elvish": "Élfico",
-			"giant": "Gigante",
-			"gith": "Gith",
-			"gnomish": "Gnômico",
-			"goblin": "Goblin",
-			"gnoll": "Gnoll",
-			"halfling": "Pequenino",
-			"ignan": "Ignan",
-			"infernal": "Infernal",
-			"orc": "Orc",
-			"primordial": "Primordial",
-			"sylvan": "Silvestre",
-			"terran": "Terran",
-			"cant": "Gíria de Ladrão",
-			"undercommon": "Subcomum"
-		};
-	
 		DND5E.characterFlags = {
 			"weaponCriticalThreshold": {
-			  name: "Extensão de Acerto Crítico com Arma",
+			  name: "Extensão de Acerto Crítico",
 			  hint: "Permite uma maior chance de acerto crítico; por exemplo Crítico Aprimorado ou Crítico Superior.",
 			  section: "Características",
 			  type: Number,

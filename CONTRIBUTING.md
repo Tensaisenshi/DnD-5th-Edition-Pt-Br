@@ -3,7 +3,7 @@ Contributing
 
 If you would like to contribute for the FoundryVTT 5th Edition System localization into the Portuguese language you can do so in one of the following ways:
 
-1. Translating the strings to the Portuguese language in the [project](https://poeditor.com/join/project/leehlpnRDx) created in POEditor.
+1. Translating the strings to the Portuguese language in the [project](https://translate.zanata.org/project/view/fvtt-dnd5e/) created in Zanata.
 
 2. Sending merge requests to this repository with the [pt-BR.json](https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese/blob/master/dnd5e_pt-BR/pt-BR.json) file with its translated strings.
 
