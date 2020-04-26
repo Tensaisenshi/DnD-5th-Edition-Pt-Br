@@ -29,13 +29,6 @@ Hooks.once('ready', function() {
 			"lair": "Ação de Covil"
 		};
 		DND5E.characterFlags = {
-			"weaponCriticalThreshold": {
-			  name: "Extensão de Acerto Crítico",
-			  hint: "Permite uma maior chance de acerto crítico; por exemplo Crítico Aprimorado ou Crítico Superior.",
-			  section: "Características",
-			  type: Number,
-			  placeholder: 20
-			},
 			"powerfulBuild": {
 			  name: "Forma Poderosa",
 			  hint: "Provê capacidade de carga superior.",
@@ -48,38 +41,57 @@ Hooks.once('ready', function() {
 			  section: "Traços Raciais",
 			  type: Boolean
 			},
+			"elvenAccuracy": {
+			  name: "Precisão Élfica",
+			  hint: "Role um d20 extra quando possui vantagem em teste de Des, Int, Sab ou Car.",
+			  section: "Traços Raciais",
+			  type: Boolean
+			},
+			"halflingLucky": {
+			  name: "Pequenino: Sortudo",
+			  hint: "Role novamente 1s quando fizer testes com d20.",
+			  section: "Traços Raciais",
+			  type: Boolean
+			},
 			"initiativeAdv": {
 			  name: "Vantagem em Iniciativa",
 			  hint: "De características do personagem ou itens mágicos.",
 			  section: "Características",
 			  type: Boolean
 			},
-			"initiativeHalfProf": {
-			  name: "Meia Proficiência em Iniciativa",
-			  hint: "De \"Pau pra Toda Obra\" ou \"Atleta Extraordinário\".",
-			  section: "Características",
-			  type: Boolean
-			},
 			"initiativeAlert": {
-			  name: "Talento Alerta",
+			  name: "Talento: Alerta",
 			  hint: "Provê +5 em Iniciativa.",
 			  section: "Características",
 			  type: Boolean
 			},
-			"saveBonus": {
-			  name: "Bônus de Salvaguarda",
-			  hint: "Modificador bônus para todas as Salvaguardas (ex. +1).",
+			"jackOfAllTrades": {
+			  name: "Pau pra Toda Obra",
+			  hint: "Meia proficiência para Testes de Atributo em que você não for proficiente.",
 			  section: "Características",
-			  type: Number,
-			  placeholder: "+0"
+			  type: Boolean
 			},
-			"spellDCBonus": {
-			  name: "Bônus em CD de Magia",
-			  hint: "Modifica o CD de conjuração normal.",
+			"observantFeat": {
+			  name: "Talento: Analítico",
+			  hint: "Provê um bônus de +5 para a Percepção passiva e Investigação passiva.",
+			  skills: ['prc','inv'],
+			  section: "Características",
+			  type: Boolean
+			},
+			"remarkableAthlete": {
+			  name: "Atleta Extraordináro",
+			  hint: "Adiciona meia Proficiência (arredondada para cima) em Iniciativa e Testes de Atributos físicos.",
+			  abilities: ['str','dex','con'],
+			  section: "Características",
+			  type: Boolean
+			},
+			"weaponCriticalThreshold": {
+			  name: "Extensão de Acerto Crítico",
+			  hint: "Permite uma maior chance de acerto crítico; por exemplo Crítico Aprimorado ou Crítico Superior.",
 			  section: "Características",
 			  type: Number,
-			  placeholder: "+0"
-			}
+			  placeholder: 20
+			},
 		  };
 	}
 	
