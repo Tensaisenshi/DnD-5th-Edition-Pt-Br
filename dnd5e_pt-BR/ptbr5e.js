@@ -1,10 +1,10 @@
 // DND5E-PTBR
 // @author Caua539
-// @version 0.88.1
-import { DND5E } from "../../systems/dnd5e/module/config.js";
-import { ActorSheet5eCharacter as Actor} from "../../systems/dnd5e/module/actor/sheets/character.js";
-import { ActorSheet5eNPC as NPC} from "../../systems/dnd5e/module/actor/sheets/npc.js";
-import { ItemSheet5e as Item} from "../../systems/dnd5e/module/item/sheet.js";
+// @version 0.90.0
+import {DND5E} from "../../systems/dnd5e/module/config.js";
+import Actor from "../../systems/dnd5e/module/actor/sheets/character.js";
+import NPC from "../../systems/dnd5e/module/actor/sheets/npc.js";
+import Item from "../../systems/dnd5e/module/item/sheet.js";
 
 //Translate non localized strings from the DND5E.CONFIG
 Hooks.once('ready', function() {
@@ -21,78 +21,13 @@ Hooks.once('ready', function() {
 			"action": "Ação",
 			"bonus": "Ação Bônus",
 			"reaction": "Reação",
-			"minute": "Minuto",
-			"hour": "Hora",
-			"day": "Dia",
+			"minute": "Minuto(s)",
+			"hour": "Hora(s)",
+			"day": "Dia(s)",
 			"special": "Especial",
 			"legendary": "Ação Lendária",
 			"lair": "Ação de Covil"
 		};
-		DND5E.characterFlags = {
-			"powerfulBuild": {
-			  name: "Forma Poderosa",
-			  hint: "Provê capacidade de carga superior.",
-			  section: "Traços Raciais",
-			  type: Boolean
-			},
-			"savageAttacks": {
-			  name: "Ataques Selvagens",
-			  hint: "Adiciona um dado de arma extra em acertos críticos.",
-			  section: "Traços Raciais",
-			  type: Boolean
-			},
-			"elvenAccuracy": {
-			  name: "Precisão Élfica",
-			  hint: "Role um d20 extra quando possui vantagem em teste de Des, Int, Sab ou Car.",
-			  section: "Traços Raciais",
-			  type: Boolean
-			},
-			"halflingLucky": {
-			  name: "Pequenino: Sortudo",
-			  hint: "Role novamente 1s quando fizer testes com d20.",
-			  section: "Traços Raciais",
-			  type: Boolean
-			},
-			"initiativeAdv": {
-			  name: "Vantagem em Iniciativa",
-			  hint: "De características do personagem ou itens mágicos.",
-			  section: "Características",
-			  type: Boolean
-			},
-			"initiativeAlert": {
-			  name: "Talento: Alerta",
-			  hint: "Provê +5 em Iniciativa.",
-			  section: "Características",
-			  type: Boolean
-			},
-			"jackOfAllTrades": {
-			  name: "Pau pra Toda Obra",
-			  hint: "Meia proficiência para Testes de Atributo em que você não for proficiente.",
-			  section: "Características",
-			  type: Boolean
-			},
-			"observantFeat": {
-			  name: "Talento: Analítico",
-			  hint: "Provê um bônus de +5 para a Percepção passiva e Investigação passiva.",
-			  skills: ['prc','inv'],
-			  section: "Características",
-			  type: Boolean
-			},
-			"remarkableAthlete": {
-			  name: "Atleta Extraordináro",
-			  hint: "Adiciona meia Proficiência (arredondada para cima) em Iniciativa e Testes de Atributos físicos.",
-			  abilities: ['str','dex','con'],
-			  section: "Características",
-			  type: Boolean
-			},
-			"weaponCriticalThreshold": {
-			  name: "Extensão de Acerto Crítico",
-			  hint: "Permite uma maior chance de acerto crítico; por exemplo Crítico Aprimorado ou Crítico Superior.",
-			  section: "Características",
-			  type: Number,
-			  placeholder: 20
-			},
-		  };
 	}
 	
 });
