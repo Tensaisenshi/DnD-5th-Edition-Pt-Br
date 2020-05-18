@@ -14,7 +14,7 @@
   "DND5E.AbilityInt": "Inteligência",
   "DND5E.AbilityModifier": "Modificador de Atributo",
   "DND5E.AbilityPromptText": "Que tipo de rolagem de {ability}?",
-  "DND5E.AbilityPromptTitle": "Teste de Atributo de {ability}",
+  "DND5E.AbilityPromptTitle": "Rolagem de {ability}",
   "DND5E.AbilityStr": "Força",
   "DND5E.AbilityUseCantUse": "Você não está habilitado para utilizar essa habilidade no momento!",
   "DND5E.AbilityUseCharged": "carregada",
