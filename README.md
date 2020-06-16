@@ -1,4 +1,4 @@
-[![Version](https://img.shields.io/badge/dynamic/json?color=blue&label=Version&prefix=v&query=version&url=https%3A%2F%2Fgitlab.com%2Ffoundryvtt-pt-br%2Ffoundryvtt-dnd5e-brazilian-portuguese%2F-%2Fraw%2Fmaster%2Fdnd5e_pt-BR%2Fmodule.json)](https://foundryvtt.com/packages/translation_dnd5e_ptBR) [![Min Core](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Min%20Core&prefix=v&query=minimumCoreVersion&url=https%3A%2F%2Fgitlab.com%2Ffoundryvtt-pt-br%2Ffoundryvtt-dnd5e-brazilian-portuguese%2F-%2Fraw%2Fmaster%2Fdnd5e_pt-BR%2Fmodule.json)](http://foundryvtt.com/) [![Compatible](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Compatible&prefix=v&query=compatibleCoreVersion&url=https%3A%2F%2Fgitlab.com%2Ffoundryvtt-pt-br%2Ffoundryvtt-dnd5e-brazilian-portuguese%2F-%2Fraw%2Fmaster%2Fdnd5e_pt-BR%2Fmodule.json)](http://foundryvtt.com/) [![DnD 5e Compatible](https://img.shields.io/badge/DnD_5e_Compatible-0.92-brightgreen)](https://foundryvtt.com/packages/dnd5e/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT) [![Discord invite](https://img.shields.io/badge/Chat-on_Discord-blue?logo=discord&logoColor=white)](https://discordapp.com/invite/DDBZUDf)
+[![Version](https://img.shields.io/badge/dynamic/json?color=blue&label=Version&prefix=v&query=version&url=https%3A%2F%2Fgitlab.com%2Ffoundryvtt-pt-br%2Ffoundryvtt-dnd5e-brazilian-portuguese%2F-%2Fraw%2Fmaster%2Fdnd5e_pt-BR%2Fmodule.json)](https://foundryvtt.com/packages/translation_dnd5e_ptBR) [![Min Core](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Min%20Core&prefix=v&query=minimumCoreVersion&url=https%3A%2F%2Fgitlab.com%2Ffoundryvtt-pt-br%2Ffoundryvtt-dnd5e-brazilian-portuguese%2F-%2Fraw%2Fmaster%2Fdnd5e_pt-BR%2Fmodule.json)](http://foundryvtt.com/) [![Compatible](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Compatible&prefix=v&query=compatibleCoreVersion&url=https%3A%2F%2Fgitlab.com%2Ffoundryvtt-pt-br%2Ffoundryvtt-dnd5e-brazilian-portuguese%2F-%2Fraw%2Fmaster%2Fdnd5e_pt-BR%2Fmodule.json)](http://foundryvtt.com/) [![DnD 5e Compatible](https://img.shields.io/badge/DnD_5e_Compatible-0.93-brightgreen)](https://foundryvtt.com/packages/dnd5e/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT) [![Discord invite](https://img.shields.io/badge/Chat-on_Discord-blue?logo=discord&logoColor=white)](https://discord.gg/Ay42VG)
 
 FoundryVTT 5th Edition Brazilian Portuguese
 =================================
@@ -11,7 +11,7 @@ Esse módulo traduz somente aspectos relacionados ao sistema de D&D 5E. Esse mó
 
 Se encontrar algum erro na tradução ou tiver uma sugestão de algum termo melhor para ser usado em alguma parte dela você pode abrir uma nova [*issue*](https://gitlab.com/foundryvtt-pt-br/foundryvtt-dnd5e-brazilian-portuguese/-/issues "issues") ou enviar uma mensagem para **Melithian539#0625** no Discord.
 
-> Atualizado para funcionar com a versão 0.6.0 do FoundryVTT e com a versão 0.92 do sistema 5th Edition.
+> Atualizado para funcionar com a versão 0.6.2 do FoundryVTT e com a versão 0.93 do sistema 5th Edition.
 
 ### Instalação
 
@@ -41,7 +41,7 @@ This module translates only aspects related to the D&D 5E system. This module do
 
 If you find a mistake in the translation or have a suggestion of a better term to use somewhere in it you can open a new [*issue*](https://gitlab.com/foundryvtt-pt-br/foundryvtt-dnd5e-brazilian-portuguese/-/issues "issues") or send a message to **Melithian539#0625** at Discord.
 
-> Updated to work with version 0.6.0 of FoundryVTT and with version 0.92 of the 5th Edition System.
+> Updated to work with version 0.6.2 of FoundryVTT and with version 0.93 of the 5th Edition System.
 
 ### Installation
 
