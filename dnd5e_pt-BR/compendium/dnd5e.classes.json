@@ -1,0 +1,65 @@
+{
+	"label": "Classes (SRD)",
+	"entries": [
+		{
+			"id": "Barbarian",
+			"name": "Bárbaro",
+			"description": "<p>Um guerreiro sem armadura, de grande força, alimentado pela raiva ou pelo vínculo com a natureza.</p>"
+		},
+		{
+			"id": "Bard",
+			"name": "Bardo",
+			"description": "<p>Um contador de histórias ou artista que tece os fios da magia em suas músicas e dança.</p>"
+		},
+		{
+			"id": "Cleric",
+			"name": "Clérigo",
+			"description": "<p>Um campeão escolhido abençoado com força e magia por sua divindade, capaz de infligir e curar ferimentos.</p>"
+		},
+		{
+			"id": "Druid",
+			"name": "Druida",
+			"description": "<p>Um mágico que exerce poderes nascidos da natureza e dos elementos, geralmente assumindo a forma dos animais que eles procuram proteger.</p>"
+		},
+		{
+			"id": "Fighter",
+			"name": "Guerreiro",
+			"description": "<p>Treinado em uma variedade de combates marciais, capaz de causar golpes devastadores e resistir da mesma forma.</p>"
+		},
+		{
+			"id": "Monk",
+			"name": "Monge",
+			"description": "<p>Guerreiro treinado no uso de seu corpo como arma, capaz de controlar o ki com efeitos devastadores.</p>"
+		},
+		{
+			"id": "Paladin",
+			"name": "Paladino",
+			"description": "<p>Um guerreiro ligado ao dever pelo juramento que prestou a si ou ao deus a quem eles servem.</p>"
+		},
+		{
+			"id": "Ranger",
+			"name": "Guardião",
+			"description": "<p>Um combatente treinado no uso de armas e magia marciais, confiando em seu conhecimento de seu ambiente, eles lutam em áreas remotas.</p>"
+		},
+		{
+			"id": "Rogue",
+			"name": "Ladino",
+			"description": "<p>Treinado em habilidades sombrias, como assassinato e infiltração, capaz de dar golpes mortais das sombras.</p>"
+		},
+		{
+			"id": "Sorcerer",
+			"name": "Feiticeiro",
+			"description": "<p>Um portador de magia que retira seu poder de seus ancestrais ou da magia selvagem ao seu redor.</p>"
+		},
+		{
+			"id": "Warlock",
+			"name": "Bruxo",
+			"description": "<p>Ligados por um contrato, são servos capazes de exercer um grande poder concedido a eles por uma força maior em troca de seu serviço.</p>"
+		},
+		{
+			"id": "Wizard",
+			"name": "Mago",
+			"description": "<p>Um portador de magia que retira seu poder do estudo e da compreensão do arcano, capaz de criar e destruir em igual medida.</p>"
+		}
+	]
+}
