@@ -8,12 +8,12 @@
 		},
 		{
 			"id": "Acid (vial)",
-			"name": "Ácido (frasco pequeno)",
+			"name": "Ácido (frasco)",
 			"description": "<p>Com uma ação, você pode derramar o conteúdo deste frasco sobre uma criatura que esteja a até 1,5 metro de distância, ou arremessar o frasco a até 6 metros, quebrando-o com o impacto. Em ambos os casos, faça um ataque à distância contra uma criatura ou objeto, tratando o ácido como uma arma improvisada. Com um acerto, o alvo sofre 2d6 pontos de dano ácido.</p>"
 		},
 		{
 			"id": "Adamantine Breastplate",
-			"name": "Peitoral de Adamantina",
+			"name": "Couraça Peitoral de Adamantina",
 			"description": "<p>Essa armadura é reforçada com adamantina, uma das substâncias mais duras da existência.</p>\n<p>Enquanto você a usar, qualquer acerto crítico contra você se torna um acerto normal.</p>"
 		},
 		{
@@ -23,12 +23,12 @@
 		},
 		{
 			"id": "Adamantine Chain Shirt",
-			"name": "Camisão de Malha de Adamantina",
+			"name": "Cota de Malha Parcial de Adamantina",
 			"description": "<p>Essa armadura é reforçada com adamantina, uma das substâncias mais duras da existência.</p>\n<p>Enquanto você a usar, qualquer acerto crítico contra você se torna um acerto normal.</p>"
 		},
 		{
 			"id": "Adamantine Half Plate Armor",
-			"name": "Meia-Armadura de Adamantina",
+			"name": "Armadura de Placas Parcial de Adamantina",
 			"description": "<p>Essa armadura é reforçada com adamantina, uma das substâncias mais duras da existência.</p>\n<p>Enquanto você a usar, qualquer acerto crítico contra você se torna um acerto normal.</p>"
 		},
 		{
@@ -43,12 +43,12 @@
 		},
 		{
 			"id": "Adamantine Scale Mail",
-			"name": "Brunea de Adamantina",
+			"name": "Lórica de Escamas de Adamantina",
 			"description": "<p>Essa armadura é reforçada com adamantina, uma das substâncias mais duras da existência.</p>\n<p>Enquanto você a usar, qualquer acerto crítico contra você se torna um acerto normal.</p>"
 		},
 		{
 			"id": "Adamantine Splint Armor",
-			"name": "Armadura de Talas de Adamantina",
+			"name": "Cota de Talas de Adamantina",
 			"description": "<p>Essa armadura é reforçada com adamantina, uma das substâncias mais duras da existência.</p>\n<p>Enquanto você a usar, qualquer acerto crítico contra você se torna um acerto normal.</p>"
 		},
 		{
@@ -82,7 +82,7 @@
 			"description": "<p><em>Item maravilhoso, raro (requer sintonização)</em></p>\n<p>Seu valor de Constituição é 19 enquanto você usar este amuleto. Ele não produz qualquer efeito em você se seu valor de Constituição já for 19 ou maior sem ele.</p>"
 		},
 		{
-			"id": "Amulet of Proof Against Detection and Location",
+			"id": "Amulet of Proof against Detection and Location",
 			"name": "Amuleto de Proteção Contra Detecção e Localização",
 			"description": "<div>\n<div><em>Item maravilhoso, incomum (requer sintonização)</em></div>\n<div> </div>\n<div>Enquanto estiver usando este amuleto, você fica escondido contra magias de adivinhação. Você não pode ser alvo de tais magias ou ser percebido através de sensores de espionagem mágicos.</div>\n</div>"
 		},
@@ -94,12 +94,12 @@
 		{
 			"id": "Animated Shield",
 			"name": "Escudo Animado",
-			"description": "<p><em>Armadura (escudo), muito raro (requer sintonização)</em></p>\n<p>Enquanto estiver segurando este escudo, você pode falar sua palavra de comando, com uma ação bônus, para fazê-lo se animar. O escudo salta no ar e flutua no seu espaço para proteger você como se você o estivesse usando, deixando suas mãos livres. O escudo permanece animado por 1 minuto, até você usar uma ação bônus para terminar este efeito ou até você ficar incapacitado ou morrer, nesse momento o escudo cai no chão ou em sua mão, caso você tenha uma mão livre.</p>"
+			"description": "<p><em>(requer sintonização)</em></p>\n<p>Enquanto estiver segurando este escudo, você pode falar sua palavra de comando, com uma ação bônus, para fazê-lo se animar. O escudo salta no ar e flutua no seu espaço para proteger você como se você o estivesse usando, deixando suas mãos livres. O escudo permanece animado por 1 minuto, até você usar uma ação bônus para terminar este efeito ou até você ficar incapacitado ou morrer, nesse momento o escudo cai no chão ou em sua mão, caso você tenha uma mão livre.</p>"
 		},
 		{
 			"id": "Antitoxin",
-			"name": "Antídoto",
-			"description": "<p>Uma criatura que beber o líquido desse vidro tem vantagem em testes de resistência contra venenos por 1 hora. O antídoto não confere nenhum benefício para mortos-vivos ou constructos.</p>"
+			"name": "Antitoxina",
+			"description": "<p>Uma criatura que beber o líquido desse vidro tem vantagem em salvaguardas contra venenos por 1 hora. O antídoto não confere nenhum benefício para mortos-vivos ou constructos.</p>"
 		},
 		{
 			"id": "Apparatus of the Crab",
@@ -149,7 +149,7 @@
 		{
 			"id": "Backpack",
 			"name": "Mochila",
-			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Uma mochila pode conter 30 cm³ ou 15 kg de equipamento. Você também pode amarrar itens, como um saco de dormir ou um rolo de corda, na parte externa de uma mochila.</span></p>"
+			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Uma mochila pode conter 30 litros ou 15 kg de equipamento. Você também pode amarrar itens, como um saco de dormir ou um rolo de corda, na parte externa de uma mochila.</span></p>"
 		},
 		{
 			"id": "Bag of Beans",
@@ -168,7 +168,7 @@
 		},
 		{
 			"id": "Bag of Sand",
-			"name": "Saquinho de Areia",
+			"name": "Saco de Areia Pequeno",
 			"description": "<p>Um pequeno saco de areia usado pelo acadêmico para secar cartas e correspondências recém-pintadas com rapidez e segurança para envio rápido.</p>"
 		},
 		{
@@ -189,22 +189,22 @@
 		{
 			"id": "Ball Bearings",
 			"name": "Esferas de Metal",
-			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Usando uma ação, você pode despejar essas 1.000 minúsculas esferas de metal para cobrir a área de um quadrado de 3 metros de lado. A criatura que se mover dentro da área deve ser bem sucedida em um teste de resistência de Destreza CD 10 para não cair no chão. Uma criatura que mover pela área usando metade do seu deslocamento não precisa fazer o teste de resistência.</span></p>"
+			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Usando uma ação, você pode despejar essas 1.000 minúsculas esferas de metal para cobrir a área de um quadrado de 3 metros de lado. A criatura que se mover dentro da área deve ser bem sucedida em uma salvaguarda de Destreza CD 10 para não cair no chão. Uma criatura que mover pela área usando metade do seu deslocamento não precisa fazer a salvaguarda.</span></p>"
 		},
 		{
 			"id": "Barrel",
 			"name": "Barril",
-			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Um barril pode conter 160 litros de líquido ou 1,2 m³ de sólidos.</span></p>"
+			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Um barril pode conter 160 litros de líquido ou 0,16 m³ de sólidos.</span></p>"
 		},
 		{
 			"id": "Basic Poison",
-			"name": "Veneno Básico",
+			"name": "Veneno, Básico",
 			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Você pode usar o veneno contido nesse vidro para cobrir a lâmina de uma arma cortante ou perfurante ou até três peças de munição. Aplicar o veneno leva uma ação. Uma criatura atingida pela arma ou munição envenenada deve obter sucesso em um teste de resistência de Constituição CD 10 ou sofrerá 1d4 de dano de veneno. Uma vez aplicado, o veneno retém sua potência durante 1 minuto antes de secar.</span></p>"
 		},
 		{
 			"id": "Basket",
 			"name": "Cesto",
-			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Um cesto contém 60 cm³ ou 20 kg de equipamento.</span></p>"
+			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Um cesto contém 60 litros ou 20 kg de equipamento.</span></p>"
 		},
 		{
 			"id": "Battleaxe",
@@ -298,7 +298,7 @@
 		},
 		{
 			"id": "Block and Tackle",
-			"name": "Roldana e Polia",
+			"name": "Roldana e Polias",
 			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Um conjunto de roldanas com um cabo entre elas e um gancho para fixar aos objetos, a roldana e polia permitem içar até quatro vezes o peso que você ergueria normalmente.</span></p>"
 		},
 		{
@@ -328,7 +328,7 @@
 		},
 		{
 			"id": "Blowgun Needle",
-			"name": "Agulha de Sopro",
+			"name": "Dardos de Zarabatana",
 			"description": "<p>Esta munição é projetada para ser disparada por uma zarabatana usando a força dos pulmões do usuário. Essas agulhas costumam conter venenos mortais ou incapacitantes.</p>"
 		},
 		{
@@ -345,6 +345,11 @@
 			"id": "Book of Lore",
 			"name": "Livro de História",
 			"description": "<p>Um livro que contém relatos históricos, informações pertencentes a um campo específico de tradição, mito ou lenda.</p>"
+		},
+		{
+			"id": "Book of Shadows",
+			"name": "Livro das Sombras",
+			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Seu patrono lhe presenteia com um grimório chamado Livro das Sombras. Ao receber esta característica, escolha três truques da lista de magias de qualquer classe (cada um pode ser escolhido de uma lista distinta). Enquanto tiver a posse do livro, você pode conjurar esses truques à vontade. Eles não contam para o número de truques que você conhece. Mesmo que eles não aparecem na lista de magias de bruxo, no que diz respeito a você, eles serão considerados magias de bruxo.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Se perder o seu Livro das Sombras, você pode realizar uma cerimônia de 1 hora para receber de seu patrono um substituto. Essa cerimônia pode ser feita durante um período de descanso e destrói o livro anterior. Quando você morre, o livro se transforma em cinzas.</p>"
 		},
 		{
 			"id": "Boots of Elvenkind",
@@ -398,27 +403,27 @@
 		},
 		{
 			"id": "Breastplate",
-			"name": "Peitoral",
+			"name": "Couraça Peitoral",
 			"description": "<p>Essa armadura é constituída por um peitoral de metal usado com couro flexível em seu interior. Embora ele deixe as pernas e braços do usuário relativamente desprotegidos, essa armadura fornece boa proteção para seus órgãos vitais, deixando quem a usa relativamente sem restrições.</p>"
 		},
 		{
 			"id": "Breastplate +1",
-			"name": "Peitoral +1",
+			"name": "Couraça Peitoral +1",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">Esta armadura foi embelezada com runas poderosas, criadas em fogos de feiticeiros, abençoada por um ser poderoso, ou algum outro evento a viu legada com proteção aprimorada para o usuário.</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Você tem um bônus na CA enquanto estiver vestindo esta armadura.</p>"
 		},
 		{
 			"id": "Breastplate +2",
-			"name": "Peitoral +2",
+			"name": "Couraça Peitoral +2",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">Esta armadura foi embelezada com runas poderosas, criadas em fogos de feiticeiros, abençoada por um ser poderoso, ou algum outro evento a viu legada com proteção aprimorada para o usuário.</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Você tem um bônus na CA enquanto estiver vestindo esta armadura.</p>"
 		},
 		{
 			"id": "Breastplate +3",
-			"name": "Peitoral +3",
+			"name": "Couraça Peitoral +3",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">Esta armadura foi embelezada com runas poderosas, criadas em fogos de feiticeiros, abençoada por um ser poderoso, ou algum outro evento a viu legada com proteção aprimorada para o usuário.</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Você tem um bônus na CA enquanto estiver vestindo esta armadura.</p>"
 		},
 		{
 			"id": "Breastplate Armor of Resistance",
-			"name": "Peitoral Armadura de Resistência",
+			"name": "Couraça Peitoral de Resistência",
 			"description": "<p><em>(requer sintonização)</em></p>\n<p>Você tem resistência a um tipo de dano enquanto estiver vestindo esta armadura. O Mestre escolhe o tipo ou o determina aleatoriamente das opções abaixo.</p>\n<table style=\"width: 138px;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 35px;\"><strong>d10</strong></td>\n<td style=\"width: 96px;\"><strong>Tipo de</strong> <strong>Dano</strong></td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">1</td>\n<td style=\"width: 96px;\">Ácido</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">2</td>\n<td style=\"width: 96px;\">Gélido</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">3</td>\n<td style=\"width: 96px;\">Fogo</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">4</td>\n<td style=\"width: 96px;\">Energia</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">5</td>\n<td style=\"width: 96px;\">Eletrico</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">6</td>\n<td style=\"width: 96px;\">Necrótico</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">7</td>\n<td style=\"width: 96px;\">Veneno</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">8</td>\n<td style=\"width: 96px;\">Psíquico</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">9</td>\n<td style=\"width: 96px;\">Radiante</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">10</td>\n<td style=\"width: 96px;\">Trovejante</td>\n</tr>\n</tbody>\n</table>\n<p> </p>"
 		},
 		{
@@ -444,16 +449,16 @@
 		{
 			"id": "Bucket",
 			"name": "Balde",
-			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Um balde contém 12 litros de líquido ou 15 cm³ de sólidos.</span></p>"
+			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Um balde contém 12 litros de líquido ou 0,012 m³ de sólidos.</span></p>"
 		},
 		{
 			"id": "Bullseye Lantern",
-			"name": "Lanterna Furta-Fogo",
+			"name": "Lanterna Foca-Facho",
 			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Uma lanterna furta-fogo lança luz plena em um cone de 18 metros e penumbra por mais 18 metros. Uma vez acesa, ela queima por 6 horas usando um frasco de óleo (500 ml).</span></p>"
 		},
 		{
 			"id": "Calligrapher's Supplies",
-			"name": "Suprimentos de Caligrafia",
+			"name": "Suprimentos de Calígrafo",
 			"description": "<p>Essas ferramentas especiais incluem os itens necessários para prosseguir um ofício ou comércio de caligrafia.</p>\n<p>A proficiência em um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a qualquer teste de habilidade que você fizer usando as ferramentas de seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.</p>"
 		},
 		{
@@ -492,12 +497,12 @@
 			"description": "<p>Essas ferramentas especiais incluem os itens necessários para prosseguir um ofício ou comércio de cartografia.</p>\n<p>A proficiência em um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a qualquer teste de habilidade que você fizer usando as ferramentas de seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.</p>"
 		},
 		{
-			"id": "Censor",
+			"id": "Censer",
 			"name": "Incensário",
 			"description": "<p>Normalmente usado em conjunto com blocos de incenso para perfumar o ar.</p>"
 		},
 		{
-			"id": "Censor of Controlling Air Elementals",
+			"id": "Censer of Controlling Air Elementals",
 			"name": "Incensório de Comandar Elementais do Ar",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">Item maravilhoso</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Enquanto o incenso está queimando neste incensário, você pode usar uma ação para falar a palavra de comando do incensário e convocar um @Compendium[dnd5e.monsters.banHjKDMCegbUwYE]{Elemental do Ar}, como se você tivesse conjurado a magia @Compendium[dnd5e.spells.1LkZvINag7KqBmDR]{Conjurar Elemental}. O incensário não pode ser usado dessa forma novamente até o próximo amanhecer.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Este vaso de 15 centímetros de largura e 30 centímetros de altura, se assemelha a um cálice com uma tampa decorada. Ele pesa 500 gramas.</p>"
 		},
@@ -509,7 +514,7 @@
 		{
 			"id": "Chain Mail",
 			"name": "Cota de Malha",
-			"description": "Feita de anéis de metal interligados, a cota de malha inclui uma camada de tecido acolchoado usada sob a cota para evitar o atrito e amortecer o impacto dos golpes. O traje inclui manoplas."
+			"description": "<p>Feita de anéis de metal interligados, a cota de malha inclui uma camada de tecido acolchoado usada sob a cota para evitar o atrito e amortecer o impacto dos golpes. O traje inclui manoplas.</p>"
 		},
 		{
 			"id": "Chain Mail +1",
@@ -528,32 +533,32 @@
 		},
 		{
 			"id": "Chain Mail Armor of Resistance",
-			"name": "Cota de Malha Armadura de Resistência",
+			"name": "Cota de Malha de Resistência",
 			"description": "<p><em>(requer sintonização)</em></p>\n<p>Você tem resistência a um tipo de dano enquanto estiver vestindo esta armadura. O Mestre escolhe o tipo ou o determina aleatoriamente das opções abaixo.</p>\n<table style=\"width: 138px;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 35px;\"><strong>d10</strong></td>\n<td style=\"width: 96px;\"><strong>Tipo de</strong> <strong>Dano</strong></td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">1</td>\n<td style=\"width: 96px;\">Ácido</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">2</td>\n<td style=\"width: 96px;\">Gélido</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">3</td>\n<td style=\"width: 96px;\">Fogo</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">4</td>\n<td style=\"width: 96px;\">Energia</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">5</td>\n<td style=\"width: 96px;\">Eletrico</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">6</td>\n<td style=\"width: 96px;\">Necrótico</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">7</td>\n<td style=\"width: 96px;\">Veneno</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">8</td>\n<td style=\"width: 96px;\">Psíquico</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">9</td>\n<td style=\"width: 96px;\">Radiante</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">10</td>\n<td style=\"width: 96px;\">Trovejante</td>\n</tr>\n</tbody>\n</table>\n<p> </p>"
 		},
 		{
 			"id": "Chain Shirt",
-			"name": "Camisão de Malha",
-			"description": "<p>Feito de anéis de metal entrelaçados, um camisão de malha é usado entre as camadas de roupas ou couro. Esta armadura oferece proteção modesta para a parte superior do corpo do usuário e permite que o som dos anéis se esfregando um contra o outro seja abafado pelas camadas externas.</p>"
+			"name": "Cota de Malha Parcial",
+			"description": "<p>Feito de anéis de metal entrelaçados, é basicamente um camisão de malha, usado entre as camadas de roupas ou couro. Esta armadura oferece proteção modesta para a parte superior do corpo do usuário e permite que o som dos anéis se esfregando um contra o outro seja abafado pelas camadas externas.</p>"
 		},
 		{
 			"id": "Chain Shirt +1",
-			"name": "Camisão de Malha +1",
+			"name": "Cota de Malha Parcial +1",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">Esta armadura foi embelezada com runas poderosas, criadas em fogos de feiticeiros, abençoada por um ser poderoso, ou algum outro evento a viu legada com proteção aprimorada para o usuário.</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Você tem um bônus na CA enquanto estiver vestindo esta armadura.</p>"
 		},
 		{
 			"id": "Chain Shirt +2",
-			"name": "Camisão de Malha +2",
+			"name": "Cota de Malha Parcial +2",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">Esta armadura foi embelezada com runas poderosas, criadas em fogos de feiticeiros, abençoada por um ser poderoso, ou algum outro evento a viu legada com proteção aprimorada para o usuário.</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Você tem um bônus na CA enquanto estiver vestindo esta armadura.</p>"
 		},
 		{
 			"id": "Chain Shirt +3",
-			"name": "Camisão de Malha +3",
+			"name": "Cota de Malha Parcial +3",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">Esta armadura foi embelezada com runas poderosas, criadas em fogos de feiticeiros, abençoada por um ser poderoso, ou algum outro evento a viu legada com proteção aprimorada para o usuário.</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Você tem um bônus na CA enquanto estiver vestindo esta armadura.</p>"
 		},
 		{
 			"id": "Chain Shirt Armor of Resistance",
-			"name": "Camisão de Malha Armadura de Resistência",
+			"name": "Cota de Malha Parcial de Resistência",
 			"description": "<p><em>(requer sintonização)</em></p>\n<p>Você tem resistência a um tipo de dano enquanto estiver vestindo esta armadura. O Mestre escolhe o tipo ou o determina aleatoriamente das opções abaixo.</p>\n<table style=\"width: 138px; height: 165px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\"><strong>d10</strong></td>\n<td style=\"width: 95.7986px; height: 15px;\"><strong>Tipo de</strong> <strong>Dano</strong></td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">1</td>\n<td style=\"width: 95.7986px; height: 15px;\">Ácido</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">2</td>\n<td style=\"width: 95.7986px; height: 15px;\">Gélido</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">3</td>\n<td style=\"width: 95.7986px; height: 15px;\">Fogo</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">4</td>\n<td style=\"width: 95.7986px; height: 15px;\">Energia</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">5</td>\n<td style=\"width: 95.7986px; height: 15px;\">Elétrico</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">6</td>\n<td style=\"width: 95.7986px; height: 15px;\">Necrótico</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">7</td>\n<td style=\"width: 95.7986px; height: 15px;\">Veneno</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">8</td>\n<td style=\"width: 95.7986px; height: 15px;\">Psíquico</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">9</td>\n<td style=\"width: 95.7986px; height: 15px;\">Radiante</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">10</td>\n<td style=\"width: 95.7986px; height: 15px;\">Trovejante</td>\n</tr>\n</tbody>\n</table>\n<p> </p>"
 		},
 		{
@@ -564,7 +569,7 @@
 		{
 			"id": "Chest",
 			"name": "Baú",
-			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Um baú contém 3,5 m³ ou 150 kg de equipamento.</span></p>"
+			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Um baú contém 360 litros ou 150 kg de equipamento.</span></p>"
 		},
 		{
 			"id": "Chime of Opening",
@@ -643,7 +648,7 @@
 		},
 		{
 			"id": "Component Pouch",
-			"name": "Bolsa de Componentes",
+			"name": "Bolsa para Componentes",
 			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Trata-se de uma pequena bolsa de couro à prova d'água que pode ser fixada em um cinto. Ela possui compartimentos para armazenar todos os componentes materiais e outros itens especiais que você precisa para lançar suas magias, exceto os componentes que possuem um custo específico (conforme indicado na descrição da magia).</span></p>"
 		},
 		{
@@ -653,7 +658,7 @@
 		},
 		{
 			"id": "Costume Clothes",
-			"name": "Roupas de Entretenimento",
+			"name": "Roupas de Fantasia",
 			"description": "<p>Um traje completo geralmente usado por performistas e artistas em todos os tipos de salas de entretenimento ou para aqueles que simplesmente se recusam a sair do personagem.</p>"
 		},
 		{
@@ -799,12 +804,12 @@
 		{
 			"id": "Deck of Illusions",
 			"name": "Baralho das Ilusões",
-			"description": "<p><em>Item maravilhoso</em></p>\n<p>Esta caixa contém um conjunto cartas de pergaminho. Um baralho completo tem 34 cartas. Um baralho encontrado em um tesouro geralmente tem 1d20 – 1 cartas faltando.<br>A magia deste baralho funciona apenas se cartas forem puxadas aleatoriamente (você pode usar um baralho de cartas alterado para simular esse baralho). Você pode usar uma ação para puxar uma carta aleatória do baralho e joga-la no chão num local a até 9 metros de você.</p>\n<p>Uma ilusão de uma ou mais criaturas se forma em cima da carta jogada e permanece até se dissipar. Uma criatura ilusória parece real, de tamanho apropriado, e age como se fosse uma criatura real (como apresentado no Manual dos Monstros), exceto por ela não poder causar qualquer mazela. Enquanto você estiver a até 36 metros da criatura ilusória e puder vê-la, você pode usar uma ação para move-la magicamente para qualquer lugar a até 9 metros da carta. Qualquer interação física com a criatura ilusória a revela como sendo uma ilusão, já que objetos passam através dela. Alguém que use uma ação para inspecionar visualmente a criatura, identificará ela como sendo ilusória com um teste de Inteligência (Investigação) CD 15. A criatura então, parecerá translucida.</p>\n<p>A ilusão dura até a carta ser movida ou a ilusão ser dissipada. Quando a ilusão terminar, a imagem na carta desaparece e esta carta não poderá ser usada novamente.</p>\n<table style=\"height: 549px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\"><strong>Carta Jogada</strong></td>\n<td style=\"height: 15px; width: 338.021px;\"><strong>Ilusão</strong></td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Ás de copas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.ZyIBOoZZD0nDaO2s]{Dragão Vermelho Adulto}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Rei de copas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.D5UqYD1EnTrJaMTO]{Cavaleiro} e quatro @Compendium[dnd5e.monsters.E9CvDPDg5dFEpVjS]{Guarda}s</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Rainha de copas</td>\n<td style=\"height: 15px; width: 338.021px;\">Súcubo ou Íncubo</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Valete de copas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.K15Yl8JmB5iPircc]{Druida}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Dez de copas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.Aw2wmqGIatxe2ImI]{Gigante das Nuvens}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Nove de copas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.KLCkHep28HBfdsky]{Ettin}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Oito de copas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.QtJairF0h18BRhEM]{Bugbear}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Dois de copas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.TjWQOgI3A4UAl7lC]{Goblin}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Ás de ouros</td>\n<td style=\"height: 15px; width: 338.021px;\">Observador</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Rei de ouros</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.B7lBOr1AahNZs4a6]{Arquimago} e Arcano</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Rainha de ouros</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.xvh2UOKv1bh03Gih]{Bruxa da Noite}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Valete de ouros</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.EMvcuOpu7ABCmBWi]{Assassino}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Dez de ouros</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.45Z5kogZEhawX1Ey]{Gigante do Fogo}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Nove de ouros</td>\n<td style=\"height: 15px; width: 338.021px;\">Ogro Mago</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Oito de ouros</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.R2GPY9BhRmmwZwkh]{Gnoll}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Dois de ouros</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.5ngbctIMeEnuC1p1]{Kobold}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Ás de espadas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.bfh29vIEoGzI240e]{Lich}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Rei de espadas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.PVD5wRdyO7iCJPs1]{Sacerdote} e dois @Compendium[dnd5e.monsters.CHEUjiYrVM9X0vIT]{Acólito}s</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Valete de espadas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.J8xjoG4Dxb8WkHtV]{Veterano}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Dez de espadas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.Buxe6dDK5Mw7kxe6]{Gigante do Gelo}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Nove de espadas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.ZHAFrnCwCz17dmLc]{Troll}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Oito de espadas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.pYXovIksKvzswLCu]{Hobgoblin}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Dois de espadas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.TjWQOgI3A4UAl7lC]{Goblin}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Ás de paus</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.h98AuPfomEPcCibP]{Golem de Ferro}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Rei de paus</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.rb7OJt822wIO52qY]{Capitão dos Bandidos} e trés @Compendium[dnd5e.monsters.n4TEv7inVUkyZviN]{Bandido}s</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Rainha de paus</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.3o2rQBqpzjIHmrBW]{Erínia}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Valete de paus</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.kz1t6xeXVwODpYb2]{Berserker}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Dez de paus</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.9g4N9sjyh8Ql46to]{Gigante da Colina}</td>\n</tr>\n<tr style=\"height: 33px;\">\n<td style=\"width: 60.2431px; height: 33px;\">Nove de paus</td>\n<td style=\"width: 338.021px; height: 33px;\">@Compendium[dnd5e.monsters.eIGowKTkEBC9gUzx]{Ogro}</td>\n</tr>\n<tr style=\"height: 33px;\">\n<td style=\"width: 60.2431px; height: 33px;\">Oito de paus</td>\n<td style=\"width: 338.021px; height: 33px;\">@Compendium[dnd5e.monsters.LBf4Yyuv0i8pALW7]{Orc}</td>\n</tr>\n<tr style=\"height: 33px;\">\n<td style=\"width: 60.2431px; height: 33px;\">Dois de paus</td>\n<td style=\"width: 338.021px; height: 33px;\">@Compendium[dnd5e.monsters.5ngbctIMeEnuC1p1]{Kobold}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 60.2431px; height: 15px;\">Coringa (2)</td>\n<td style=\"width: 338.021px; height: 15px;\">Você (o dono do baralho)</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p> </p>"
+			"description": "<p><em>Item maravilhoso</em></p>\n<p>Esta caixa contém um conjunto cartas de pergaminho. Um baralho completo tem 34 cartas. Um baralho encontrado em um tesouro geralmente tem 1d20 – 1 cartas faltando.<br>A magia deste baralho funciona apenas se cartas forem puxadas aleatoriamente (você pode usar um baralho de cartas alterado para simular esse baralho). Você pode usar uma ação para puxar uma carta aleatória do baralho e joga-la no chão num local a até 9 metros de você.</p>\n<p>Uma ilusão de uma ou mais criaturas se forma em cima da carta jogada e permanece até se dissipar. Uma criatura ilusória parece real, de tamanho apropriado, e age como se fosse uma criatura real (como apresentado no Manual dos Monstros), exceto por ela não poder causar qualquer mazela. Enquanto você estiver a até 36 metros da criatura ilusória e puder vê-la, você pode usar uma ação para move-la magicamente para qualquer lugar a até 9 metros da carta. Qualquer interação física com a criatura ilusória a revela como sendo uma ilusão, já que objetos passam através dela. Alguém que use uma ação para inspecionar visualmente a criatura, identificará ela como sendo ilusória com um teste de Inteligência (Investigação) CD 15. A criatura então, parecerá translucida.</p>\n<p>A ilusão dura até a carta ser movida ou a ilusão ser dissipada. Quando a ilusão terminar, a imagem na carta desaparece e esta carta não poderá ser usada novamente.</p>\n<table style=\"height: 549px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\"><strong>Carta Jogada</strong></td>\n<td style=\"height: 15px; width: 338.021px;\"><strong>Ilusão</strong></td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Ás de copas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.ZyIBOoZZD0nDaO2s]{Dragão Vermelho Adulto}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Rei de copas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.D5UqYD1EnTrJaMTO]{Cavaleiro} e quatro @Compendium[dnd5e.monsters.E9CvDPDg5dFEpVjS]{Guardas}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Rainha de copas</td>\n<td style=\"height: 15px; width: 338.021px;\">Súcubo ou Íncubo</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Valete de copas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.K15Yl8JmB5iPircc]{Druida}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Dez de copas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.Aw2wmqGIatxe2ImI]{Gigante das Nuvens}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Nove de copas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.KLCkHep28HBfdsky]{Ettin}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Oito de copas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.QtJairF0h18BRhEM]{Bugbear}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Dois de copas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.TjWQOgI3A4UAl7lC]{Goblin}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Ás de ouros</td>\n<td style=\"height: 15px; width: 338.021px;\">Beholder</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Rei de ouros</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.B7lBOr1AahNZs4a6]{Arquimago} e Arcano</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Rainah de ouros</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.xvh2UOKv1bh03Gih]{Bruxa da Noite}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Valete de ouros</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.EMvcuOpu7ABCmBWi]{Assassino}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Dez de ouros</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.45Z5kogZEhawX1Ey]{Gigante do Fogo}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Nove de ouros</td>\n<td style=\"height: 15px; width: 338.021px;\">Ogro Mago</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Oito de ouros</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.R2GPY9BhRmmwZwkh]{Gnoll}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Dois de ouros</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.5ngbctIMeEnuC1p1]{Kobold}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Ás de espadas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.bfh29vIEoGzI240e]{Lich}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Rei de espadas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.PVD5wRdyO7iCJPs1]{Sacerdote} e dois @Compendium[dnd5e.monsters.CHEUjiYrVM9X0vIT]{Acólitos}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Valete de espadas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.J8xjoG4Dxb8WkHtV]{Veterano}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Dez de espadas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.Buxe6dDK5Mw7kxe6]{Gigante do Gelo}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Nove de espadas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.ZHAFrnCwCz17dmLc]{Troll}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Oito de espadas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.pYXovIksKvzswLCu]{Hobgoblin}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Dois de espadas</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.TjWQOgI3A4UAl7lC]{Goblin}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Ás de paus</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.h98AuPfomEPcCibP]{Golem de Ferro}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Rei de paus</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.rb7OJt822wIO52qY]{Capitão dos Bandidos} e três @Compendium[dnd5e.monsters.n4TEv7inVUkyZviN]{Bandidos}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Rainha de paus</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.3o2rQBqpzjIHmrBW]{Erínia}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Valete de paus</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.kz1t6xeXVwODpYb2]{Berserker}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 60.2431px;\">Dez de paus</td>\n<td style=\"height: 15px; width: 338.021px;\">@Compendium[dnd5e.monsters.9g4N9sjyh8Ql46to]{Gigante da Colina}</td>\n</tr>\n<tr style=\"height: 33px;\">\n<td style=\"width: 60.2431px; height: 33px;\">Nove de paus</td>\n<td style=\"width: 338.021px; height: 33px;\">@Compendium[dnd5e.monsters.eIGowKTkEBC9gUzx]{Ogro}</td>\n</tr>\n<tr style=\"height: 33px;\">\n<td style=\"width: 60.2431px; height: 33px;\">Oito de paus</td>\n<td style=\"width: 338.021px; height: 33px;\">@Compendium[dnd5e.monsters.LBf4Yyuv0i8pALW7]{Orc}</td>\n</tr>\n<tr style=\"height: 33px;\">\n<td style=\"width: 60.2431px; height: 33px;\">Dois de paus</td>\n<td style=\"width: 338.021px; height: 33px;\">@Compendium[dnd5e.monsters.5ngbctIMeEnuC1p1]{Kobold}</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 60.2431px; height: 15px;\">Coringa (2)</td>\n<td style=\"width: 338.021px; height: 15px;\">Você (o dono do baralho)</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p> </p>"
 		},
 		{
 			"id": "Deck of Many Things",
 			"name": "Baralho de Muitas Coisas",
-			"description": "<p><em>Item maravilhoso</em></p>\n<p>Geralmente encontrado em uma caixa ou bolsa, este baralho contém uma quantidade de cartas feitas de marfim ou velino. A maioria (75 por cento) desses baralhos tem apenas treze cartas, mas o resto tem vinte e duas.</p>\n<p>Antes de você puxar uma carta, você deve declarar quantas cartas você deseja puxar e então puxa-las aleatoriamente (você pode usar um baralho de cartas alterado para simular esse baralho). Quaisquer cartas puxadas além desse número não terão nenhum efeito. Do contrário, assim que você puxar uma carta do baralho, sua mágica surte efeito. Você deve puxar cada carta a não mais de 1 hora da carta anterior. Se você falhar em puxar a quantidade escolhida, as cartas restantes voam do baralho sozinhas e surtem efeito todas de uma vez.</p>\n<p>Uma vez puxada, uma carta desaparece da existência. A não ser que a carta seja o Tolo ou Bufão, a carta reaparecerá no baralho, tornando possível puxar a mesma carda duas vezes.</p>\n<table style=\"height: 391px; width: 214px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\"><strong>Carta Jogada</strong></td>\n<td style=\"height: 17px; width: 76px;\"><strong>Carta</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Ás de ouros</td>\n<td style=\"height: 17px; width: 76px;\">Vizir*</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Rei de ouros</td>\n<td style=\"height: 17px; width: 76px;\">Sol</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Rainha de ouros</td>\n<td style=\"height: 17px; width: 76px;\">Lua</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Valete de ouros</td>\n<td style=\"height: 17px; width: 76px;\">Estrela</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Dois de ouros</td>\n<td style=\"height: 17px; width: 76px;\">Cometa*</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Ás de copas</td>\n<td style=\"height: 17px; width: 76px;\">As Parcas*</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Rei de copas</td>\n<td style=\"height: 17px; width: 76px;\">Trono</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Rainha de copas</td>\n<td style=\"height: 17px; width: 76px;\">Chave</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Valete de copas</td>\n<td style=\"height: 17px; width: 76px;\">Cavaleiro</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Dois de copas</td>\n<td style=\"height: 17px; width: 76px;\">Gema*</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Ás de paus</td>\n<td style=\"height: 17px; width: 76px;\">Garras*</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Rei de paus</td>\n<td style=\"height: 17px; width: 76px;\">O Vácuo</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Rainha de paus</td>\n<td style=\"height: 17px; width: 76px;\">Chamas</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Valete de paus</td>\n<td style=\"height: 17px; width: 76px;\">Crânio</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Dois de paus</td>\n<td style=\"height: 17px; width: 76px;\">Idiota*</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Ás de espadas</td>\n<td style=\"height: 17px; width: 76px;\">Masmorra*</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Rei de espadas</td>\n<td style=\"height: 17px; width: 76px;\">Ruína</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Rainha de espadas</td>\n<td style=\"height: 17px; width: 76px;\">Euríale</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Valete de espadas</td>\n<td style=\"height: 17px; width: 76px;\">Ladino</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Dois de espadas</td>\n<td style=\"height: 17px; width: 76px;\">Balança*</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Coringa (vermelho)</td>\n<td style=\"height: 17px; width: 76px;\">Tolo*</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Coringa (preto)</td>\n<td style=\"height: 17px; width: 76px;\">Bufão</td>\n</tr>\n</tbody>\n</table>\n<p>*Encontrada apenas em um baralho com vinte e duas cartas</p>\n<p><strong>Balança</strong>. Sua mente sofre uma alteração dolorosa, fazendo sua tendência mudar. Leal se torna caótico, bom se torna mau e vice versa. Se você for neutro ou imparcial, esta carta não produz efeito sobre você.</p>\n<p><strong>Cometa</strong>. Se você derrotar o próximo monstro ou grupo de monstros hostis que você encontrar, sozinho, você ganha pontos de experiência suficientes para ganhar um nível. Do contrário, esta carta não produz efeito.</p>\n<p><strong>Masmorra</strong>. Você desaparece e fica aprisionado em um estado de animação suspensa em uma esfera extradimensional. Tudo que você estava vestindo ou carregando fica para trás no espaço que você ocupava quando desapareceu. Você permanece aprisionado até que você seja encontrado e removido da esfera. Você não pode ser localizado por qualquer magia de adivinhação, mas a magia @Compendium[dnd5e.spells.3okM6Gn63zzEULkz]{Desejo} pode revelar a localização da sua prisão. Você não puxa mais cartas.</p>\n<p><strong>Euríale</strong>. A visão similar à medusa desta carta amaldiçoa você. Você sofre –2 de penalidade nos testes de resistência enquanto estiver amaldiçoado dessa forma. Apenas um deus ou a mágica da carta <strong>As Parcas</strong> pode terminar essa maldição.</p>\n<p><strong>As Parcas</strong>. O tecido da realidade se desemaranha e se tece novamente, permitindo que você evite ou apague um evento como se ele nunca tivesse acontecido. Você pode usar a mágica desta carta no momento em que você a puxa ou em qualquer outro momento, antes de você morrer.</p>\n<p><strong>Chamas</strong>. Um poderoso diabo torna-se seu inimigo. O diabo busca arruinar e importunar sua vida, saboreando seu sofrimento antes de tentar matar você. Esta inimizade perdura até que ou você ou o diabo morra.</p>\n<p><strong>Tolo</strong>. Você perde 10.000 XP, descarte esta carta e puxa outra carta do baralho, contando ambas as puxadas como um das suas cartas declaradas. Se essa perda de XP faria você perder um nível, você perde uma quantidade que deixaria você com XP suficiente para manter o nível.</p>\n<p><strong>Gema</strong>. Vinte e cinto peças de joalheria valendo 2.000 po cada ou quinze gemas valendo 1.000 po cada aparecem aos seus pés.</p>\n<p><strong>Idiota</strong>. Permanentemente reduza sua Inteligência em 1d4 +1 (até o valor mínimo de 1). Você pode puxar uma carta adicional além de suas cartas declaradas.</p>\n<p><strong>Bufão</strong>. Você ganha 10.000 XP, ou você pode puxar duas cartas adicionais além das cartas declaradas.</p>\n<p><strong>Chave</strong>. Uma arma mágica rara ou mais rara com a qual você seja proficiente aparece em suas mãos. O Mestre escolhe a arma.</p>\n<p><strong>Cavaleiro</strong>. Você adquire os serviços de um guerreiro de 4° nível que aparece em um espaço de sua escolha, a até 9 metros de você. O guerreiro tem a mesma raça que você e serve você lealmente até a morte, acreditando que o destino levou ele até você. Você controla esse personagem.</p>\n<p><strong>Lua</strong>. Você é agraciado com a habilidade de conjurar a magia @Compendium[dnd5e.spells.3okM6Gn63zzEULkz]{Desejo} 1d3 vezes.</p>\n<p><strong>Ladino</strong>. Um personagem do mestre, à escolha do Mestre, torna-se hostil a você. A identidade do seu novo inimigo não é conhecida até que o PdM ou alguém mais a revele. Nada além da magia @Compendium[dnd5e.spells.3okM6Gn63zzEULkz]{Desejo} ou de intervenção divina pode terminar a hostilidade do PdM contra você.</p>\n<p><strong>Ruína</strong>. Todas as riquezas que você carrega ou possui, diferente de itens mágicos, são perdidas. Propriedades portáteis desaparecem. Negócios, imóveis e terras que você possuía são perdidas de uma forma que altera a própria realidade. Qualquer documentação que prove que você deveria ser dono de qualquer coisa é perdida por esta carta também desaparece.</p>\n<p><strong>Crânio</strong>. Você invoca o avatar da morte – um esqueleto humanoide fantasmagórico vestido por uma mortalha negra e carregando uma foice espectral. Ele aparece em um espaço à escolha do Mestre a até 3 metros de você e te ataca, avisando a todos os outros que você deve vencer essa batalha sozinho. O avatar luta até você morrer ou até ele chegar a 0 pontos de vida, quando ele desaparecerá. Se qualquer um tentar ajudar você, o ajudante invocará seu próprio avatar da morte. Uma criatura morta por um avatar da morte não pode voltar a vida.</p>\n<h3 id=\"avatar-of-death\"><strong>Avatar da Morte</strong></h3>\n<p><em>Morto-vivo médio, neutro e mau</em></p>\n<p><strong>Classe de Armadura</strong> 20<br><strong>Pontos de Vida</strong> metade do máximo de pontos de vida do seu invocador<br><strong>Deslocamento </strong> 18 m, voo 18 m (planar)</p>\n<table>\n<thead>\n<tr>\n<th align=\"center\">FOR</th>\n<th align=\"center\">DES</th>\n<th align=\"center\">CON</th>\n<th align=\"center\">INT</th>\n<th align=\"center\">SAB</th>\n<th align=\"center\">CAR</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">16 (+3)</td>\n<td align=\"center\">16 (+3)</td>\n<td align=\"center\">16 (+3)</td>\n<td align=\"center\">16 (+3)</td>\n<td align=\"center\">16 (+3)</td>\n<td align=\"center\">16 (+3)</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Imunidade a Dano</strong> necrótico, veneno<br><strong>Imunidade a Condição</strong> amedrontado, enfeitiçado, envenenado, inconsciente, paralisado, petrificado<br><strong>Sentidos</strong> visão no escuro 18 m, visão verdadeira 18 m, Percepção passiva 13<br><strong>Idiomas </strong>todos os idiomas conhecidos pelo seu invocador<br><strong>Nível de Desafio </strong>-- (0 XP)</p>\n<p><strong>Movimento Incorpóreo</strong>. O avatar pode se mover através de outras criaturas e objetos como se eles fossem terreno difícil. Ele sofre 5 (1d10) de dano de energia se terminar seu turno dentro de um objeto.<br><strong>Imunidade à Expulsão</strong>. O avatar é imune à características que possam expulsar mortos-vivos.</p>\n<h4 id=\"actions\">Ações</h4>\n<p><strong>Foice Ceifadora</strong>. O avatar passa sua foice espectral através de uma criatura a até 1,5 metro dele, causando 7 (1d8 + 3) de dano cortante mais 4 (1d8) de dano necrótico.</p>\n<p> </p>\n<p><strong>Estrela</strong>. Aumente um dos seus valores de habilidade em 2. O valor pode exceder 20, mas não pode passar de 24.</p>\n<p><strong>Sol</strong>. Você ganha 50.000 XP e um item maravilhoso (o qual o Mestre determina aleatoriamente) aparece em suas mãos.</p>\n<p><strong>Garras</strong>. Cada item mágico que você usa ou carrega se desintegra. Os artefatos em sua posse não são destruídos, mas desaparecem.</p>\n<p><strong>Trono</strong>. Você ganha proficiência na perícia Persuasão e dobra o bônus de proficiência em testes feitos com esta perícia. Além disso, você ganha direito de posse de um pequeno forte em algum lugar do mundo. Porém, o forte está atualmente em posse de monstros, o qual você deve limpar antes de poder clamar como seu.</p>\n<p><strong>Vizir</strong>. A qualquer momento que você escolha dentro de um ano da puxada desta carta, você pode fazer uma pergunta em meditação e mentalmente receber uma resposta verdadeira a essa pergunta. Além da informação, a resposta ajuda você a resolver um problema intrigante ou outro dilema. Em outras palavras, o conhecimento vem com a forma de como aplica-lo.</p>\n<p><strong>O Vácuo</strong>. Esta carta negra trás o desastre. Sua alma é sugada de seu corpo e levada a um objeto em um lugar à escolha do Mestre. Um ou mais seres poderosos guardam o local. Enquanto sua alma estiver aprisionada dessa forma, seu corpo está incapacitado. A magia @Compendium[dnd5e.spells.3okM6Gn63zzEULkz]{Desejo} não pode restaurar sua alma, mas revela o local do objeto que contém ela. Você não puxa mais cartas.</p>"
+			"description": "<p><em>Item maravilhoso</em></p>\n<p>Geralmente encontrado em uma caixa ou bolsa, este baralho contém uma quantidade de cartas feitas de marfim ou velino. A maioria (75 por cento) desses baralhos tem apenas treze cartas, mas o resto tem vinte e duas.</p>\n<p>Antes de você puxar uma carta, você deve declarar quantas cartas você deseja puxar e então puxa-las aleatoriamente (você pode usar um baralho de cartas alterado para simular esse baralho). Quaisquer cartas puxadas além desse número não terão nenhum efeito. Do contrário, assim que você puxar uma carta do baralho, sua mágica surte efeito. Você deve puxar cada carta a não mais de 1 hora da carta anterior. Se você falhar em puxar a quantidade escolhida, as cartas restantes voam do baralho sozinhas e surtem efeito todas de uma vez.</p>\n<p>Uma vez puxada, uma carta desaparece da existência. A não ser que a carta seja o Tolo ou Bufão, a carta reaparecerá no baralho, tornando possível puxar a mesma carda duas vezes.</p>\n<table style=\"height: 391px; width: 214px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\"><strong>Carta Jogada</strong></td>\n<td style=\"height: 17px; width: 76px;\"><strong>Carta</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Ás de ouros</td>\n<td style=\"height: 17px; width: 76px;\">Vizir*</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Rei de ouros</td>\n<td style=\"height: 17px; width: 76px;\">Sol</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Rainha de ouros</td>\n<td style=\"height: 17px; width: 76px;\">Lua</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Valete de ouros</td>\n<td style=\"height: 17px; width: 76px;\">Estrela</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Dois de ouros</td>\n<td style=\"height: 17px; width: 76px;\">Cometa*</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Ás de copas</td>\n<td style=\"height: 17px; width: 76px;\">As Parcas*</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Rei de copas</td>\n<td style=\"height: 17px; width: 76px;\">Trono</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Rainha de copas</td>\n<td style=\"height: 17px; width: 76px;\">Chave</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Valete de copas</td>\n<td style=\"height: 17px; width: 76px;\">Cavaleiro</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Dois de copas</td>\n<td style=\"height: 17px; width: 76px;\">Gema*</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Ás de paus</td>\n<td style=\"height: 17px; width: 76px;\">Garras*</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Rei de paus</td>\n<td style=\"height: 17px; width: 76px;\">O Vácuo</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Rainha de paus</td>\n<td style=\"height: 17px; width: 76px;\">Chamas</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Valete de paus</td>\n<td style=\"height: 17px; width: 76px;\">Crânio</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Dois de paus</td>\n<td style=\"height: 17px; width: 76px;\">Idiota*</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Ás de espadas</td>\n<td style=\"height: 17px; width: 76px;\">Masmorra*</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Rei de espadas</td>\n<td style=\"height: 17px; width: 76px;\">Ruína</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Rainha de espadas</td>\n<td style=\"height: 17px; width: 76px;\">Euríale</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Valete de espadas</td>\n<td style=\"height: 17px; width: 76px;\">Ladino</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Dois de espadas</td>\n<td style=\"height: 17px; width: 76px;\">Balança*</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Coringa (vermelho)</td>\n<td style=\"height: 17px; width: 76px;\">Tolo*</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 131px;\">Coringa (preto)</td>\n<td style=\"height: 17px; width: 76px;\">Bufão</td>\n</tr>\n</tbody>\n</table>\n<p>*Encontrada apenas em um baralho com vinte e duas cartas</p>\n<p><strong>Balança</strong>. Sua mente sofre uma alteração dolorosa, fazendo sua tendência mudar. Leal se torna caótico, bom se torna mau e vice versa. Se você for neutro ou imparcial, esta carta não produz efeito sobre você.</p>\n<p><strong>Cometa</strong>. Se você derrotar o próximo monstro ou grupo de monstros hostis que você encontrar, sozinho, você ganha pontos de experiência suficientes para ganhar um nível. Do contrário, esta carta não produz efeito.</p>\n<p><strong>Masmorra</strong>. Você desaparece e fica aprisionado em um estado de animação suspensa em uma esfera extradimensional. Tudo que você estava vestindo ou carregando fica para trás no espaço que você ocupava quando desapareceu. Você permanece aprisionado até que você seja encontrado e removido da esfera. Você não pode ser localizado por qualquer magia de adivinhação, mas a magia @Compendium[dnd5e.spells.3okM6Gn63zzEULkz]{Desejo} pode revelar a localização da sua prisão. Você não puxa mais cartas.</p>\n<p><strong>Euríale</strong>. A visão similar à medusa desta carta amaldiçoa você. Você sofre –2 de penalidade nos testes de resistência enquanto estiver amaldiçoado dessa forma. Apenas um deus ou a mágica da carta <strong>As Parcas</strong> pode terminar essa maldição.</p>\n<p><strong>As Parcas</strong>. O tecido da realidade se desemaranha e se tece novamente, permitindo que você evite ou apague um evento como se ele nunca tivesse acontecido. Você pode usar a mágica desta carta no momento em que você a puxa ou em qualquer outro momento, antes de você morrer.</p>\n<p><strong>Chamas</strong>. Um poderoso diabo torna-se seu inimigo. O diabo busca arruinar e importunar sua vida, saboreando seu sofrimento antes de tentar matar você. Esta inimizade perdura até que ou você ou o diabo morra.</p>\n<p><strong>Tolo</strong>. Você perde 10.000 XP, descarte esta carta e puxa outra carta do baralho, contando ambas as puxadas como um das suas cartas declaradas. Se essa perda de XP faria você perder um nível, você perde uma quantidade que deixaria você com XP suficiente para manter o nível.</p>\n<p><strong>Gema</strong>. Vinte e cinto peças de joalheria valendo 2.000 po cada ou quinze gemas valendo 1.000 po cada aparecem aos seus pés.</p>\n<p><strong>Idiota</strong>. Permanentemente reduza sua Inteligência em 1d4 +1 (até o valor mínimo de 1). Você pode puxar uma carta adicional além de suas cartas declaradas.</p>\n<p><strong>Bufão</strong>. Você ganha 10.000 XP, ou você pode puxar duas cartas adicionais além das cartas declaradas.</p>\n<p><strong>Chave</strong>.Uma arma mágica rara ou mais rara com a qual você seja proficiente aparece em suas mãos. O Mestre escolhe a arma.</p>\n<p><strong>Cavaleiro</strong>. Você adquire os serviços de um guerreiro de 4° nível que aparece em um espaço de sua escolha, a até 9 metros de você. O guerreiro tem a mesma raça que você e serve você lealmente até a morte, acreditando que o destino levou ele até você. Você controla esse personagem.</p>\n<p><strong>Lua</strong>. Você é agraciado com a habilidade de conjurar a magia @Compendium[dnd5e.spells.3okM6Gn63zzEULkz]{Desejo} 1d3 vezes.</p>\n<p><strong>Ladino</strong>. Um personagem do mestre, à escolha do Mestre, torna-se hostil a você. A identidade do seu novo inimigo não é conhecida até que o PdM ou alguém mais a revele. Nada além da magia @Compendium[dnd5e.spells.3okM6Gn63zzEULkz]{Desejo} ou de intervenção divina pode terminar a hostilidade do PdM contra você.</p>\n<p><strong>Ruína</strong>. Todas as riquezas que você carrega ou possui, diferente de itens mágicos, são perdidas. Propriedades portáteis desaparecem. Negócios, imóveis e terras que você possuía são perdidas de uma forma que altera a própria realidade. Qualquer documentação que prove que você deveria ser dono de qualquer coisa é perdida por esta carta também desaparece.</p>\n<p><strong>Crânio</strong>. Você invoca um avatar da morte – um esqueleto humanoide fantasmagórico vestido por uma mortalha negra e carregando uma foice espectral. Ele aparece em um espaço à escolha do Mestre a até 3 metros de você e te ataca, avisando a todos os outros que você deve vencer essa batalha sozinho. O avatar luta até você morrer ou até ele chegar a 0 pontos de vida, quando ele desaparecerá. Se qualquer um tentar ajudar você, o ajudante invocará seu próprio avatar da morte. Uma criatura morta por um avatar da morte não pode voltar a vida.</p>\n<h3 id=\"avatar-of-death\"><strong>Avatar da Morte</strong></h3>\n<p><em>Morto-vivo médio, neutro e mau</em></p>\n<p><strong>Classe de Armadura</strong> 20<br><strong>Pontos de Vida</strong> metade do máximo de pontos de vida do seu invocador<br><strong>Deslocamento </strong>18 m, voo 18 m (planar)</p>\n<table>\n<thead>\n<tr>\n<th align=\"center\">FOR</th>\n<th align=\"center\">DES</th>\n<th align=\"center\">CON</th>\n<th align=\"center\">INT</th>\n<th align=\"center\">SAB</th>\n<th align=\"center\">CAR</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">16 (+3)</td>\n<td align=\"center\">16 (+3)</td>\n<td align=\"center\">16 (+3)</td>\n<td align=\"center\">16 (+3)</td>\n<td align=\"center\">16 (+3)</td>\n<td align=\"center\">16 (+3)</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Imunidade a Dano</strong> necrótico, veneno<br><strong>Imunidade a Condição</strong> amedrontado, enfeitiçado, envenenado, inconsciente, paralisado, petrificado<br><strong>Sentidos</strong> visão no escuro 18 m, visão verdadeira 18 m, Percepção passiva 13<br><strong>Idiomas </strong>todos os idiomas conhecidos pelo seu invocador.<br><strong>Nível de Desafio </strong>-- (0 XP)</p>\n<p><strong>Movimento Incorpóreo</strong>. O avatar pode se mover através de outras criaturas e objetos como se eles fossem terreno difícil. Ele sofre 5 (1d10) de dano de energia se terminar seu turno dentro de um objeto.<br><strong>Imunidade à Expulsão</strong>. O avatar é imune à características que possam expulsar mortos-vivos.</p>\n<h4 id=\"actions\">Ações</h4>\n<p><strong>Foice Ceifadora</strong>. O avatar passa sua foice espectral através de uma criatura a até 1,5 metro dele, causando 7 (1d8 + 3) de dano cortante mais 4 (1d8) de dano necrótico.</p>\n<p>&nbsp;</p>\n<p><strong>Estrela</strong>. Aumente um dos seus valores de habilidade em 2. O valor pode exceder 20, mas não pode passar de 24.</p>\n<p><strong>Sol</strong>. Você ganha 50.000 XP e um item maravilhoso (o qual o Mestre determina aleatoriamente) aparece em suas mãos.</p>\n<p><strong>Garras</strong>. Cada item mágico que você usa ou carrega se desintegra. Os artefatos em sua posse não são destruídos, mas desaparecem.</p>\n<p><strong>Trono</strong>. Você ganha proficiência na perícia Persuasão e dobra o bônus de proficiência em testes feitos com esta perícia. Além disso, você ganha direito de posse de um pequeno forte em algum lugar do mundo. Porém, o forte está atualmente em posse de monstros, o qual você deve limpar antes de poder clamar como seu.</p>\n<p><strong>Vizir</strong>. A qualquer momento que você escolha dentro de um ano da puxada desta carta, você pode fazer uma pergunta em meditação e mentalmente receber uma resposta verdadeira a essa pergunta. Além da informação, a resposta ajuda você a resolver um problema intrigante ou outro dilema. Em outras palavras, o conhecimento vem com a forma de como aplica-lo.</p>\n<p><strong>O Vacuo</strong>. Esta carta negra trás o desastre. Sua alma é sugada de seu corpo e levada a um objeto em um lugar à escolha do Mestre. Um ou mais seres poderosos guardam o local. Enquanto sua alma estiver aprisionada dessa forma, seu corpo está incapacitado. A magia @Compendium[dnd5e.spells.3okM6Gn63zzEULkz]{Desejo} não pode restaurar sua alma, mas revela o local do objeto que contém ela. Você não puxa mais cartas.</p>"
 		},
 		{
 			"id": "Defender Greatsword",
@@ -853,7 +858,7 @@
 		},
 		{
 			"id": "Dragon Scale Mail",
-			"name": "Brunea de Escamas de Dragão",
+			"name": "Lórica de Escamas de Dragão",
 			"description": "<p><em>(requer sintonização)</em></p>\n<p>Uma brunea de escamas de dragão é feita com escamas de um tipo de dragão. Algumas vezes, dragões recolhem suas escamas soltas e presenteiam-nas a humanoides. Outras vezes, caçadores cuidadosamente arrancam e preservam o couro de um dragão morto. Em ambos os casos, uma brunea de escamas de dragão é extremamente valorizada.</p>\n<p>Enquanto estiver vestindo esta armadura, você ganha +1 de bônus na CA, tem vantagem nos testes de resistência contra a Presença Aterradora e armas de sopro de dragões e tem resistência a um tipo de dano que é determinado pela espécie de dragão de onde as escamas vieram (veja na tabela).</p>\n<p>Além disso, você pode focar seus sentidos, com uma ação, para magicamente discernir a distância e direção do dragão mais próximo dentro de 45 quilômetros de você que seja do mesmo tipo da armadura. Essa ação especial não pode ser usada novamente até o próximo amanhecer.</p>\n<table style=\"width: 141px;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 55.7986px;\"><strong>Dragão</strong></td>\n<td style=\"width: 76.9097px;\"><strong>Resistência</strong></td>\n</tr>\n<tr>\n<td style=\"width: 55.7986px;\">Preto</td>\n<td style=\"width: 76.9097px;\">Ácido</td>\n</tr>\n<tr>\n<td style=\"width: 55.7986px;\">Azul</td>\n<td style=\"width: 76.9097px;\">Elétrico</td>\n</tr>\n<tr>\n<td style=\"width: 55.7986px;\">Latão</td>\n<td style=\"width: 76.9097px;\">Fogo</td>\n</tr>\n<tr>\n<td style=\"width: 55.7986px;\">Bronze</td>\n<td style=\"width: 76.9097px;\">Elétrico</td>\n</tr>\n<tr>\n<td style=\"width: 55.7986px;\">Cobre</td>\n<td style=\"width: 76.9097px;\">Ácido</td>\n</tr>\n<tr>\n<td style=\"width: 55.7986px;\">Ouro</td>\n<td style=\"width: 76.9097px;\">Fogo</td>\n</tr>\n<tr>\n<td style=\"width: 55.7986px;\">Verde</td>\n<td style=\"width: 76.9097px;\">Veneno</td>\n</tr>\n<tr>\n<td style=\"width: 55.7986px;\">Vermelho</td>\n<td style=\"width: 76.9097px;\">Fogo</td>\n</tr>\n<tr>\n<td style=\"width: 55.7986px;\">Prata</td>\n<td style=\"width: 76.9097px;\">Gélido</td>\n</tr>\n<tr>\n<td style=\"width: 55.7986px;\">Branco</td>\n<td style=\"width: 76.9097px;\">Gélido</td>\n</tr>\n</tbody>\n</table>"
 		},
 		{
@@ -912,7 +917,7 @@
 			"description": "<p><em>Item maravilhoso</em></p>\n<p>Cada um dos três compartimentos dessa aljava estão conectados a um espaço extradimensional que permite que a aljava comporte inúmeros itens sem nunca pesar mais de 1 quilo.</p>\n<p>O compartimento menor pode armazenar até sessenta flechas, virotes ou objetos similares. O compartimento do meio pode armazenar até dezoito azagaias ou objetos similares. O compartimento maior pode armazenar até seis objetos longos, como arcos, bordões ou lanças.</p>\n<p>Você pode sacar um item contido na aljava como se estivesse o tirando de uma aljava ou bainha comum.</p>"
 		},
 		{
-			"id": "Eftreeti Bottle",
+			"id": "Efreeti Bottle",
 			"name": "Garrafa do Efreeti",
 			"description": "<p><em>Item maravilhoso</em></p>\n<p>Esta garrafa de latão pintada pesa 0,5 quilo. Quando você usa uma ação para remover sua rolha, uma fina nuvem de fumaça sai da garrafa. No final do seu turno, a fumaça desaparece em uma explosão de fogo inofensiva e um @Compendium[dnd5e.monsters.LTomFUTBrkRi0Pj5]{Efreeti} aparece em um espaço desocupado a até 9 metros de você.</p>\n<p>Da primeira vez que a garrafa for aberta, o Mestre rola para determinar o que acontece.</p>\n<table style=\"height: 60px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 61.3542px;\"><strong>d100</strong></td>\n<td style=\"height: 15px; width: 311.354px;\"><strong>Efeito</strong></td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 61.3542px;\">01-10</td>\n<td>O efreeti ataca você. Após lutar por 5 rodadas, ele desaparece e a garrafa perde sua mágica.</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 61.3542px;\">11-90</td>\n<td>O efreeti serve você por 1 hora, fazendo o que você mandar. Então o efreeti volta para a garrafa e uma nova rolha retém ele. A rolha não pode ser removida por 24 horas. Das próximas duas vezes que a garrafa for aberta, o mesmo efeito ocorre. Se a garrafa for aberta uma quarta vez, o efreeti escapa e desaparece, e a garrafa perde sua mágica.</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 61.3542px;\">91-00</td>\n<td style=\"height: 15px; width: 311.354px;\">O efreeti pode conjurar a magia desejo três vezes para você. Ele desaparece após conceder o desejo final ou após 1 hora e a garrafa perde sua mágica.</td>\n</tr>\n</tbody>\n</table>"
 		},
@@ -1108,8 +1113,8 @@
 		},
 		{
 			"id": "Flask",
-			"name": "Frasco",
-			"description": "<p>Um frasco contém 500 ml de líquido.</p>"
+			"name": "Caneca",
+			"description": "<p>Uma caneca detém 500 ml de líquido.</p>"
 		},
 		{
 			"id": "Flask of Holy Water",
@@ -1158,22 +1163,22 @@
 		},
 		{
 			"id": "Gaming Set of Dice",
-			"name": "Kit de Jogos de Dados",
+			"name": "Kit de Jogos de Conjunto de Dados",
 			"description": "<p>Este item abrange uma ampla gama de dados, tanto retos quanto ponderados.</p>\n<p>Se você for proficiente com um conjunto de jogos, pode adicionar seu bônus de proficiência nos testes de habilidade que realizar usando esse conjunto. Cada tipo de conjunto de jogo exige uma proficiência em separado.</p>"
 		},
 		{
 			"id": "Gaming Set of Dragonchess",
-			"name": "Kit de Jogos de Xadrez de Dragão",
+			"name": "Kit de Jogos de Conjunto de Xadrez-do-Dragão",
 			"description": "<p>Este item é um conjunto completo de peças e tabuleiro de xadrez de dragão. O tabuleiro também pode ser usado para variações de jogos de damas.</p>\n<p>Se você for proficiente com um conjunto de jogos, pode adicionar seu bônus de proficiência nos testes de habilidade que realizar usando esse conjunto. Cada tipo de conjunto de jogo exige uma proficiência em separado.</p>"
 		},
 		{
 			"id": "Gaming Set of Playing Cards",
-			"name": "Kit de Jogos de Baralho de Cartas",
+			"name": "Kit de Jogos de Baralho",
 			"description": "<p>Este item abrange uma ampla gama de tipos de cartas de jogo, tanto não marcadas quanto marcadas.</p>\n<p>Se você for proficiente com um conjunto de jogos, pode adicionar seu bônus de proficiência nos testes de habilidade que realizar usando esse conjunto. Cada tipo de conjunto de jogo exige uma proficiência em separado.</p>"
 		},
 		{
 			"id": "Gaming Set of Three-Dragon Ante",
-			"name": "Kit de Jogos de Três Dragões",
+			"name": "Kit de Jogos de Conjunto dos Três Dragões",
 			"description": "<p>Este item é um conjunto completo de cartas de jogar Três Dragões, desmarcadas ou marcadas.</p>\n<p>Se você for proficiente com um conjunto de jogos, pode adicionar seu bônus de proficiência nos testes de habilidade que realizar usando esse conjunto. Cada tipo de conjunto de jogo exige uma proficiência em separado.</p>"
 		},
 		{
@@ -1283,7 +1288,7 @@
 		},
 		{
 			"id": "Grappling Hook",
-			"name": "Gancho",
+			"name": "Arpéu",
 			"description": "<p>Um dispositivo com garras de ferro, pode ser usado com corda para arrastar ou agarrar.</p>"
 		},
 		{
@@ -1383,27 +1388,27 @@
 		},
 		{
 			"id": "Half Plate Armor",
-			"name": "Meia Armadura",
+			"name": "Armadura de Placas Parcial",
 			"description": "<p>Essa armadura é composta de placas de metal moldadas que cobrem a maior parte do corpo. Ela não inclui proteção para as pernas além de caneleiras fixadas com tiras de couro.</p>"
 		},
 		{
 			"id": "Half Plate Armor +1",
-			"name": "Meia Armadura +1",
+			"name": "Armadura de Placas Parcial +1",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">Esta armadura foi embelezada com runas poderosas, criadas em fogos de feiticeiros, abençoada por um ser poderoso, ou algum outro evento a viu legada com proteção aprimorada para o usuário.</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Você tem um bônus na CA enquanto estiver vestindo esta armadura.</p>"
 		},
 		{
 			"id": "Half Plate Armor +2",
-			"name": "Meia Armadura +2",
+			"name": "Armadura de Placas Parcial +2",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">Esta armadura foi embelezada com runas poderosas, criadas em fogos de feiticeiros, abençoada por um ser poderoso, ou algum outro evento a viu legada com proteção aprimorada para o usuário.</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Você tem um bônus na CA enquanto estiver vestindo esta armadura.</p>"
 		},
 		{
 			"id": "Half Plate Armor +3",
-			"name": "Meia Armadura +3",
+			"name": "Armadura de Placas Parcial +3",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">Esta armadura foi embelezada com runas poderosas, criadas em fogos de feiticeiros, abençoada por um ser poderoso, ou algum outro evento a viu legada com proteção aprimorada para o usuário.</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Você tem um bônus na CA enquanto estiver vestindo esta armadura.</p>"
 		},
 		{
 			"id": "Half Plate Armor of Resistance",
-			"name": "Meia Armadura de Resistência",
+			"name": "Armadura de Placas Parcial de Resistência",
 			"description": "<p><em>(requer sintonização)</em></p>\n<p>Você tem resistência a um tipo de dano enquanto estiver vestindo esta armadura. O Mestre escolhe o tipo ou o determina aleatoriamente das opções abaixo.</p>\n<table style=\"width: 138px; height: 165px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\"><strong>d10</strong></td>\n<td style=\"width: 95.7986px; height: 15px;\"><strong>Tipo de</strong> <strong>Dano</strong></td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">1</td>\n<td style=\"width: 95.7986px; height: 15px;\">Ácido</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">2</td>\n<td style=\"width: 95.7986px; height: 15px;\">Gélido</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">3</td>\n<td style=\"width: 95.7986px; height: 15px;\">Fogo</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">4</td>\n<td style=\"width: 95.7986px; height: 15px;\">Energia</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">5</td>\n<td style=\"width: 95.7986px; height: 15px;\">Elétrico</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">6</td>\n<td style=\"width: 95.7986px; height: 15px;\">Necrótico</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">7</td>\n<td style=\"width: 95.7986px; height: 15px;\">Veneno</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">8</td>\n<td style=\"width: 95.7986px; height: 15px;\">Psíquico</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">9</td>\n<td style=\"width: 95.7986px; height: 15px;\">Radiante</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">10</td>\n<td style=\"width: 95.7986px; height: 15px;\">Trovejante</td>\n</tr>\n</tbody>\n</table>\n<p> </p>"
 		},
 		{
@@ -1528,27 +1533,27 @@
 		},
 		{
 			"id": "Hide Armor",
-			"name": "Gibão de Peles",
+			"name": "Armadura Gibão de Peles",
 			"description": "<p>Um gibão de peles é um armadura bruta consistindo de peles grossas. É comumente usada por tribos bárbaras, humanoides malignos e outros povos que não têm acesso às ferramentas e materiais necessários para criar uma armadura melhor.</p>"
 		},
 		{
 			"id": "Hide Armor +1",
-			"name": "Gibão de Peles +1",
+			"name": "Armadura Gibão de Peles +1",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">Esta armadura foi embelezada com runas poderosas, criadas em fogos de feiticeiros, abençoada por um ser poderoso, ou algum outro evento a viu legada com proteção aprimorada para o usuário.</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Você tem um bônus na CA enquanto estiver vestindo esta armadura.</p>"
 		},
 		{
 			"id": "Hide Armor +2",
-			"name": "Gibão de Peles +2",
+			"name": "Armadura Gibão de Peles +2",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">Esta armadura foi embelezada com runas poderosas, criadas em fogos de feiticeiros, abençoada por um ser poderoso, ou algum outro evento a viu legada com proteção aprimorada para o usuário.</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Você tem um bônus na CA enquanto estiver vestindo esta armadura.</p>"
 		},
 		{
 			"id": "Hide Armor +3",
-			"name": "Gibão de Peles +3",
+			"name": "Armadura Gibão de Peles +3",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">Esta armadura foi embelezada com runas poderosas, criadas em fogos de feiticeiros, abençoada por um ser poderoso, ou algum outro evento a viu legada com proteção aprimorada para o usuário.</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Você tem um bônus na CA enquanto estiver vestindo esta armadura.</p>"
 		},
 		{
 			"id": "Hide Armor of Resistance",
-			"name": "Gibão de Peles de Resistência",
+			"name": "Armadura Gibão de Peles de Resistência",
 			"description": "<p><em>(requer sintonização)</em></p>\n<p>Você tem resistência a um tipo de dano enquanto estiver vestindo esta armadura. O Mestre escolhe o tipo ou o determina aleatoriamente das opções abaixo.</p>\n<table style=\"width: 138px; height: 165px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\"><strong>d10</strong></td>\n<td style=\"width: 95.7986px; height: 15px;\"><strong>Tipo de</strong> <strong>Dano</strong></td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">1</td>\n<td style=\"width: 95.7986px; height: 15px;\">Ácido</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">2</td>\n<td style=\"width: 95.7986px; height: 15px;\">Gélido</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">3</td>\n<td style=\"width: 95.7986px; height: 15px;\">Fogo</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">4</td>\n<td style=\"width: 95.7986px; height: 15px;\">Energia</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">5</td>\n<td style=\"width: 95.7986px; height: 15px;\">Elétrico</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">6</td>\n<td style=\"width: 95.7986px; height: 15px;\">Necrótico</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">7</td>\n<td style=\"width: 95.7986px; height: 15px;\">Veneno</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">8</td>\n<td style=\"width: 95.7986px; height: 15px;\">Psíquico</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">9</td>\n<td style=\"width: 95.7986px; height: 15px;\">Radiante</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">10</td>\n<td style=\"width: 95.7986px; height: 15px;\">Trovejante</td>\n</tr>\n</tbody>\n</table>\n<p> </p>"
 		},
 		{
@@ -1587,14 +1592,14 @@
 			"description": "<p><em>Item maravilhoso</em></p>\n<p>Você pode usar uma ação para falar a palavra de comando da trombeta e então sopra-la, a qual emitirá uma explosão trovejante num cone de 9 metros, que é audível a até 180 metros de distância. Cada criatura no cone deve ser bem sucedida num teste de resistência de Constituição CD 15. Se fracassar, uma criatura sofre 5d6 de dano trovejante e fica surda por 1 minuto. Se obtiver sucesso, a criatura sofre metade desse dano e não ficará surda. Criaturas e objetos feitos de vidro ou cristal tem desvantagem no teste de resistência e sofrem 10d6 de dano trovejante ao invés de 5d6.</p>\n<p>Cada uso da trombeta tem 20 por cento de chance de fazê-la explodir. A explosão causa 10d6 de dano de fogo ao seu usuário e destrói a trombeta.</p>"
 		},
 		{
+			"id": "Horseshoes of a Zephyr",
+			"name": "Ferraduras do Zéfiro",
+			"description": "<p><em>Item maravilhoso</em></p>\n<p>Estas ferraduras de ferro vêm em um conjunto de quatro. Enquanto todas as ferraduras estiverem fixadas nos cascos de um cavalo ou criatura similar, elas permitirão que a criatura se mova normalmente enquanto flutua a 10 centímetros do solo. Esse efeito significa que a criatura pode cruzar ou ficar sobre superfícies não-sólidas ou instáveis, como água ou lava. A criatura não deixa rastros e ignora terrenos difíceis. Além disso, a criatura pode se mover com seu deslocamento normal por 12 horas por dia sem sofrer de exaustão pela marcha forçada.</p>"
+		},
+		{
 			"id": "Horseshoes of Speed",
 			"name": "Ferraduras da Velocidade",
 			"description": "<p><em>Item maravilhoso</em></p>\n<p>Estas ferraduras de ferro vêm em conjuntos de quatro. Enquanto todas as quatro ferraduras estiverem fixadas aos cascos de um cavalo ou criatura similar, elas aumentam o deslocamento de caminhada da criatura em 9 metros.</p>"
-		},
-		{
-			"id": "Horseshoes of the Zephyr",
-			"name": "Ferraduras do Zéfiro",
-			"description": "<p><em>Item maravilhoso</em></p>\n<p>Estas ferraduras de ferro vêm em um conjunto de quatro. Enquanto todas as ferraduras estiverem fixadas nos cascos de um cavalo ou criatura similar, elas permitirão que a criatura se mova normalmente enquanto flutua a 10 centímetros do solo. Esse efeito significa que a criatura pode cruzar ou ficar sobre superfícies não-sólidas ou instáveis, como água ou lava. A criatura não deixa rastros e ignora terrenos difíceis. Além disso, a criatura pode se mover com seu deslocamento normal por 12 horas por dia sem sofrer de exaustão pela marcha forçada.</p>"
 		},
 		{
 			"id": "Hourglass",
@@ -1613,7 +1618,7 @@
 		},
 		{
 			"id": "Ink Bottle",
-			"name": "Frasco de tinta",
+			"name": "Frasco de Tinta",
 			"description": "<p>Um pequeno frasco de tinta para escrever em pergaminho.</p>"
 		},
 		{
@@ -1714,12 +1719,12 @@
 		{
 			"id": "Iron Pot",
 			"name": "Panela de Ferro",
-			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Uma panela de ferro contém 1 litro de líquido.</span></p>"
+			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Uma panela de ferro contém 4 litros de líquidos.</span></p>"
 		},
 		{
 			"id": "Iron Spike",
-			"name": "Pregos de Ferro",
-			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Um prego de 25 centímetros de comprimento feito de ferro. Pode ser improvisado para bloquear portas. Normalmente vendido em pacotes de 10.</span></p>"
+			"name": "Estacas de Ferro",
+			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Uma estaca de 25 centímetros de comprimento feito de ferro. Pode ser improvisado para bloquear portas. Normalmente vendido em pacotes de 10.</span></p>"
 		},
 		{
 			"id": "Javelin",
@@ -1754,7 +1759,7 @@
 		{
 			"id": "Jug",
 			"name": "Jarra",
-			"description": "<p>Um jarro contém 5 litros de líquido.</p>"
+			"description": "<p>Um jarro contém 4 litros de líquido.</p>"
 		},
 		{
 			"id": "Ladder (10-foot)",
@@ -1763,8 +1768,8 @@
 		},
 		{
 			"id": "Lamp",
-			"name": "Lâmpada",
-			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Uma lâmpada lança luz plena em um raio de 4,5 metros e penumbra por mais 9 metros. Uma vez acesa, a lâmpada queima por 6 horas usando um frasco de óleo (500 ml).</span></p>"
+			"name": "Lanterna",
+			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Uma lanterna lança luz plena em um raio de 4,5 metros e penumbra por mais 9 metros. Uma vez acesa, a lanterna queima por 6 horas usando um frasco de óleo (500 ml).</span></p>"
 		},
 		{
 			"id": "Lance",
@@ -1813,7 +1818,7 @@
 		},
 		{
 			"id": "Leather Armor of Resistance",
-			"name": "Armadura Couro de Resistência",
+			"name": "Armadura de Couro de Resistência",
 			"description": "<p><em>(requer sintonização)</em></p>\n<p>Você tem resistência a um tipo de dano enquanto estiver vestindo esta armadura. O Mestre escolhe o tipo ou o determina aleatoriamente das opções abaixo.</p>\n<table style=\"width: 138px;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 35px;\"><strong>d10</strong></td>\n<td style=\"width: 96px;\"><strong>Tipo de</strong> <strong>Dano</strong></td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">1</td>\n<td style=\"width: 96px;\">Ácido</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">2</td>\n<td style=\"width: 96px;\">Gélido</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">3</td>\n<td style=\"width: 96px;\">Fogo</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">4</td>\n<td style=\"width: 96px;\">Energia</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">5</td>\n<td style=\"width: 96px;\">Eletrico</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">6</td>\n<td style=\"width: 96px;\">Necrótico</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">7</td>\n<td style=\"width: 96px;\">Veneno</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">8</td>\n<td style=\"width: 96px;\">Psíquico</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">9</td>\n<td style=\"width: 96px;\">Radiante</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">10</td>\n<td style=\"width: 96px;\">Trovejante</td>\n</tr>\n</tbody>\n</table>\n<p> </p>"
 		},
 		{
@@ -1863,8 +1868,8 @@
 		},
 		{
 			"id": "Lock",
-			"name": "Fechadura",
-			"description": "<p><span style=\"color: #191813; font-size: 13px;\">A fechadura vem com chave. Sem a chave, uma criatura proficiente com ferramentas de ladrão pode abrir a fechadura com um sucesso em um teste de Destreza CD 15. O Mestre pode decidir que fechaduras melhores estão disponíveis por preços mais elevados.</span></p>"
+			"name": "Cadeado",
+			"description": "<p><span style=\"color: #191813; font-size: 13px;\">O cadeado vem com chave. Sem a chave, uma criatura proficiente com ferramentas de ladrão pode abrir o cadeado com um sucesso em um teste de Destreza CD 15. O Mestre pode decidir que cadeados melhores estão disponíveis por preços mais elevados.</span></p>"
 		},
 		{
 			"id": "Longbow",
@@ -1889,7 +1894,7 @@
 		{
 			"id": "Longsword",
 			"name": "Espada Longa",
-			"description": "Uma longa lâmina reta projetada para matar inimigos, a espada longa é uma arma altamente versátil que também pode ser empunhada com as duas mãos para golpes mais severos."
+			"description": "<p>Uma longa lâmina reta projetada para matar inimigos, a espada longa é uma arma altamente versátil que também pode ser empunhada com as duas mãos para golpes mais severos.</p>"
 		},
 		{
 			"id": "Longsword +1",
@@ -1963,7 +1968,7 @@
 		},
 		{
 			"id": "Mace +3",
-			"name": "Maça +3",
+			"name": "Mace +3",
 			"description": "<p><em>Seja por meio de bênçãos demoníacas, legado celestial, experimento maluco ou trabalho habilidoso, esta arma foi aprimorada para trazer mais derramamento de sangue pelo portador.</em></p>\n<p>Você tem um bônus nas jogadas de ataque e dano feitas com esta arma mágica.</p>"
 		},
 		{
@@ -1988,7 +1993,7 @@
 		},
 		{
 			"id": "Manacles",
-			"name": "Algemas",
+			"name": "Grilhões",
 			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Essas algemas de metal podem prender uma criatura Pequena ou Média. Escapar das algemas exige sucesso em um teste de Destreza CD 20. Quebrá-las exige um teste de Força CD 20 bem sucedido. Cada conjunto de algemas vem com uma chave. Sem a chave, uma criatura proficiente com ferramentas de ladrão pode abrir a fechadura das algemas com um sucesso em um teste de Destreza CD 15. As algemas têm 15 pontos de vida.</span></p>"
 		},
 		{
@@ -2028,7 +2033,7 @@
 		},
 		{
 			"id": "Mason's Tools",
-			"name": "Ferramentas de Pedreiro",
+			"name": "Ferramentas de Pedreiro/Construtor",
 			"description": "<p>Essas ferramentas especiais incluem os itens necessários para prosseguir um ofício ou comércio de alvenaria.</p>\n<p>A proficiência em um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a qualquer teste de habilidade que você fizer usando as ferramentas de seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.</p>"
 		},
 		{
@@ -2068,7 +2073,7 @@
 		},
 		{
 			"id": "Miner's Pick",
-			"name": "Picareta de Minerador",
+			"name": "Picareta de Mineiro",
 			"description": "<p>É uma ferramenta manual com uma cabeça dura fixada perpendicular ao cabo.</p>"
 		},
 		{
@@ -2078,7 +2083,7 @@
 		},
 		{
 			"id": "Mithral Breastplate",
-			"name": "Peitoral de Mitral",
+			"name": "Couraça Peitoral de Mitral",
 			"description": "<p>O mitral é um metal leve e flexível. Um camisão de malha ou peitoral de mitral pode ser usado sob roupas normais. Se a armadura normalmente imporia desvantagem em testes de Destreza (Furtividade) ou tem um requerimento de Força, a versão de mitral dessa armadura não terá.</p>"
 		},
 		{
@@ -2088,12 +2093,12 @@
 		},
 		{
 			"id": "Mithral Chain Shirt",
-			"name": "Camisão de Malha de Mitral",
+			"name": "Cota de Malha Parcial de Mitral",
 			"description": "<p>O mitral é um metal leve e flexível. Um camisão de malha ou peitoral de mitral pode ser usado sob roupas normais. Se a armadura normalmente imporia desvantagem em testes de Destreza (Furtividade) ou tem um requerimento de Força, a versão de mitral dessa armadura não terá.</p>"
 		},
 		{
 			"id": "Mithral Half Plate Armor",
-			"name": "Meia Armadura de Mitral",
+			"name": "Armadura de Placas Parcial de Mitral",
 			"description": "<p>O mitral é um metal leve e flexível. Um camisão de malha ou peitoral de mitral pode ser usado sob roupas normais. Se a armadura normalmente imporia desvantagem em testes de Destreza (Furtividade) ou tem um requerimento de Força, a versão de mitral dessa armadura não terá.</p>"
 		},
 		{
@@ -2108,12 +2113,12 @@
 		},
 		{
 			"id": "Mithral Scale Mail",
-			"name": "Brunea de Mitral",
+			"name": "Lórica de Escamas de Mitral",
 			"description": "<p>O mitral é um metal leve e flexível. Um camisão de malha ou peitoral de mitral pode ser usado sob roupas normais. Se a armadura normalmente imporia desvantagem em testes de Destreza (Furtividade) ou tem um requerimento de Força, a versão de mitral dessa armadura não terá.</p>"
 		},
 		{
 			"id": "Mithral Splint Armor",
-			"name": "Armadura de Talas de Mitral",
+			"name": "Cota de Talas de Mitral",
 			"description": "<p>O mitral é um metal leve e flexível. Um camisão de malha ou peitoral de mitral pode ser usado sob roupas normais. Se a armadura normalmente imporia desvantagem em testes de Destreza (Furtividade) ou tem um requerimento de Força, a versão de mitral dessa armadura não terá.</p>"
 		},
 		{
@@ -2159,7 +2164,7 @@
 		{
 			"id": "Musical Instrument: Flute",
 			"name": "Instrumento Musical: Flauta",
-			"description": "<p>Uma flauta para evocar admiração, surpresa ou medo em seu público.</p>\n<p>Se você tiver proficiência com um determinado instrumento musical, poderá adicionar seu bônus de proficiência a qualquer teste de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical requer uma proficiência separada.</p>"
+			"description": "<p>Uma alaúde para evocar admiração, surpresa ou medo em seu público.</p>\n<p>Se você tiver proficiência com um determinado instrumento musical, poderá adicionar seu bônus de proficiência a qualquer teste de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical requer uma proficiência separada.</p>"
 		},
 		{
 			"id": "Musical Instrument: Horn",
@@ -2178,7 +2183,7 @@
 		},
 		{
 			"id": "Musical Instrument: Pan Flute",
-			"name": "Instrumento Musical: Flauta de Pã",
+			"name": "Instrumento Musical: Flauta de Pan",
 			"description": "<p>Um conjunto de tubos de pã para evocar admiração, surpresa ou medo em seu público.</p>\n<p>Se você tiver proficiência com um determinado instrumento musical, poderá adicionar seu bônus de proficiência a qualquer teste de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical requer uma proficiência separada.</p>"
 		},
 		{
@@ -2193,11 +2198,11 @@
 		},
 		{
 			"id": "Navigator’s Tools",
-			"name": "Ferramentas de Navegação",
+			"name": "Ferramentas de Navegador",
 			"description": "<p>Esse conjunto de instrumentos é usado para navegação no mar. Proficiência com as ferramentas de navegador permite traçar um curso de navio e seguir cartas de navegação. Além disso, essas ferramentas permitem que você adicione seu bônus de proficiência para qualquer teste de habilidade que fizer para não se perder no mar.</p>"
 		},
 		{
-			"id": "Necklace of Adaption",
+			"id": "Necklace of Adaptation",
 			"name": "Colar de Adaptação",
 			"description": "<p><em>Item maravilhoso, (requer sintonização)</em></p>\n<p>Enquanto estiver usando este colar, você pode respirar normalmente em qualquer ambiente, e você tem vantagem em testes de resistência contra gases e vapores nocivos (como dos efeitos de @Compendium[dnd5e.spells.LkvI11Uue774QBKZ]{Névoa Mortal} e @Compendium[dnd5e.spells.TwlD4PLcltv7Xh7j]{Névoa Fétida} venenos inalados e armas de sopro de alguns dragões).</p>"
 		},
@@ -2347,7 +2352,7 @@
 			"description": "<p><em>Item maravilhoso</em></p>\n<p>Você fica imune a doenças enquanto estiver usando este pingente. Se você já estiver sendo afetado por uma doença, o efeito dessa doença é suprimido enquanto você usar o pingente.</p>"
 		},
 		{
-			"id": "Periapt of Proof Against Poison",
+			"id": "Periapt of Proof against Poison",
 			"name": "Periapto da Proteção Contra Veneno",
 			"description": "<p><em>Item maravilhoso</em></p>\n<p>Esta delicada corrente de prata possui um pingente com uma gema negra brilhante. Enquanto você usá-lo, venenos não surtiram efeito em você. Você é imune a condição envenenado e tem imunidade a dano de veneno.</p>"
 		},
@@ -2363,22 +2368,22 @@
 		},
 		{
 			"id": "Pike",
-			"name": "Pique",
+			"name": "Lança Longa",
 			"description": "<p>Uma lâmina robusta montada na ponta de um longo cabo de metal. Projetado como uma arma defensiva com considerável alcance para afastar e ameaçar inimigos.</p>"
 		},
 		{
 			"id": "Pike +1",
-			"name": "Pique +1",
+			"name": "Lança Longa +1",
 			"description": "<p><em>Seja por meio de bênçãos demoníacas, legado celestial, experimento maluco ou trabalho habilidoso, esta arma foi aprimorada para trazer mais derramamento de sangue pelo portador.</em></p>\n<p>Você tem um bônus nas jogadas de ataque e dano feitas com esta arma mágica.</p>"
 		},
 		{
 			"id": "Pike +2",
-			"name": "Pique +2",
+			"name": "Lança Longa +2",
 			"description": "<p><em>Seja por meio de bênçãos demoníacas, legado celestial, experimento maluco ou trabalho habilidoso, esta arma foi aprimorada para trazer mais derramamento de sangue pelo portador.</em></p>\n<p>Você tem um bônus nas jogadas de ataque e dano feitas com esta arma mágica.</p>"
 		},
 		{
 			"id": "Pike +3",
-			"name": "Pique +3",
+			"name": "Lança Longa +3",
 			"description": "<p><em>Seja por meio de bênçãos demoníacas, legado celestial, experimento maluco ou trabalho habilidoso, esta arma foi aprimorada para trazer mais derramamento de sangue pelo portador.</em></p>\n<p>Você tem um bônus nas jogadas de ataque e dano feitas com esta arma mágica.</p>"
 		},
 		{
@@ -2393,12 +2398,12 @@
 		},
 		{
 			"id": "Pitcher",
-			"name": "Jarra",
-			"description": "<p>Um jarro contém 5 litros de líquido.</p>"
+			"name": "Ânfora",
+			"description": "<p>Uma ânfora contém 4 litros de líquido.</p>"
 		},
 		{
 			"id": "Piton",
-			"name": "Píton",
+			"name": "Pitão",
 			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Uma ponta de metal que é cravada em uma superfície de escalada com um martelo de escalada. Também pode ser usado como pontas de ferro para bloquear portas em um piscar de olhos.</span></p>"
 		},
 		{
@@ -2433,13 +2438,13 @@
 		},
 		{
 			"id": "Poisoner’s Kit",
-			"name": "Kit de Venenos",
+			"name": "Kit de Veneno",
 			"description": "<p>O kit de venenos inclui os frascos, produtos químicos e outros equipamentos necessários para a criação de venenos. Proficiência com esse kit permite adicionar o bônus de proficiência para quaisquer testes de habilidade que você fizer para criar ou utilizar venenos.</p>"
 		},
 		{
 			"id": "Pole",
-			"name": "Vara",
-			"description": "<p>Uma vara de 3 metros de comprimento de madeira resistente.</p>"
+			"name": "Baliza",
+			"description": "<p>Uma baliza de 3 metros de comprimento de madeira resistente.</p>"
 		},
 		{
 			"id": "Portable Hole",
@@ -2448,7 +2453,7 @@
 		},
 		{
 			"id": "Portable Ram",
-			"name": "Aríete Portátil",
+			"name": "Aríete Portável",
 			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Você pode usar um aríete portátil para quebrar portas. Ao fazer isso, você ganha um bônus de +4 no teste de Força. Outra criatura pode ajudá-lo a usar o aríete, o que concede vantagem no teste.</span></p>"
 		},
 		{
@@ -2638,22 +2643,22 @@
 		},
 		{
 			"id": "Quarterstaff",
-			"name": "Bordão",
-			"description": "<p>Um cabo grosso de madeira envolto em uma empunhadura robusta é uma arma altamente funcional, além de uma bengala robusta."
+			"name": "Bastão ou Cajado",
+			"description": "<p>Um cabo grosso de madeira envolto em uma empunhadura robusta é uma arma altamente funcional, além de uma bengala robusta.</p>"
 		},
 		{
 			"id": "Quarterstaff +1",
-			"name": "Bordão +1",
+			"name": "Bastão ou Cajado +1",
 			"description": "<p><em>Seja por meio de bênçãos demoníacas, legado celestial, experimento maluco ou trabalho habilidoso, esta arma foi aprimorada para trazer mais derramamento de sangue pelo portador.</em></p>\n<p>Você tem um bônus nas jogadas de ataque e dano feitas com esta arma mágica.</p>"
 		},
 		{
 			"id": "Quarterstaff +2",
-			"name": "Bordão +2",
+			"name": "Bastão ou Cajado +2",
 			"description": "<p><em>Seja por meio de bênçãos demoníacas, legado celestial, experimento maluco ou trabalho habilidoso, esta arma foi aprimorada para trazer mais derramamento de sangue pelo portador.</em></p>\n<p>Você tem um bônus nas jogadas de ataque e dano feitas com esta arma mágica.</p>"
 		},
 		{
 			"id": "Quarterstaff +3",
-			"name": "Bordão +3",
+			"name": "Bastão ou Cajado +3",
 			"description": "<p><em>Seja por meio de bênçãos demoníacas, legado celestial, experimento maluco ou trabalho habilidoso, esta arma foi aprimorada para trazer mais derramamento de sangue pelo portador.</em></p>\n<p>Você tem um bônus nas jogadas de ataque e dano feitas com esta arma mágica.</p>"
 		},
 		{
@@ -2709,7 +2714,7 @@
 		{
 			"id": "Ring Mail",
 			"name": "Cota de Anéis",
-			"description": "Trata-se de uma armadura de couro com anéis pesados costurados em toda a sua extensão. Os anéis ajudam a reforçar a armadura contra golpes de espadas e machado. A cota de anéis é inferior à cota de malha, em geral sendo usada apenas por aqueles que não podem comprar uma armadura melhor."
+			"description": "<p>Trata-se de uma armadura de couro com anéis pesados costurados em toda a sua extensão. Os anéis ajudam a reforçar a armadura contra golpes de espadas e machado. A cota de anéis é inferior à cota de malha, em geral sendo usada apenas por aqueles que não podem comprar uma armadura melhor.</p>"
 		},
 		{
 			"id": "Ring Mail +1",
@@ -2728,7 +2733,7 @@
 		},
 		{
 			"id": "Ring Mail Armor of Resistance",
-			"name": "Cota de Anéis Armadura de Resistência",
+			"name": "Cota de Anéis de Resistência",
 			"description": "<p><em>(requer sintonização)</em></p>\n<p>Você tem resistência a um tipo de dano enquanto estiver vestindo esta armadura. O Mestre escolhe o tipo ou o determina aleatoriamente das opções abaixo.</p>\n<table style=\"width: 138px; height: 165px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\"><strong>d10</strong></td>\n<td style=\"width: 95.7986px; height: 15px;\"><strong>Tipo de</strong> <strong>Dano</strong></td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">1</td>\n<td style=\"width: 95.7986px; height: 15px;\">Ácido</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">2</td>\n<td style=\"width: 95.7986px; height: 15px;\">Gélido</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">3</td>\n<td style=\"width: 95.7986px; height: 15px;\">Fogo</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">4</td>\n<td style=\"width: 95.7986px; height: 15px;\">Energia</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">5</td>\n<td style=\"width: 95.7986px; height: 15px;\">Elétrico</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">6</td>\n<td style=\"width: 95.7986px; height: 15px;\">Necrótico</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">7</td>\n<td style=\"width: 95.7986px; height: 15px;\">Veneno</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">8</td>\n<td style=\"width: 95.7986px; height: 15px;\">Psíquico</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">9</td>\n<td style=\"width: 95.7986px; height: 15px;\">Radiante</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"width: 34.6875px; height: 15px;\">10</td>\n<td style=\"width: 95.7986px; height: 15px;\">Trovejante</td>\n</tr>\n</tbody>\n</table>\n<p> </p>"
 		},
 		{
@@ -2867,6 +2872,11 @@
 			"description": "<p><em>(requer sintonização)</em></p>\n<p>Enquanto estiver usando este anel, você pode conjurar a magia @Compendium[dnd5e.spells.HQfd7jJyULIoGxrZ]{Telecinésia}, à vontade, mas só pode ter objetos que não estão sendo vestidos ou carregados como alvo.</p>"
 		},
 		{
+			"id": "Ring of the Ram",
+			"name": "Anel do Aríete",
+			"description": "<p><em>(requer sintonização)</em></p>\n<p>Este anel tem 3 cargas e recupera 1d3 cargas gastas diariamente ao amanhecer. Enquanto estiver usando este anel, você pode usar uma ação para gastar de 1 a 3 cargas dele para atacar uma criatura que você possa ver, a até 18 metros de você. O anel cria uma cabeça de carneiro espectral e realiza uma jogada de ataque com +7 de bônus. Se atingir, para cada carga que você gastou, o alvo sofre 2d10 de dano de energia e é empurrado 1,5 metro para trás.</p>\n<p>Alternativamente, você pode gastar de 1 a 3 cargas do anel, com uma ação, para tentar quebrar um objeto que você possa ver, a até 18 metros de você, que não esteja sendo vestido ou carregado. O anel realiza um teste de Força com +5 de bônus para cada carga que você gastar.</p>\n<p><em>**Nota do Foundry: a Outra Fórmula é definida para calcular 1d20 +5 para uma carga gasta para fazer o teste de Força. Por favor, +5 por qualquer custo extra, conforme necessário.</em></p>"
+		},
+		{
 			"id": "Ring of Three Wishes",
 			"name": "Anel dos Três Desejos",
 			"description": "<p>Enquanto estiver usando este anel, você pode usar uma ação para gastar 1 de suas 3 cargas para conjurar a magia @Compendium[dnd5e.spells.3okM6Gn63zzEULkz]{Desejo} através dele. O anel torna-se não-mágico quando você usar a última carga.</p>"
@@ -2897,11 +2907,6 @@
 			"description": "<p><em>(requer sintonização)</em></p>\n<p>Enquanto estiver usando este anel, você pode usar uma ação para falar a palavra de comando. Quando o fizer, você pode ver através de matéria solida por 1 minuto. Esta visão tem um raio de 9 metros. Para você, objetos sólidos dentro desse raio parecem transparentes e não impedem que a luz passe através deles. A visão pode penetrar 30 centímetros de pedra, 2,5 centímetros de metal comum ou até 90 centímetros de madeira ou terra. Substancias mais densas bloqueiam a visão, como uma fina camada de chumbo.</p>\n<p>Sempre que você usar o anel novamente antes de terminar um descanso longo, você deve ser bem sucedido num teste de resistência de Constituição CD 15, ou ganhará um nível de exaustão.</p>"
 		},
 		{
-			"id": "Ring of the Ram",
-			"name": "Anel do Aríete",
-			"description": "<p><em>(requer sintonização)</em></p>\n<p>Este anel tem 3 cargas e recupera 1d3 cargas gastas diariamente ao amanhecer. Enquanto estiver usando este anel, você pode usar uma ação para gastar de 1 a 3 cargas dele para atacar uma criatura que você possa ver, a até 18 metros de você. O anel cria uma cabeça de carneiro espectral e realiza uma jogada de ataque com +7 de bônus. Se atingir, para cada carga que você gastou, o alvo sofre 2d10 de dano de energia e é empurrado 1,5 metro para trás.</p>\n<p>Alternativamente, você pode gastar de 1 a 3 cargas do anel, com uma ação, para tentar quebrar um objeto que você possa ver, a até 18 metros de você, que não esteja sendo vestido ou carregado. O anel realiza um teste de Força com +5 de bônus para cada carga que você gastar.</p>\n<p><em>**Nota do Foundry: a Outra Fórmula é definida para calcular 1d20 +5 para uma carga gasta para fazer o teste de Força. Por favor, +5 por qualquer custo extra, conforme necessário.</em></p>"
-		},
-		{
 			"id": "Robe of Eyes",
 			"name": "Robe dos Olhos",
 			"description": "<p><em>Item maravilhoso, (requer sintonização)</em></p>\n<p>Este robe é adornado com padrões de olhos. Enquanto estiver vestindo ele, você ganha os seguintes benefícios:</p>\n<ul>\n<li>O robe permite que você veja em todas as direções e você tem vantagem em testes de Sabedoria (Percepção) relacionados à visão.</li>\n<li>Você tem visão no escuro com alcance de 36 metros.</li>\n<li>Você pode ver criaturas e objetos invisíveis, assim como pode ver no Plano Etéreo, com alcance de 36 metros.</li>\n</ul>\n<p>Os olhos no robe não podem se fechar ou se desviar. Apesar de você poder fechar ou desviar os seus próprios olhos, você nunca é considerado como fazendo isso enquanto estiver vestindo este robe.</p>\n<p>Uma magia @Compendium[dnd5e.spells.Bnn9Nzajixvow9xi]{Luz} conjurada no robe ou uma magia @Compendium[dnd5e.spells.BP3GCwa66IAw1yTG]{Luz do Dia} conjurada a 1,5 metro do robe faz com que você fique cego por 1 minuto. No final de cada um dos seus turnos, você pode realizar um teste de resistência de Constituição (CD 11 para luz ou CD 15 para luz do dia), terminando a cegueira com um sucesso.</p>"
@@ -2917,48 +2922,48 @@
 			"description": "<p><em>Item maravilhoso, (requer sintonização)</em></p>\n<p>Este robe negro ou azul escuro é bordado com pequenas estrelas brancas ou prateadas. Você recebe +1 de bônus nos testes de resistência enquanto vesti-lo.</p>\n<p>Seis estrelas, localizadas na porção frontal superior do robe, são particularmente grandes. Enquanto estiver vestindo este robe, você pode usar uma ação para arrancar uma das estrelas e usa-la para conjurar @Compendium[dnd5e.spells.41JIhpDyM9Anm7cs]{Mísseis Mágicos} como uma magia de 5° nível.</p>\n<p>Diariamente, ao escurecer, 1d6 estrelas removidas reaparecem no robe.</p>\n<p>Enquanto estiver vestindo o robe, você pode usar uma ação para entrar no Plano Astral junto com tudo que você está vestindo ou carregando. Você permanece lá até usar uma ação para retornar ao plano em que você estava. Você reaparece no ultimo espaço que ocupava, ou, caso esse espaço esteja ocupado, no espaço desocupado mais próximo.</p>"
 		},
 		{
-			"id": "Robe of Useful Items",
-			"name": "Robe dos Itens Úteis",
-			"description": "<p><em>Item maravilhoso</em></p>\n<p>Este robe possui remendos de tecido de vários formatos e cores cobrindo-o. Enquanto estiver vestindo o robe, você pode usar uma ação para arrancar um desses remendos, fazendo com que ele se transforme no objeto ou criatura que ele representa. Quando o último remendo for removido, o robe se tornará um vestuário ordinário.</p>\n<p>O manto tem os seguintes remendos:</p>\n<ul>\n<li>x2 Remendos de adaga</li>\n<li>x2 Remendos de lanterna furta-fogo (cheia e acesa)</li>\n<li>x2 Remendos de espelho de aço</li>\n<li>x2 Remendos de vara de 3 metros</li>\n<li>x2 Remendos de corda de cânhamo (15 metros, enrolada)</li>\n<li>x2 Remendos de saco</li>\n</ul>\n<p>Além desses, o robe possui 4d4 outros remendos. O Mestre escolhe os remendos ou os determina aleatoriamente.</p>\n<table style=\"height: 150px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 185.799px;\"><strong>d100</strong></td>\n<td style=\"height: 15px; width: 186.91px;\"><strong>Remendo</strong></td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 185.799px;\">01-08</td>\n<td style=\"height: 15px; width: 186.91px;\">Sacola com 100 po</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 185.799px;\">09-15</td>\n<td style=\"height: 15px; width: 186.91px;\">Caixa de prata (30 centímetros de comprimento por 15 centímetros de largura e profundidade) valendo 500 po</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 185.799px;\">16-22</td>\n<td style=\"height: 15px; width: 186.91px;\">Porta de ferro (com até 3 metros de largura por 3 metros de altura, barrada de um lado, à sua escolha), a qual você pode colocar em uma abertura que você possa alcançar; ela se acomoda para se encaixar na abertura, se fixando e prendendo sozinha</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 185.799px;\">23-30</td>\n<td style=\"height: 15px; width: 186.91px;\">10 gemas valendo 100 po cada</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 185.799px;\">31-44</td>\n<td style=\"height: 15px; width: 186.91px;\">Escada de madeira (7 metros de comprimento)</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 185.799px;\">45-51</td>\n<td style=\"height: 15px; width: 186.91px;\">Um cavalo de montaria com alforjes</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 185.799px;\">52-59</td>\n<td style=\"height: 15px; width: 186.91px;\">Fosso (um cubo de 3 metros de lado), o qual você pode colocar no solo a até 3 metros de você.</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 185.799px;\">60-68</td>\n<td style=\"height: 15px; width: 186.91px;\">4 poções de cura</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 185.799px;\">69-75</td>\n<td style=\"height: 15px; width: 186.91px;\">Barco a remo (3,6 metros de comprimento)</td>\n</tr>\n<tr>\n<td style=\"width: 185.799px;\">76-83</td>\n<td style=\"width: 186.91px;\">Pergaminho de magia contendo uma magia de 1° a 3° nível</td>\n</tr>\n<tr>\n<td style=\"width: 185.799px;\">84-90</td>\n<td style=\"width: 186.91px;\">2 @Compendium[dnd5e.monsters.YTpL2c3NO4sOn2UA]{Mastins}</td>\n</tr>\n<tr>\n<td style=\"width: 185.799px;\">91-96</td>\n<td style=\"width: 186.91px;\">Janela (0,60 metro por 1,20 metro, até 0,60 metro de profundidade), a qual você pode colocar em uma superfície vertical que você possa alcançar</td>\n</tr>\n<tr>\n<td style=\"width: 185.799px;\">97-00</td>\n<td style=\"width: 186.91px;\">Aríete portátil</td>\n</tr>\n</tbody>\n</table>\n<p><em>Nota do Foundry: a outra fórmula foi definida para calcular os 4d4 remendos, se necessário.</em></p>\n<p><em>Além disso, é recomendado excluir itens aqui conforme necessário para rastrear os remendos restantes.</em></p>\n<p><em>O guia de preços foi calculado em 5*itens para o número máximo de itens possível. Ajuste conforme necessário para refletir o número de remendos e a economia mundial do Mestre.</em></p>\n<p> </p>"
-		},
-		{
 			"id": "Robe of the Archmagi",
 			"name": "Robe do Arquimago",
 			"description": "<p><em>Item maravilhoso, (requer sintonização com um bruxo, feiticeiro ou mago)</em></p>\n<p>Esta vestimenta elegante é feita de tecidos exóticos de cores branca, cinza ou preta e adornados com runas prateadas. A cor do robe corresponde à tendência para qual o item foi criado. Um robe branco foi feito para boa, cinza para neutra e preto para má. Você não pode se sintonizar a um robe do arquimago que não corresponda à sua tendência. Você ganha os seguintes benefícios enquanto estiver vestindo o robe:</p>\n<ul>\n<li>Se você não estiver vestindo uma armadura, sua Classe de Armadura base é 15 + seu modificador de Destreza.</li>\n<li>Você tem vantagem nos testes de resistência contra magias e outros efeitos mágicos.</li>\n<li>A CD de resistência de suas magias e seu bônus de ataque de magia aumentam em +2 cada.</li>\n</ul>"
 		},
 		{
+			"id": "Robe of Useful Items",
+			"name": "Robe dos Itens Úteis",
+			"description": "<p><em>Item maravilhoso</em></p>\n<p>Este robe possui remendos de tecido de vários formatos e cores cobrindo-o. Enquanto estiver vestindo o robe, você pode usar uma ação para arrancar um desses remendos, fazendo com que ele se transforme no objeto ou criatura que ele representa. Quando o último remendo for removido, o robe se tornará um vestuário ordinário.</p>\n<p>O manto tem os seguintes remendos:</p>\n<ul>\n<li>x2 Remendos de adaga</li>\n<li>x2 Remendos de lanterna furta-fogo (cheia e acesa)</li>\n<li>x2 Remendos de espelho de aço</li>\n<li>x2 Remendos de vara de 3 metros</li>\n<li>x2 Remendos de corda de cânhamo (15 metros, enrolada)</li>\n<li>x2 Remendos de saco</li>\n</ul>\n<p>Além desses, o robe possui 4d4 outros remendos. O Mestre escolhe os remendos ou os determina aleatoriamente.</p>\n<table style=\"height: 150px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 185.799px;\"><strong>d100</strong></td>\n<td style=\"height: 15px; width: 186.91px;\"><strong>Remendo</strong></td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 185.799px;\">01-08</td>\n<td style=\"height: 15px; width: 186.91px;\">Sacola com 100 po</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 185.799px;\">09-15</td>\n<td style=\"height: 15px; width: 186.91px;\">Caixa de prata (30 centímetros de comprimento por 15 centímetros de largura e profundidade) valendo 500 po</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 185.799px;\">16-22</td>\n<td style=\"height: 15px; width: 186.91px;\">Porta de ferro (com até 3 metros de largura por 3 metros de altura, barrada de um lado, à sua escolha), a qual você pode colocar em uma abertura que você possa alcançar; ela se acomoda para se encaixar na abertura, se fixando e prendendo sozinha</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 185.799px;\">23-30</td>\n<td style=\"height: 15px; width: 186.91px;\">10 gemas valendo 100 po cada</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 185.799px;\">31-44</td>\n<td style=\"height: 15px; width: 186.91px;\">Escada de madeira (7 metros de comprimento)</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 185.799px;\">45-51</td>\n<td style=\"height: 15px; width: 186.91px;\">Um cavalo de montaria com alforjes</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 185.799px;\">52-59</td>\n<td style=\"height: 15px; width: 186.91px;\">Fosso (um cubo de 3 metros de lado), o qual você pode colocar no solo a até 3 metros de você.</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 185.799px;\">60-68</td>\n<td style=\"height: 15px; width: 186.91px;\">4 poções de cura</td>\n</tr>\n<tr style=\"height: 15px;\">\n<td style=\"height: 15px; width: 185.799px;\">69-75</td>\n<td style=\"height: 15px; width: 186.91px;\">Barco a remo (3,6 metros de comprimento)</td>\n</tr>\n<tr>\n<td style=\"width: 185.799px;\">76-83</td>\n<td style=\"width: 186.91px;\">Pergaminho de magia contendo uma magia de 1° a 3° nível</td>\n</tr>\n<tr>\n<td style=\"width: 185.799px;\">84-90</td>\n<td style=\"width: 186.91px;\">2 @Compendium[dnd5e.monsters.YTpL2c3NO4sOn2UA]{Mastins}</td>\n</tr>\n<tr>\n<td style=\"width: 185.799px;\">91-96</td>\n<td style=\"width: 186.91px;\">Janela (0,60 metro por 1,20 metro, até 0,60 metro de profundidade), a qual você pode colocar em uma superfície vertical que você possa alcançar</td>\n</tr>\n<tr>\n<td style=\"width: 185.799px;\">97-00</td>\n<td style=\"width: 186.91px;\">Aríete portátil</td>\n</tr>\n</tbody>\n</table>\n<p><em>Nota do Foundry: a outra fórmula foi definida para calcular os 4d4 remendos, se necessário.</em></p>\n<p><em>Além disso, é recomendado excluir itens aqui conforme necessário para rastrear os remendos restantes.</em></p>\n<p><em>O guia de preços foi calculado em 5*itens para o número máximo de itens possível. Ajuste conforme necessário para refletir o número de remendos e a economia mundial do Mestre.</em></p>\n<p> </p>"
+		},
+		{
 			"id": "Robes",
-			"name": "Robes",
+			"name": "Túnica",
 			"description": "<p>Trajes simples ou cerimoniais, frequentemente usados ​​por padres e outras figuras religiosas.</p>"
 		},
 		{
 			"id": "Rod",
-			"name": "Bastão",
+			"name": "Vara",
 			"description": "<p>Uma haste de osso, pedra, metal ou materiais mais exóticos intrinsecamente entalhados ou moldados. Esses bastões são usados ​​por conjuradores para focar sua atenção e energia arcana.</p>\n<p><strong>Foco de Conjuração. </strong>Um foco arcano é um item especial projetado para canalizar o poder de magias arcanas. Um feiticeiro, bruxo ou mago pode usar tal item como um foco de conjuração, usando-o no lugar de qualquer componente material que não lista um custo.</p>"
 		},
 		{
 			"id": "Rod of Absorption",
-			"name": "Bastão de Absorção",
+			"name": "Vara de Absorção",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(requer sintonização)</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Enquanto estiver empunhando este bastão, você pode usar sua reação para absorver uma magia que tenha você como único alvo e não tenha uma área de efeito. O efeito da magia absorvida é cancelado e a energia da magia – não a magia propriamente dita – é armazenada no bastão. A energia tem o mesmo nível da magia quando ela foi conjurada. O bastão pode absorver e armazenar até 50 níveis d energia no decorrer de sua existência. Uma vez que o bastão tenha absorvido 50 níveis de energia, ele não poderá mais absorver. Se você for alvo de uma magia que o bastão não possa armazenar, o bastão não surtirá efeito na magia.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Quando se sintoniza ao bastão, você sabe quantos níveis de energia o bastão absorveu ao longo de sua existência e quantos níveis de energia mágica ele tem armazenado atualmente.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Se você for um conjurador empunhando o bastão, você pode converter a energia armazenada em espaços de magia para conjurar magias que você tenha preparado ou conheça. Você pode criar espaços de magia apenas de um nível igual ou menor que os seus próprios espaços de magia, até o máximo de 5° nível. Você usa os níveis armazenados no lugar dos seus espaços, mas, no mais, conjura a magia como normal. Por exemplo, você pode usar 3 níveis armazenados no bastão como um espaço de magia de 3° nível.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Um bastão encontrado recentemente tem 1d10 espaços de magia já armazenados nele. Um bastão que não puder mais absorver energia mágica e não tiver mais energia remanescente, se torna um item não-mágico.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">**Nota do Foundry: o bastão atualmente tem o máximo de 10 cargas para um bastão recém-encontrado. Ajuste conforme necessário.</p>"
 		},
 		{
 			"id": "Rod of Alertness",
-			"name": "Bastão de Prontidão",
+			"name": "Vara de Prontidão",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(requer sintonização)</em></p>\n<p>Este bastão possui uma cabeça flangeada e as seguintes propriedades.</p>\n<p><strong>Prontidão</strong>. Enquanto empunhar o bastão, você tem vantagem em testes de Sabedoria (Percepção) e nas jogadas de iniciativa.</p>\n<p><strong>Magias</strong>. Enquanto empunhar o bastão, você pode usar uma ação para conjurar uma das seguintes magias através dele: @Compendium[dnd5e.spells.Mzh95utKDPIrjiH8]{Detectar o Mal e Bem}, @Compendium[dnd5e.spells.ghXTfe7sgCbgf1Q8]{Detectar Magia}, @Compendium[dnd5e.spells.2skfDtglk1mGrb3l]{Detectar Veneno e Doença}, or @Compendium[dnd5e.spells.DQzlB5Y3k791W5bH]{Ver o Invisível}.</p>\n<p><strong>Aura Protetora</strong>. Com uma ação, você pode enfiar o cabo do bastão no solo, quando a cabeça do bastão emitirá luz plena num raio de 18 metros e penumbra por mais 18 metros adicionais. Enquanto estiver na luz plena, você e qualquer criatura que seja amigável a você ganham +1 de bônus na CA e nos testes de resistência e podem sentir a localização de criaturas invisíveis hostis que também estejam na luz plena.</p>\n<p>A cabeça do bastão para de brilhar e o efeito terminar após 10 minutos, ou quando uma criatura usar uma ação para arrancar o bastão do solo. Esta propriedade não pode ser usada novamente até o próximo amanhecer.</p>"
 		},
 		{
 			"id": "Rod of Lordly Might",
-			"name": "Bastão do Grande Poder",
+			"name": "Vara do Grande Poder",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(requer sintonização)</em></p>\n<p>Este bastão tem a cabeça flangeada e funciona como uma maça mágica que concede +3 de bônus nas jogadas de ataque e dano feitas com ela. O bastão tem propriedades associadas com seis botões diferentes que estão enfileirados ao longo do cabo. Ele tem três propriedades também, detalhadas abaixo.</p>\n<p><strong>Seis Botões</strong>. Você pode pressionar um dos seis botões do bastão, com uma ação bônus. O efeito do botão dura até você pressionar um botão diferente ou até você puxar o mesmo botão novamente, o que faz o bastão reverter a sua forma normal.</p>\n<p>Se você pressionar o <strong>botão 1</strong>, o bastão se torna uma língua flamejante, quando uma lâmina incandescente emerge da ponta oposta a cabeça flangeada do bastão.</p>\n<p>Se você pressionar o <strong>botão 2</strong>, a cabeça flangeada do bastão se dobra e duas lâminas em forma de meia-lua emergem, transformando o bastão em um machado de batalha mágico que concede +3 de bônus nas jogadas de ataque e dano feitas com ele.</p>\n<p>Se você pressionar o <strong>botão 3</strong>, a cabeça flangeada do bastão se dobra, uma ponta de lança emerge da ponta do bastão e a empunhadura do bastão se alonga em um cabo de 1,8 metro, transformando o bastão em uma lança mágica que concede +3 de bônus nas jogadas de ataque e dano feitas com ela.</p>\n<p>Se você pressionar o <strong>botão 4</strong>, o bastão se transforma em uma vara de escalada de até 15 metros de comprimento, como você especificar. Em superfícies tão duras quanto o granito, um cravo no fundo e três ganchos no topo ancoram a vara. Barras horizontais de 7,5 centímetros de comprimento emergem dos lados, com 30 centímetros de distância entre si, formando uma escada. A vara pode suportar até 2.000 quilos. Mais peso ou a falta de uma superfície sólida para se prender, faz com que o bastão volte a forma normal.</p>\n<p>Se você pressionar o <strong>botão 5</strong>, o bastão se transforma em um aríete portátil que concede ao usuário +10 de bônus em testes de Força feitos para arrombar portas, barricadas e outras barreiras.</p>\n<p>Se você pressionar o <strong>botão 6</strong>, o bastão assume ou permanece em sua forma normal e indica o norte magnético. (Nada acontece caso esta função do bastão seja usada em um local que não possua um norte magnético.) O bastão também lhe dá conhecimento da sua profundeza aproximada no solo ou de sua altura em relação a ele.</p>\n<p><strong>Drenar Vida</strong>. Quando você atinge uma criatura com um ataque corpo-a-corpo usando o bastão, você pode forçar o alvo a realizar um teste de resistência de Constituição CD 17. Se fracassar, o alvo sofre 4d6 de dano necrótico extra e você recupera uma quantidade de pontos de vida igual a metade desse dano necrótico. Esta propriedade não pode ser usada novamente até o próximo amanhecer.</p>\n<p><strong>Paralisar</strong>. Quando você atinge uma criatura com um ataque corpo-a-corpo usando o bastão, você pode forçar o alvo a realizar um teste de resistência de Força CD 17. Se fracassar, o alvo fica paralisado por 1 minuto. O alvo pode repetir o teste de resistência no final de cada um dos turnos dele, terminando o efeito sobre si, com um sucesso. Esta propriedade não pode ser usada novamente até o próximo amanhecer.</p>\n<p><strong>Aterrorizar</strong>. Enquanto empunhar o bastão, você pode usar uma ação para forçar cada criatura que você puder ver, a até 9 metros de você a realizar um teste de resistência de Sabedoria CD 17. Se fracassar, um alvo fica amedrontado em relação a você por 1 minuto. Um alvo amedrontado pode repetir o teste de resistência no final de cada um dos turnos dele, terminando o efeito sobre si, com um sucesso. Esta propriedade não pode ser usada novamente até o próximo amanhecer.</p>"
 		},
 		{
 			"id": "Rod of Rulership",
-			"name": "Bastão de Liderança",
+			"name": "Vara de Liderança",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(requer sintonização)</em></p>\n<p>Você pode usar um ação para mostrar o bastão e comandar a obediência de cada criatura, à sua escolha, que você puder ver a até 36 metros de você. Cada alvo deve ser bem sucedido num teste de resistência de Sabedoria CD 15 ou ficará enfeitiçado por você por 8 horas. Enquanto estiver enfeitiçado dessa forma, a criatura reconhece você como seu líder confiável. Se for ferido por você ou por um dos seus companheiros, ou comandado a fazer algo contrário a sua natureza, um alvo deixa de estar enfeitiçado dessa forma. O bastão não pode ser usado novamente até o próximo amanhecer.</p>"
 		},
 		{
 			"id": "Rod of Security",
-			"name": "Bastão de Segurança",
+			"name": "Vara de Segurança",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Enquanto estiver empunhando este bastão, você pode usar um ação para ativa-lo. O bastão então, instantaneamente transporta você e até 199 outras criaturas voluntárias que você possa ver, para um paraíso existente em um espaço extraplanar. Você escolhe a forma que o paraíso tem. Ele pode ser um jardim tranquilo, uma clareira adorável, uma taverna animada, um palácio imenso, uma ilha tropical, um carnaval fantástico ou qualquer outra coisa que você imagine. Independentemente de sua natureza, o paraíso contem água e comida suficiente para sustentar seus visitantes. Todo resto das coisas com que se pode interagir enquanto estiver dentro do espaço extraplanar só existe dentro dele. Por exemplo, uma flor retirada de um jardim no paraíso desaparece se for levada para fora do espaço extraplanar.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Para cada hora gasta no paraíso, um visitante recupera pontos de vida como se tivesse gasto 1 Dado de Vida. As criaturas também não envelhecem enquanto estiverem no paraíso, apesar do tempo se passar normalmente. Os visitantes podem permanecer no paraíso por até 200 dias, divididos pela quantidade de criaturas presentes (arredondado para baixo).</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Quando o tempo acabar ou você usar uma ação para termina-lo, todos os visitantes reaparecem no local em que ocupavam quando o bastão foi ativado, ou no espaço desocupado mais próximo desse local. O bastão não pode ser usado novamente até que dez dias se passem.</p>"
 		},
 		{
@@ -2973,32 +2978,32 @@
 		},
 		{
 			"id": "Sack",
-			"name": "Saco",
-			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Um saco pode conter até 30 cm³ ou 13kg de equipamento.</span></p>"
+			"name": "Saca",
+			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Um saco pode conter até 30 litros ou 15 kg de equipamento.</span></p>"
 		},
 		{
 			"id": "Scale Mail",
-			"name": "Brunea",
+			"name": "Lórica de Escamas",
 			"description": "<p>Essa armadura consiste em um casaco e calças (e talvez uma saia separada) de couro coberto com peças sobrepostas de metal, assim como as escamas de peixe. O conjunto inclui manoplas.</p>"
 		},
 		{
 			"id": "Scale Mail +1",
-			"name": "Brunea +1",
+			"name": "Lórica de Escamas +1",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">Esta armadura foi embelezada com runas poderosas, criadas em fogos de feiticeiros, abençoada por um ser poderoso, ou algum outro evento a viu legada com proteção aprimorada para o usuário.</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Você tem um bônus na CA enquanto estiver vestindo esta armadura.</p>"
 		},
 		{
 			"id": "Scale Mail +2",
-			"name": "Brunea +2",
+			"name": "Lórica de Escamas +2",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">Esta armadura foi embelezada com runas poderosas, criadas em fogos de feiticeiros, abençoada por um ser poderoso, ou algum outro evento a viu legada com proteção aprimorada para o usuário.</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Você tem um bônus na CA enquanto estiver vestindo esta armadura.</p>"
 		},
 		{
 			"id": "Scale Mail +3",
-			"name": "Brunea +3",
+			"name": "Lórica de Escamas +3",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">Esta armadura foi embelezada com runas poderosas, criadas em fogos de feiticeiros, abençoada por um ser poderoso, ou algum outro evento a viu legada com proteção aprimorada para o usuário.</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Você tem um bônus na CA enquanto estiver vestindo esta armadura.</p>"
 		},
 		{
 			"id": "Scale Mail Armor of Resistance",
-			"name": "Brunea Armadura de Resistência",
+			"name": "Lórica de Escamas de Resistência",
 			"description": "<p><em>(requer sintonização)</em></p>\n<p>Você tem resistência a um tipo de dano enquanto estiver vestindo esta armadura. O Mestre escolhe o tipo ou o determina aleatoriamente das opções abaixo.</p>\n<table style=\"width: 138px;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 35px;\"><strong>d10</strong></td>\n<td style=\"width: 96px;\"><strong>Tipo de</strong> <strong>Dano</strong></td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">1</td>\n<td style=\"width: 96px;\">Ácido</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">2</td>\n<td style=\"width: 96px;\">Gélido</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">3</td>\n<td style=\"width: 96px;\">Fogo</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">4</td>\n<td style=\"width: 96px;\">Energia</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">5</td>\n<td style=\"width: 96px;\">Eletrico</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">6</td>\n<td style=\"width: 96px;\">Necrótico</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">7</td>\n<td style=\"width: 96px;\">Veneno</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">8</td>\n<td style=\"width: 96px;\">Psíquico</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">9</td>\n<td style=\"width: 96px;\">Radiante</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">10</td>\n<td style=\"width: 96px;\">Trovejante</td>\n</tr>\n</tbody>\n</table>\n<p> </p>"
 		},
 		{
@@ -3048,7 +3053,7 @@
 		},
 		{
 			"id": "Sealing Wax",
-			"name": "Cera",
+			"name": "Cera de Lacre",
 			"description": "<p>Um material ceroso de um selo que, após a fusão, endurece rapidamente formando uma ligação que é difícil de separar sem adulteração perceptível.</p>"
 		},
 		{
@@ -3133,27 +3138,27 @@
 		},
 		{
 			"id": "Sickle",
-			"name": "Foice Curta",
+			"name": "Foice",
 			"description": "<p>Uma lâmina crescente em forma de gancho montada no topo de um cabo curto, leve o suficiente para ser empunhada com uma mão para trilhar colheitas ou inimigos.</p>"
 		},
 		{
 			"id": "Sickle +1",
-			"name": "Foice Curta +1",
+			"name": "Foice +1",
 			"description": "<p><em>Seja por meio de bênçãos demoníacas, legado celestial, experimento maluco ou trabalho habilidoso, esta arma foi aprimorada para trazer mais derramamento de sangue pelo portador.</em></p>\n<p>Você tem um bônus nas jogadas de ataque e dano feitas com esta arma mágica.</p>"
 		},
 		{
 			"id": "Sickle +2",
-			"name": "Foice Curta +2",
+			"name": "Foice +2",
 			"description": "<p><em>Seja por meio de bênçãos demoníacas, legado celestial, experimento maluco ou trabalho habilidoso, esta arma foi aprimorada para trazer mais derramamento de sangue pelo portador.</em></p>\n<p>Você tem um bônus nas jogadas de ataque e dano feitas com esta arma mágica.</p>"
 		},
 		{
 			"id": "Sickle +3",
-			"name": "Foice Curta +3",
+			"name": "Foice +3",
 			"description": "<p><em>Seja por meio de bênçãos demoníacas, legado celestial, experimento maluco ou trabalho habilidoso, esta arma foi aprimorada para trazer mais derramamento de sangue pelo portador.</em></p>\n<p>Você tem um bônus nas jogadas de ataque e dano feitas com esta arma mágica.</p>"
 		},
 		{
 			"id": "Signal Whistle",
-			"name": "Apito de Advertência",
+			"name": "Apito Sinalizador",
 			"description": "<p>Um apito pode produzir um ruído específico. Pode ser ouvido a 800 metros de distância.</p>"
 		},
 		{
@@ -3318,7 +3323,7 @@
 		},
 		{
 			"id": "Spellbook",
-			"name": "Grimório",
+			"name": "Livro de Magia/Grimório",
 			"description": "<p>Essencial para os magos, um grimório é um volume encadernado em couro com 100 páginas de pergaminhos em branco, adequado para armazenar magias.</p>\n<p> </p>"
 		},
 		{
@@ -3333,27 +3338,27 @@
 		},
 		{
 			"id": "Splint Armor",
-			"name": "Armadura de Talas",
+			"name": "Cota de Talas",
 			"description": "<p>Essa armadura é feita de tiras verticais de metal, rebitadas a um suporte de couro, usadas sobre um preenchimento de pano. Cotas de malha flexíveis protegem as articulações.</p>"
 		},
 		{
 			"id": "Splint Armor +1",
-			"name": "Armadura de Talas +1",
+			"name": "Cota de Talas +1",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">Esta armadura foi embelezada com runas poderosas, criadas em fogos de feiticeiros, abençoada por um ser poderoso, ou algum outro evento a viu legada com proteção aprimorada para o usuário.</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Você tem um bônus na CA enquanto estiver vestindo esta armadura.</p>"
 		},
 		{
 			"id": "Splint Armor +2",
-			"name": "Armadura de Talas +2",
+			"name": "Cota de Talas +2",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">Esta armadura foi embelezada com runas poderosas, criadas em fogos de feiticeiros, abençoada por um ser poderoso, ou algum outro evento a viu legada com proteção aprimorada para o usuário.</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Você tem um bônus na CA enquanto estiver vestindo esta armadura.</p>"
 		},
 		{
 			"id": "Splint Armor +3",
-			"name": "Armadura de Talas +3",
+			"name": "Cota de Talas +3",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">Esta armadura foi embelezada com runas poderosas, criadas em fogos de feiticeiros, abençoada por um ser poderoso, ou algum outro evento a viu legada com proteção aprimorada para o usuário.</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Você tem um bônus na CA enquanto estiver vestindo esta armadura.</p>"
 		},
 		{
 			"id": "Splint Armor of Resistance",
-			"name": "Armadura de Talas de Resistência",
+			"name": "Cota de Talas de Resistência",
 			"description": "<p><em>(requer sintonização)</em></p>\n<p>Você tem resistência a um tipo de dano enquanto estiver vestindo esta armadura. O Mestre escolhe o tipo ou o determina aleatoriamente das opções abaixo.</p>\n<table style=\"width: 138px;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 35px;\"><strong>d10</strong></td>\n<td style=\"width: 96px;\"><strong>Tipo de</strong> <strong>Dano</strong></td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">1</td>\n<td style=\"width: 96px;\">Ácido</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">2</td>\n<td style=\"width: 96px;\">Gélido</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">3</td>\n<td style=\"width: 96px;\">Fogo</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">4</td>\n<td style=\"width: 96px;\">Energia</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">5</td>\n<td style=\"width: 96px;\">Eletrico</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">6</td>\n<td style=\"width: 96px;\">Necrótico</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">7</td>\n<td style=\"width: 96px;\">Veneno</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">8</td>\n<td style=\"width: 96px;\">Psíquico</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">9</td>\n<td style=\"width: 96px;\">Radiante</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">10</td>\n<td style=\"width: 96px;\">Trovejante</td>\n</tr>\n</tbody>\n</table>\n<p> </p>"
 		},
 		{
@@ -3407,16 +3412,6 @@
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(requer sintonização com um bardo, bruxo, clérigo, druida, feiticeiro ou mago)</em></p>\n<p>Este cajado tem 10 cargas e recupera 1d6 + 4 cargas gastas diariamente ao amanhecer. Se você gastar a última carga, role um d20. Em um 1, um enxame de insetos consome e destrói o cajado, então se dispersa.</p>\n<p><strong>Magias</strong>. Enquanto empunhar este cajado, você pode usar uma ação para gastar algumas de suas cargas para conjurar uma das seguintes magias através dele, usando a CD de resistência de suas magias: @Compendium[dnd5e.spells.czXrVRx6XYRWsHAi]{Inseto Gigante} (4 cargas) ou @Compendium[dnd5e.spells.OVikYmSdHliAG2YD]{Praga de Insetos} (5 cargas).</p>\n<p><strong>Nuvem de Insetos</strong>. Enquanto empunhar este cajado, você pode usar uma ação e gastar 1 carga para fazer com que um enxame de insetos voadores inofensivos se espalhem num raio de 9 metros de você. Os insetos permanecem por 10 minutos, deixando uma área de escuridão densa para as criaturas, exceto você. O enxame se move com você, permanecendo centrado em você. Um vento de pelo menos 15 quilômetros por hora dispersa o enxame e termina o efeito.</p>\n<p><em style=\"color: #191813; font-size: 13px;\">Nota do Foundry: o botão Outra fórmula foi configurado para rolar a taxa de recarga do cajado ao amanhecer, se necessário.</em></p>"
 		},
 		{
-			"id": "Staff of Thunder and Lightning",
-			"name": "Cajado de Trovão e Relâmpago",
-			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(requer sintonização)</em></p>\n<p>Este cajado pode ser empunhado como um bordão mágico que concede +2 de bônus nas jogadas de ataque e dano feitas com ele. Ele também possui as seguintes propriedades adicionais. Quando uma dessas propriedades é usada, ela não pode ser usada novamente até o próximo amanhecer.</p>\n<p><strong>Relâmpago</strong>. Quando você atinge com um ataque corpo-a-corpo usando o cajado, você pode fazer com que ele causa 2d6 de dano elétrico extra.</p>\n<p><strong>Trovão</strong>. Quando você atinge com um ataque corpo-a-\ncorpo usando o cajado, você pode fazer com que ele emita um estrondo de trovão, audível a até 90 metros de distância. O alvo que você atingiu deve ser bem sucedido num teste de resistência de Constituição CD 17, ou ficará atordoado até o final do seu próximo turno.</p>\n<p><strong>Golpe Elétrico</strong>. Você pode usar uma ação para fazer um relâmpago saltar da ponta do cajado em uma linha de 1,5 metro de largura por 36 metros de comprimento. Cada criatura na linha deve realizar um teste de resistência de Destreza CD 17, sofrendo 9d6 de dano elétrico se falhar ou metade desse dano se obtiver sucesso.</p>\n<p><strong>Golpe Trovejante</strong>. Você pode usar uma ação para fazer o cajado emitir um estrondo trovejante ensurdecedor, audível a até 180 metros de distância. Cada criatura a até 18 metros de você (não incluindo você) deve realizar um teste de resistência de Constituição CD 17. Se fracassar na resistência, uma criatura sofre 2d6 de dano trovejante e fica surda por 1 minuto. Se passar na resistência, uma criatura sofre metade desse dano e não fica surda.</p>\n<p><strong>Trovão e Relâmpago</strong>. Você pode usar uma ação para usar as propriedades Golpe Elétrico e Golpe Trovejante ao mesmo tempo. Fazer isso não gasta os usos diários dessas propriedades, apenas o uso desta aqui.</p>"
-		},
-		{
-			"id": "Staff of Withering",
-			"name": "Cajado de Definhamento",
-			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(requer sintonização)</em></p>\n<p>Este cajado tem 3 cargas e recupera 1d3 cargas gastas diariamente ao amanhecer.</p>\n<p>O cajado pode ser empunhado como um bordão. Se atingir, ele causa o dano normal de um bordão e você pode gastar 1 carga para causar 2d10 de dano necrótico extra ao alvo. Além disso, o alvo deve ser bem sucedido num teste de resistência de Constituição CD 15 ou terá desvantagem por 1 hora em qualquer teste de habilidade ou teste de resistência que use Força ou Constituição.</p>\n<p><em style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Nota do Foundry: o botão Outra fórmula foi configurado para rolar o dano necrótico do cajado, se necessário.</em></p>"
-		},
-		{
 			"id": "Staff of the Magi",
 			"name": "Cajado do Arcano",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(requer sintonização com um bruxo, feiticeiro ou mago)</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Este cajado pode ser empunhado como um bordão mágico que concede +2 de bônus nas jogadas de ataque e dano feitas com ele. Enquanto estiver empunhando-o, você  ganha +2 de bônus nas jogadas de ataque com magia.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">O cajado tem 50 cargas para as propriedades a seguir. Ele recupera 4d6 + 2 cargas gastas diariamente ao amanhecer. Se você gastar a última carga, role um d20. Em um 20, o cajado recupera 1d12 + 1 cargas.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong>Absorção de Magias</strong>. Enquanto estiver empunhando o cajado, você tem vantagem em testes de resistência contra magias. Além disso, você pode usar sua reação quando outra criatura conjurar uma magia que tenha apenas você como alvo. Se o fizer, o cajado absorve a mágica da magia, cancelando seu efeito e ganhando uma quantidade de cargas igual ao nível da magia absorvida. Porém, se fazer isso elevar o número total de cargas do cajado acima de 50, o cajado explode como se você tivesse ativado seu <strong>Golpe de Retribuição</strong> (veja abaixo).</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong>Magias</strong>. Enquanto estiver empunhando este cajado, você pode usar uma ação para gastar 1 ou mais de suas cargas para conjurar uma das seguintes magias através dele, usando a CD de resistência e bônus de ataque de suas magias: @Compendium[dnd5e.spells.1LkZvINag7KqBmDR]{Conjurar Elemental} (7 cargas), @Compendium[dnd5e.spells.15Fa6q1nH27XfbR8]{Dissipar Magia} (3 cargass), @Compendium[dnd5e.spells.ztgcdrWPshKRpFd0]{Bola de Fogo} (versão de 7° nível, 7 cargas), @Compendium[dnd5e.spells.FjYE214HTERCRZNm]{Esfera Flamejante} (2 cargas), @Compendium[dnd5e.spells.WN2LWEljYU6QqnRH]{Tempestade de Gelo} (4 cargas), @Compendium[dnd5e.spells.1N8dDMMgZ1h1YJ3B]{Invisibilidade} (2 cargas), @Compendium[dnd5e.spells.1nhIxh0DsJsntCfj]{Arrombar} (2 cargas), @Compendium[dnd5e.spells.IyikgTEOTv701jgQ]{Relâmpago} (versão de 7° nível, 7 cargas), @Compendium[dnd5e.spells.d9MwcXi7Il3HROXd]{Criar Passagem} (5 cargas), @Compendium[dnd5e.spells.J6Jpw5XzB5aTeqnz]{Viagem Planar} (7 cargas), @Compendium[dnd5e.spells.HQfd7jJyULIoGxrZ]{Telecinésia} (5 cargas), @Compendium[dnd5e.spells.X3DrXgxjwI2dvkD6]{Muralha de Fogo} (4 cargas), ou @Compendium[dnd5e.spells.UJJu9c2UvCzVljiP]{Teia} (2 cargas).</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Você também pode usar uma ação para conjurar uma das seguintes magias do cajado sem usar nenhuma carga: @Compendium[dnd5e.spells.8cse7rit0oswRPUP]{Tranca Arcana}, @Compendium[dnd5e.spells.ghXTfe7sgCbgf1Q8]{Detectar Magia}, @Compendium[dnd5e.spells.WahI41a3goVUg0x1]{Aumentar/Reduzir}, @Compendium[dnd5e.spells.Bnn9Nzajixvow9xi]{Luz}, @Compendium[dnd5e.spells.Utk1OQRwYkMkFRD3]{Mãos Mágicas}, ou @Compendium[dnd5e.spells.xmDBqZhRVrtLP8h2]{Proteção Contra O Bem E Mal}.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong>Golpe de Retribuição</strong>. Você pode usar uma ação para partir o cajado no seu joelho ou em uma superfície sólida, realizar um golpe de retribuição. O cajado é destruído e libera sua mágica restante em uma explosão que se expande para preencher uma esfera de 9 metros, centrada em você.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Você tem 50 por cento de chance de viajar instantaneamente para um plano de existência aleatório, evitando a explosão. Se você falhar em evitar o efeito, você sofre dano de energia igual a 16 x a quantidade de cargas no cajado. Cada criatura na área deve ser bem sucedida num teste de resistência de Destreza CD 17. Se fracassar, uma criatura sofre uma quantidade de dano baseado em qual distante ela está do ponto de origem, como mostrado na tabela a seguir. Com um sucesso, uma criatura sofre metade desse dano.</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>Distância da Origem</strong></td>\n<td><strong>Dano</strong></td>\n</tr>\n<tr>\n<td>3 metros ou menos</td>\n<td>8 x a quantidade de cargas no cajado</td>\n</tr>\n<tr>\n<td>Entre 3,1 e 6 metros</td>\n<td>6 x a quantidade de cargas no cajado</td>\n</tr>\n<tr>\n<td>Entre 6,1 e 9 metros</td>\n<td>4 x a quantidade de cargas no cajado</td>\n</tr>\n</tbody>\n</table>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em>Nota do Foundry: o botão Outra fórmula foi configurado para rolar a taxa de recarga do cajado ao amanhecer, se necessário.</em></p>"
@@ -3430,6 +3425,16 @@
 			"id": "Staff of the Woodlands",
 			"name": "Cajado das Florestas",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(requer sintonização com um druida)</em></p>\n<p>Este cajado pode ser empunhado como um bordão mágico que concede +2 de bônus nas jogadas de ataque e dano feitas com ele. Enquanto estiver empunhando-o, você ganha +2 de bônus nas jogadas de ataque com magia.</p>\n<p>O cajado tem 10 cargas para as propriedades a seguir. Ele recupera 1d6 + 4 cargas gastas diariamente ao amanhecer. Se você gastar a última carga, role um d20. Em um 1, o cajado perde suas propriedades e se torna um bordão não-mágico.</p>\n<p><strong>Magias</strong>. Você pode usar uma ação para gastar 1 ou mais de suas cargas para conjurar uma das seguintes magias através dele, usando a CD de resistência de suas magias: @Compendium[dnd5e.spells.hDOENzjuj5WpLq7B]{Amizade Animal} (1 carga), @Compendium[dnd5e.spells.MCEpGpvovcXagwQS]{Despertar} (5 cargas), @Compendium[dnd5e.spells.JPwIEfgUPVebr5AH]{Pele de Árvore} (2 cargas), @Compendium[dnd5e.spells.Iv2qqSAT7OkXKPFx]{Localizar Animais ou Plantas} (2 cargas), @Compendium[dnd5e.spells.aL1F8fvYLtNzUbKu]{Falar com Animais} (1 carga), @Compendium[dnd5e.spells.2VXGS206tuChoeXy]{Falar com Plantas} (3 cargas), ou @Compendium[dnd5e.spells.AQsBc94ES7W7s7iG]{Muralha de Espinhos} (6 cargas).</p>\n<p>Você também pode usar uma ação para conjurar a magia @Compendium[dnd5e.spells.pRMvmknwLf2tdMTj]{Passos Sem Pegadas} do cajado sem o uso de quaisquer cargas.</p>\n<p><strong>Forma de Árvore</strong>. Você pode usar uma ação para enfincar uma ponta do cajado em um terreno fértil e gastar 1 carga para transformar o cajado em uma árvore saudável. A árvore tem 18 metros de altura e um tronco com 1,5 metro de diâmetro e os galhos na sua copa se espalham por 6 metros de raio. A árvore parece ordinária, mas irradia uma fraca aura de magia de transmutação se for alvo de @Compendium[dnd5e.spells.ghXTfe7sgCbgf1Q8]{Detectar Magia}. Enquanto estiver tocando a árvore e usar outra ação para falar sua palavra de comando, você faz com que o cajado volte a sua forma natural. Qualquer criatura na árvore cai quando ela volta a ser um cajado.</p>\n<p><em style=\"color: #191813; font-size: 13px;\">Nota do Foundry: o botão Outra Fórmula foi configurado para rolar a taxa de recarga do cajado ao amanhecer, se necessário.</em></p>"
+		},
+		{
+			"id": "Staff of Thunder and Lightning",
+			"name": "Cajado de Trovão e Relâmpago",
+			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(requer sintonização)</em></p>\n<p>Este cajado pode ser empunhado como um bordão mágico que concede +2 de bônus nas jogadas de ataque e dano feitas com ele. Ele também possui as seguintes propriedades adicionais. Quando uma dessas propriedades é usada, ela não pode ser usada novamente até o próximo amanhecer.</p>\n<p><strong>Relâmpago</strong>. Quando você atinge com um ataque corpo-a-corpo usando o cajado, você pode fazer com que ele causa 2d6 de dano elétrico extra.</p>\n<p><strong>Trovão</strong>. Quando você atinge com um ataque corpo-a-\ncorpo usando o cajado, você pode fazer com que ele emita um estrondo de trovão, audível a até 90 metros de distância. O alvo que você atingiu deve ser bem sucedido num teste de resistência de Constituição CD 17, ou ficará atordoado até o final do seu próximo turno.</p>\n<p><strong>Golpe Elétrico</strong>. Você pode usar uma ação para fazer um relâmpago saltar da ponta do cajado em uma linha de 1,5 metro de largura por 36 metros de comprimento. Cada criatura na linha deve realizar um teste de resistência de Destreza CD 17, sofrendo 9d6 de dano elétrico se falhar ou metade desse dano se obtiver sucesso.</p>\n<p><strong>Golpe Trovejante</strong>. Você pode usar uma ação para fazer o cajado emitir um estrondo trovejante ensurdecedor, audível a até 180 metros de distância. Cada criatura a até 18 metros de você (não incluindo você) deve realizar um teste de resistência de Constituição CD 17. Se fracassar na resistência, uma criatura sofre 2d6 de dano trovejante e fica surda por 1 minuto. Se passar na resistência, uma criatura sofre metade desse dano e não fica surda.</p>\n<p><strong>Trovão e Relâmpago</strong>. Você pode usar uma ação para usar as propriedades Golpe Elétrico e Golpe Trovejante ao mesmo tempo. Fazer isso não gasta os usos diários dessas propriedades, apenas o uso desta aqui.</p>"
+		},
+		{
+			"id": "Staff of Withering",
+			"name": "Cajado de Definhamento",
+			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(requer sintonização)</em></p>\n<p>Este cajado tem 3 cargas e recupera 1d3 cargas gastas diariamente ao amanhecer.</p>\n<p>O cajado pode ser empunhado como um bordão. Se atingir, ele causa o dano normal de um bordão e você pode gastar 1 carga para causar 2d10 de dano necrótico extra ao alvo. Além disso, o alvo deve ser bem sucedido num teste de resistência de Constituição CD 15 ou terá desvantagem por 1 hora em qualquer teste de habilidade ou teste de resistência que use Força ou Constituição.</p>\n<p><em style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Nota do Foundry: o botão Outra fórmula foi configurado para rolar o dano necrótico do cajado, se necessário.</em></p>"
 		},
 		{
 			"id": "Steel Mirror",
@@ -3473,7 +3478,7 @@
 		},
 		{
 			"id": "Studded Leather Armor of Resistance",
-			"name": "Armadura Couro Batido de Resistência",
+			"name": "Armadura de Couro Batido de Resistência",
 			"description": "<p><em>(requer sintonização)</em></p>\n<p>Você tem resistência a um tipo de dano enquanto estiver vestindo esta armadura. O Mestre escolhe o tipo ou o determina aleatoriamente das opções abaixo.</p>\n<table style=\"width: 138px;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 35px;\"><strong>d10</strong></td>\n<td style=\"width: 96px;\"><strong>Tipo de</strong> <strong>Dano</strong></td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">1</td>\n<td style=\"width: 96px;\">Ácido</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">2</td>\n<td style=\"width: 96px;\">Gélido</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">3</td>\n<td style=\"width: 96px;\">Fogo</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">4</td>\n<td style=\"width: 96px;\">Energia</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">5</td>\n<td style=\"width: 96px;\">Eletrico</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">6</td>\n<td style=\"width: 96px;\">Necrótico</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">7</td>\n<td style=\"width: 96px;\">Veneno</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">8</td>\n<td style=\"width: 96px;\">Psíquico</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">9</td>\n<td style=\"width: 96px;\">Radiante</td>\n</tr>\n<tr>\n<td style=\"width: 35px;\">10</td>\n<td style=\"width: 96px;\">Trovejante</td>\n</tr>\n</tbody>\n</table>\n<p> </p>"
 		},
 		{
@@ -3487,14 +3492,14 @@
 			"description": "<p><em>Item maravilhoso, (requer sintonização com uma criatura de tendência benigna)</em></p>\n<p>Este talismã é um poderoso símbolo da bondade. Uma criatura que não seja nem boa nem má na tendência sofre 6d6 de dano radiante ao tocar o talismã. Uma criatura má sofre 8d6 de dano radiante ao tocar o talismã. Ambos os tipos de criatura sofrem esse dano novamente a cada vez que terminarem seus turnos segurando ou carregando o talismã.</p>\n<p>Se você for um clérigo ou paladino bom, você pode usar o talismã como um símbolo sagrado e recebe +2 de bônus nas jogadas de ataque com magia enquanto estiver usando ou empunhando-o.</p>\n<p>O talismã tem 7 cargas. Se estiver usando ou empunhando-o, você pode usar uma ação para gastar 1 carga do talismã e escolher uma criatura que você possa ver no chão, a até 36 metros de você. Se o alvo tiver tendência má, uma fissura flamejante se abre abaixo dele. O alvo deve ser bem sucedido num teste de resistência de Destreza CD 20, ou cairá na fissura e será destruído, não deixando nada para trás. A fissura então se fecha, sem deixar qualquer traço de sua existência. Quando você gastar a última carga, o talismã se dispersa em fagulhas de luz dourada e é destruído.</p>"
 		},
 		{
-			"id": "Talisman of Ultimate Evil",
-			"name": "Talismã do Mal Absoluto",
-			"description": "<p><em>Item maravilhoso, (requer sintonização com uma criatura de tendência maligna)</em></p>\n<p>Este item simboliza o mal impenitente. Uma criatura que não seja nem boa nem má na tendência sofre 6d6 de dano necrótico ao tocar o talismã. Uma criatura boa sofre 8d6 de dano necrótico ao tocar o talismã. Ambos os tipos de criatura sofrem esse dano novamente a cada vez que terminarem seus turnos segurando ou carregando o talismã.</p>\n<p>Se você for um clérigo ou paladino maligno, você pode usar o talismã como um símbolo sagrado e recebe +2 de bônus nas jogadas de ataque com magia enquanto estiver usando ou empunhando-o.</p>\n<p>O talismã tem 6 cargas. Se estiver usando ou empunhando-o, você pode usar uma ação para gastar 1 carga do talismã e escolher uma criatura que você possa ver no chão, a até 36 metros de você. Se o alvo tiver tendência boa, uma fissura flamejante se abre abaixo dele. O alvo deve ser bem sucedido num teste de resistência de Destreza CD 20, ou cairá na fissura e será destruído, não deixando nada para trás. A fissura então se fecha, sem deixar qualquer traço de sua existência. Quando você gastar a última carga, o talismã se dissolve em um lodo fedorento e é destruído.</p>"
-		},
-		{
 			"id": "Talisman of the Sphere",
 			"name": "Talismã da Esfera",
 			"description": "<p><em>tem maravilhoso, (requer sintonização)</em></p>\n<p>Quando você faz um teste de Inteligência (Arcanismo) para controlar uma Esfera da Aniquilação enquanto está segurando este talismã, você dobra seu bônus de proficiência no teste. Além disso, quando você começa seu turno com uma Esfera da Aniquilação sob seu controle, você pode usar uma ação para levitar até 3 metros mais uma quantidade de metros igual a 10 x seu modificador de Inteligência.</p>"
+		},
+		{
+			"id": "Talisman of Ultimate Evil",
+			"name": "Talismã do Mal Absoluto",
+			"description": "<p><em>Item maravilhoso, (requer sintonização com uma criatura de tendência maligna)</em></p>\n<p>Este item simboliza o mal impenitente. Uma criatura que não seja nem boa nem má na tendência sofre 6d6 de dano necrótico ao tocar o talismã. Uma criatura boa sofre 8d6 de dano necrótico ao tocar o talismã. Ambos os tipos de criatura sofrem esse dano novamente a cada vez que terminarem seus turnos segurando ou carregando o talismã.</p>\n<p>Se você for um clérigo ou paladino maligno, você pode usar o talismã como um símbolo sagrado e recebe +2 de bônus nas jogadas de ataque com magia enquanto estiver usando ou empunhando-o.</p>\n<p>O talismã tem 6 cargas. Se estiver usando ou empunhando-o, você pode usar uma ação para gastar 1 carga do talismã e escolher uma criatura que você possa ver no chão, a até 36 metros de você. Se o alvo tiver tendência boa, uma fissura flamejante se abre abaixo dele. O alvo deve ser bem sucedido num teste de resistência de Destreza CD 20, ou cairá na fissura e será destruído, não deixando nada para trás. A fissura então se fecha, sem deixar qualquer traço de sua existência. Quando você gastar a última carga, o talismã se dissolve em um lodo fedorento e é destruído.</p>"
 		},
 		{
 			"id": "Tankard",
@@ -3508,7 +3513,7 @@
 		},
 		{
 			"id": "Tinderbox",
-			"name": "Caixa de Fogo",
+			"name": "Caixa para Fogo",
 			"description": "<p>Esse pequeno recipiente detém uma pederneira, isqueiro e um pavio (um pano geralmente seco embebido em óleo) usado para acender uma fogueira. Usá-lo para acender uma tocha – ou qualquer outra coisa exposta a um combustível abundante – leva uma ação. Acender qualquer outro fogo leva 1 minuto.</p>\n<p> </p>"
 		},
 		{
@@ -3543,7 +3548,7 @@
 		},
 		{
 			"id": "Traveler's Clothes",
-			"name": "Roupas de Viajante",
+			"name": "Roupas de Viagem",
 			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Conjunto de roupas usadas por viajantes.</span></p>"
 		},
 		{
@@ -3582,19 +3587,29 @@
 			"description": "<p>Um abrigo de lona simples e portátil, uma tenda para duas pessoas.</p>"
 		},
 		{
+			"id": "Unarmed Strike",
+			"name": "Ataque Desarmado",
+			"description": "<p>Um soco, chute, cabeçada ou golpe forte similar (nenhum dos quais conta como arma). Em um acerto, um ataque desarmado causa dano de contusão igual a 1 + seu modificador de Força. Você é proficiente com seus ataques desarmados.</p>"
+		},
+		{
+			"id": "Unarmed Strike (Monk)",
+			"name": "Ataque Desarmado (Monge)",
+			"description": "<p>No 1º nível, sua prática de artes marciais dá a você o domínio de estilos de combate que usam ataques desarmados.</p>\n<p>Você ganha os seguintes benefícios enquanto estiver desarmado ou empunhando uma arma de monge e não estiver vestindo nenhuma armadura ou empunhando um escudo:</p>\n<p>• Você pode usar Destreza ao invés de Força para as jogadas de ataque e dano dos seus golpes desarmados e de suas armas de monge.</p>\n<p>• Você pode rolar um d4 no lugar do dano normal de seu ataque desarmado. Este dado muda conforme você ganha níveis de monge, conforme mostrado na coluna Artes Marciais na tabela abaixo.</p>\n<p>• Quando você usa a ação de Ataque com um ataque desarmado em seu turno, você pode fazer um ataque desarmado como uma ação bônus, supondo que você ainda não tenha realizado uma ação bônus neste turno.</p>\n<table style=\"width: 172px;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 79px;\"><strong>Nível de Monge</strong></td>\n<td style=\"width: 86px;\"><strong>Artes Marciais</strong></td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">1º - 4º</td>\n<td style=\"width: 86px;\">1d4</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">5º - 10º</td>\n<td style=\"width: 86px;\">1d6</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">11º - 16º</td>\n<td style=\"width: 86px;\">1d8</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">17º - 20º</td>\n<td style=\"width: 86px;\">1d10</td>\n</tr>\n</tbody>\n</table>\n<p><em style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">**Nota do Foundry: Observe que o dado de dano é definido com o padrão básico de 1d4. Ajuste manualmente conforme necessário.</em></p>"
+		},
+		{
 			"id": "Universal Solvent",
 			"name": "Solvente Universal",
 			"description": "<p><em>Item maravilhoso</em></p>\n<p>Este tubo contém um líquido leitoso com um forte cheiro de álcool. Você pode usar uma ação para derramar o conteúdo deste tubo em uma superfície ao seu alcance. O líquido instantaneamente dissolve até 30 centímetros quadrados de cola que ele toque, incluindo cola soberana.</p>"
 		},
 		{
 			"id": "Vestments",
-			"name": "Túnica",
+			"name": "Vestimentas",
 			"description": "<p>Trajes simples ou ostentosos, freqüentemente usados ​​por padres e outras figuras religiosas para uso em rituais e cerimônias.</p>"
 		},
 		{
 			"id": "Vial",
-			"name": "Frasco Pequeno",
-			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Um frasco pequeno pode conter até 120 ml de líquido.</span></p>"
+			"name": "Frasco",
+			"description": "<p><span style=\"color: #191813; font-size: 13px;\">Um frasco pequeno pode conter até 150 ml de líquido.</span></p>"
 		},
 		{
 			"id": "Vicious Battleaxe",
@@ -3654,7 +3669,7 @@
 		{
 			"id": "Vicious Hand Crossbow",
 			"name": "Besta de Mão Viciosa",
-			"description": "<p>Uma besta leve projetada para ser segurada em uma mão ou amarrada ao pulso para disparar virotes.</p>\n<p><span style=\"color: #191813; font-size: 13px;\">Quando você rolar um 20 em uma jogada de ataque com esta arma mágica, o alvo sofre 2d6 de dano extra do tipo da arma.</span></p>"
+			"description": "<p>Uma besta leve projetada para ser segurada em uma mão ou amarrada ao pulso para disparar virotes.</p>"
 		},
 		{
 			"id": "Vicious Handaxe",
@@ -3713,12 +3728,12 @@
 		},
 		{
 			"id": "Vicious Pike",
-			"name": "Pique Vicioso",
+			"name": "Lança Longa Viciosa",
 			"description": "<p>Uma lâmina robusta montada na ponta de um longo cabo de metal. Projetado como uma arma defensiva com considerável alcance para afastar e ameaçar inimigos.</p>\n<p>Quando você rolar um 20 em uma jogada de ataque com esta arma mágica, o alvo sofre 2d6 de dano extra do tipo da arma.</p>"
 		},
 		{
 			"id": "Vicious Quarterstaff",
-			"name": "Bordão Vicioso",
+			"name": "Bastão ou Cajado Vicioso",
 			"description": "<p>Um cabo grosso de madeira envolto em uma empunhadura robusta é uma arma altamente funcional, além de uma bengala robusta.</p>\n<p>Quando você rolar um 20 em uma jogada de ataque com esta arma mágica, o alvo sofre 2d6 de dano extra do tipo da arma.</p>"
 		},
 		{
@@ -3743,7 +3758,7 @@
 		},
 		{
 			"id": "Vicious Sickle",
-			"name": "Foice Curta Viciosa",
+			"name": "Foice Viciosa",
 			"description": "<p>Uma lâmina crescente em forma de gancho montada no topo de um cabo curto, leve o suficiente para ser empunhada com uma mão para trilhar colheitas ou inimigos.</p>\n<p>Quando você rolar um 20 em uma jogada de ataque com esta arma mágica, o alvo sofre 2d6 de dano extra do tipo da arma.</p>"
 		},
 		{
@@ -3847,6 +3862,21 @@
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">A varinha tem 3 cargas. Enquanto empunha-la, você pode usar uma ação para gastar 1 de suas cargas e, se uma porta secreta ou armadilha estiver a até 9 metros de você, a varinha pulsará e apontará para a mais próxima de você. A varinha recupera 1d3 cargas gastas diariamente ao amanhecer.</p>"
 		},
 		{
+			"id": "Wand of the War Mage +1",
+			"name": "Varinha do Arcano de Guerra +1",
+			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(Requer sintonização por um conjurador)</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Enquanto segura esta varinha, você ganha um bônus de +1 nas jogadas de ataque de magia. Além disso, você ignora meia cobertura ao fazer um ataque de magia.</p>"
+		},
+		{
+			"id": "Wand of the War Mage +2",
+			"name": "Varinha do Arcano de Guerra +2",
+			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(Requer sintonização por um conjurador)</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Enquanto segura esta varinha, você ganha um bônus de +2 nas jogadas de ataque de magia. Além disso, você ignora meia cobertura ao fazer um ataque de magia.</p>"
+		},
+		{
+			"id": "Wand of the War Mage +3",
+			"name": "Varinha do Arcano de Guerra +3",
+			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(Requer sintonização por um conjurador)</em></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Enquanto segura esta varinha, você ganha um bônus de +3 nas jogadas de ataque de magia. Além disso, você ignora meia cobertura ao fazer um ataque de magia.</p>"
+		},
+		{
 			"id": "Wand of Web",
 			"name": "Varinha de Teia",
 			"description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em>(requer sintonização com um conjurador)</em></p>\n<p>Esta varinha possui 7 cargas. Enquanto empunha-la, você pode usar uma ação para gastar 1 de suas cargas para conjurar a magia @Compendium[dnd5e.spells.UJJu9c2UvCzVljiP]{Teia} (CD de resistência 15) através dela.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">A varinha recupera 1d6 + 1 cargas gastas diariamente ao amanhecer. Se você gastar a última carga da varinha, role um d20. Em um 1, a varinha se desfaz em cinzas e é destruída.</p>"
@@ -3855,21 +3885,6 @@
 			"id": "Wand of Wonder",
 			"name": "Varinha das Maravilhas",
 			"description": "<p><em>(requer sintonização com um conjurador)</em></p>\n<p>Esta varinha possui 7 cargas. Enquanto empunha-la, você pode usar uma ação para gastar 1 de suas cargas e escolher um alvo a até 36 metros de você. O alvo pode ser uma criatura, um objeto ou um ponto no espaço. Role um d100 e consulte a tabela Efeito da Varinha das Maravilhas a seguir para descobrir o que acontece.</p>\n<p>Se o efeito fizer você conjurar uma magia através da varinha, a CD de resistência da magia será 15. Se a magia normalmente tiver uma distância expressa em metros, a distância dela se torna 36 metros, caso já não seja. Se um efeito encobrir uma área, você deve centrar a magia nele e incluir o alvo. Se um efeito tiver diversas alvos possíveis, o Mestre determina aleatoriamente quais são afetados.</p>\n<p>A varinha recupera 1d6 + 1 cargas gastas diariamente ao amanhecer. Se você gastar a última carga da varinha, role um d20. Em um 1, a varinha se desfaz em cinzas e é destruída.</p>\n<table style=\"height: 1064px;\" border=\"1\">\n<tbody>\n<tr>\n<td><strong>d100</strong></td>\n<td><strong>Efeito</strong></td>\n</tr>\n<tr>\n<td>01-05</td>\n<td>Você conjura @Compendium[dnd5e.spells.yqUDoxk4x0NWG5Bz]{Lentidão}.</td>\n</tr>\n<tr>\n<td>06-10</td>\n<td>Você conjura @Compendium[dnd5e.spells.nqBDWkVOfcGZt4YU]{Fogo das Fadas}.</td>\n</tr>\n<tr>\n<td>11-15</td>\n<td>Você fica atordoado até o início do seu próximo turno, acreditando que algo incrível acabou de acontecer.</td>\n</tr>\n<tr>\n<td>16-20</td>\n<td>Você conjura @Compendium[dnd5e.spells.FSMy6VAjDnXY9vWz]{Lufada de Vento}.</td>\n</tr>\n<tr>\n<td>21-25</td>\n<td>Você conjura @Compendium[dnd5e.spells.ppWAAEul0QHtm4er]{Detectar Pensamentos} em um alvo, à sua escolha. Se você não escolher uma criatura, você sofre 1d6 de dano psíquico, ao invés.</td>\n</tr>\n<tr>\n<td>26-30</td>\n<td>Você conjura @Compendium[dnd5e.spells.TwlD4PLcltv7Xh7j]{Névoa Fétida}.</td>\n</tr>\n<tr>\n<td>31-33</td>\n<td>Chuva pesada cai em um raio de 18 metros centrado no alvo. A área é de escuridão leve. A chuva cai até o início do seu próximo turno.</td>\n</tr>\n<tr>\n<td>34-36</td>\n<td>Um animal aparece no espaço desocupado mais próximo do alvo. O animal não está sob seu controle e age como normalmente faria. Role um d100 para determinar qual animal aparece. Entre 01–25, um @Compendium[dnd5e.monsters.SBCe2BSa6opTS5M4]{Rinoceronte} aparece; entre 26–50, um @Compendium[dnd5e.monsters.jLPhaBnMtAbB5dp1]{Elefante} aparece; e entre 51–100, um @Compendium[dnd5e.monsters.pozQUPTnLZW8epox]{Rato} aparece.</td>\n</tr>\n<tr>\n<td>37-46</td>\n<td>Você conjura @Compendium[dnd5e.spells.IyikgTEOTv701jgQ]{Relâmpago}.</td>\n</tr>\n<tr>\n<td>47-49</td>\n<td>Uma nuvem de 600 borboletas gigantes preenche um raio de 9 metros centrado no alvo. A área torna-se de escuridão densa. As borboletas permanecem por 10 minutos.</td>\n</tr>\n<tr>\n<td>50-53</td>\n<td>Você aumenta o alvo como se você tivesse conjurado @Compendium[dnd5e.spells.WahI41a3goVUg0x1]{Aumentar/Reduzir}. Se o alvo não puder ser afetado por essa magia, ou se você não escolheu uma criatura como alvo, você se torna o alvo.</td>\n</tr>\n<tr>\n<td>54-58</td>\n<td>Você conjura @Compendium[dnd5e.spells.S7VbUetIfVT7B6Eq]{Escuridão}.</td>\n</tr>\n<tr style=\"height: 33px;\">\n<td>59-62</td>\n<td style=\"height: 33px; width: 358.021px;\">Grama cresce no solo num raio de 18 metros de raio, centrado no alvo. Se já houver grama ali, ela cresce dez vezes o tamanho normal e permanece grande por 1 minuto.</td>\n</tr>\n<tr style=\"height: 33px;\">\n<td style=\"height: 33px; width: 30.2431px;\">63-65</td>\n<td style=\"height: 33px; width: 358.021px;\">Um objeto, à escolha do Mestre, é enviado para o Plano Etéreo. O objeto não pode estar sendo nem vestido nem carregado, deve estar a até 36 metros do alvo e não pode ter mais de 3 metros em qualquer dimensão.</td>\n</tr>\n<tr style=\"height: 53px;\">\n<td style=\"height: 53px; width: 30.2431px;\">66-69</td>\n<td style=\"height: 53px; width: 358.021px;\">Você se reduz, como se tivesse conjurado @Compendium[dnd5e.spells.WahI41a3goVUg0x1]{Aumentar/Reduzir} em si mesmo.</td>\n</tr>\n<tr style=\"height: 33px;\">\n<td style=\"height: 33px; width: 30.2431px;\">70-79</td>\n<td style=\"height: 33px; width: 358.021px;\">Você conjura @Compendium[dnd5e.spells.ztgcdrWPshKRpFd0]{Bola de Fogo}.</td>\n</tr>\n<tr style=\"height: 33px;\">\n<td style=\"height: 33px; width: 30.2431px;\">80-84</td>\n<td style=\"height: 33px; width: 358.021px;\">Você conjura @Compendium[dnd5e.spells.1N8dDMMgZ1h1YJ3B]{Invisibilidade} em si mesmo.</td>\n</tr>\n<tr style=\"height: 69px;\">\n<td style=\"height: 69px; width: 30.2431px;\">85-87</td>\n<td style=\"height: 69px; width: 358.021px;\">Folhas crescem no alvo. Se você escolheu um ponto no espaço como alvo, folhas brotam da criatura mais próxima desse ponto. A não ser que sejam arrancadas, as folhas murcham e caem após 24 horas.</td>\n</tr>\n<tr style=\"height: 69px;\">\n<td style=\"height: 69px; width: 30.2431px;\">88-90</td>\n<td style=\"height: 69px; width: 358.021px;\">Uma cachoeira de 1d4 x 10 gemas, cada uma valendo 1 po, é disparada pela ponta da varinha em uma linha de 9 metros de comprimento por 1,5 metro de largura. Cada gema causa 1 de dano de concussão e o total de dano das gemas é dividido igualmente entre todas as criaturas na linha.</td>\n</tr>\n<tr style=\"height: 104px;\">\n<td style=\"height: 104px; width: 30.2431px;\">91-95</td>\n<td style=\"height: 104px; width: 358.021px;\">Uma explosão de luzes cintilantes coloridas se estende de você num raio de 9 metros. Você e cada criatura na área que puder ver, deve ser bem sucedido num teste de resistência de Constituição CD 15, ou ficará cego por 1 minuto. Uma criatura pode repetir o teste de resistência no final de cada um dos turnos dela, terminando o efeito em si, com um sucesso.</td>\n</tr>\n<tr style=\"height: 51px;\">\n<td style=\"height: 51px; width: 30.2431px;\">96-97</td>\n<td style=\"height: 51px; width: 358.021px;\">A pele do alvo adquire um brilho azulado por 1d10 dias. Se você escolher um ponto no espaço, a criatura mais próxima do ponto é afetada.</td>\n</tr>\n<tr style=\"height: 175px;\">\n<td style=\"height: 175px; width: 30.2431px;\">98-00</td>\n<td style=\"height: 175px; width: 358.021px;\">Se você escolher uma criatura como alvo, ela deve realizar um teste de resistência de Constituição CD 15. Se você não escolheu uma criatura, você se torna o alvo e deve realizar o teste de resistência. Se fracassar na resistência por 5 ou mais, o alvo é instantaneamente petrificado. Em qualquer outro resultado falho, o alvo fica impedido e começa a se transformar em pedra. Enquanto estiver impedido dessa forma, o alvo deve repetir o teste de resistência no final do seu próximo turno, ficando petrificado se fracassar ou terminado o efeito se obtiver sucesso. A petrificação dura até que o alvo seja liberto pela magia restauração maior ou mágica similar.</td>\n</tr>\n</tbody>\n</table>\n<p> </p>"
-		},
-		{
-			"id": "Wand of the War Mage +1",
-			"name": "Varinha do Arcano de Guerra +1",
-			"description": "<p><em>(requer sintonização com um conjurador)</em></p>\n<p>Enquanto empunhar esta varinha, você recebe um bônus de +1 nas jogada de ataque com magia determinado pela raridade da varinha. Além disso, você ignora meia-cobertura quando realiza ataques com magia.</p>"
-		},
-		{
-			"id": "Wand of the War Mage +2",
-			"name": "Varinha do Arcano de Guerra +2",
-			"description": "<p><em>(requer sintonização com um conjurador)</em></p>\n<p>Enquanto empunhar esta varinha, você recebe um bônus de +2 nas jogada de ataque com magia determinado pela raridade da varinha. Além disso, você ignora meia-cobertura quando realiza ataques com magia.</p>"
-		},
-		{
-			"id": "Wand of the War Mage +3",
-			"name": "Varinha do Arcano de Guerra +3",
-			"description": "<p><em>(requer sintonização com um conjurador)</em></p>\n<p>Enquanto empunhar esta varinha, você recebe um bônus de +3 nas jogada de ataque com magia determinado pela raridade da varinha. Além disso, você ignora meia-cobertura quando realiza ataques com magia.</p>"
 		},
 		{
 			"id": "War Pick",
@@ -3913,7 +3928,7 @@
 		},
 		{
 			"id": "Waterskin",
-			"name": "Cantil",
+			"name": "Moringa/Cantil",
 			"description": "<p>Uma pele de couro costurada em uma pele fechada que pode conter até 2 litros de líquido. Ele pesa 2 kg quando cheio; meio litro de água equivale a aproximadamente 400 gramas.</p>"
 		},
 		{
