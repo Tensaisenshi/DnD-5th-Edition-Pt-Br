@@ -28,8 +28,8 @@
       }
     ],
     
-    "url": "https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese",
-	  "manifest": "https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese/raw/master/dnd5e_pt-BR/module.json",
-	  "download": "https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese/-/jobs/artifacts/master/raw/dnd5e_pt-BR.zip?job=build"
+    "url": "https://gitlab.com/foundryvtt-pt-br/foundryvtt-dnd5e-brazilian-portuguese",
+	  "manifest": "https://gitlab.com/foundryvtt-pt-br/foundryvtt-dnd5e-brazilian-portuguese/raw/master/dnd5e_pt-BR/module.json",
+	  "download": "https://gitlab.com/foundryvtt-pt-br/foundryvtt-dnd5e-brazilian-portuguese/-/jobs/artifacts/v0.97.0/raw/dnd5e_pt-BR.zip?job=build"
   }
   

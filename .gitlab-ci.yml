@@ -1,8 +1,9 @@
-image: python:3-alpine
+image: node:alpine
 
 before_script:
   - apk update
   - apk add zip
+  - npm install @prantlf/jsonlint -g
 
 stages:
   - test
@@ -11,19 +12,18 @@ stages:
 test:
   stage: test
   script:
-    - python -mjson.tool 'dnd5e_pt-BR/pt-BR.json' > /dev/null
-    - python -mjson.tool 'dnd5e_pt-BR/module.json' > /dev/null
+    - jsonlint -q --enforce-double-quotes dnd5e_pt-BR/
 
 build:
   stage: build
   script:
     - zip dnd5e_pt-BR.zip -r dnd5e_pt-BR
   artifacts:
+    expire_in: never
     name: dnd5e_pt-BR
     when: on_success
     paths:
       - dnd5e_pt-BR.zip
   when: on_success
   only:
-    - master
     - tags

@@ -1,0 +1,41 @@
+{
+    "name": "dnd-5e-pt-br",
+    "version": "0.97.0",
+    "description": "Adiciona o idioma Português (Brasil) para o sistema de jogo D&D 5E no FoundryVTT.",
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.com/foundryvtt-pt-br/foundryvtt-dnd5e-brazilian-portuguese.git"
+    },
+    "scripts": {
+        "commit": "./node_modules/commitizen/bin/git-cz",
+        "release": "./node_modules/standard-version/bin/cli.js -s"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "commitizen": "^4.2.1",
+        "standard-version": "^9.0.0"
+    },
+    "standard-version": {
+        "skip": {
+            "changelog": true
+        },
+        "bumpFiles": [
+            {
+                "filename": "dnd5e_pt-BR/module.json",
+                "type": "json"
+            },
+            {
+                "filename": "package.json",
+                "type": "json"
+            },
+            {
+                "filename": "package-lock.json",
+                "type": "json"
+            },
+            {
+                "filename": "dnd5e_pt-BR/module.json",
+                "updater": "src/download-updater.js"
+            }
+        ]
+    }
+}
