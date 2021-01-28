@@ -2,9 +2,9 @@
   "name": "dnd5e_pt-BR",
   "title": "DnD5e Brazilian Portuguese Translation",
   "description": "<p>Adiciona o idioma Português (Brasil) para o sistema de jogo D&D 5E.</p><p>Obs. Esse módulo traduz somente os termos relacionados ao sistema de D&D 5E. Esse módulo não traduz outras partes do FoundryVTT, como a interface principal.</p>",
-  "version": "0.98.0",
-  "minimumCoreVersion": "0.6.0",
-  "compatibleCoreVersion": "0.7.1",
+  "version": "1.24.0",
+  "minimumCoreVersion": "0.7.6",
+  "compatibleCoreVersion": "0.7.9",
   "dependencies": [
     {
       "name": "babele",
@@ -16,6 +16,7 @@
   "systems": [
     "dnd5e"
   ],
+  "minimumSystemVersion": "1.2.0",
   "scripts": [],
   "styles": [
     "./css/5eptbr.css"

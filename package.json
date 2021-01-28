@@ -1,6 +1,6 @@
 {
     "name": "dnd-5e-pt-br",
-    "version": "0.98.0",
+    "version": "1.24.0",
     "description": "Adiciona o idioma Português (Brasil) para o sistema de jogo D&D 5E no FoundryVTT.",
     "repository": {
         "type": "git",
