@@ -524,7 +524,7 @@
 "DND5E.SkillSlt": "Prestigitação",
 "DND5E.SkillSte": "Furtividade",
 "DND5E.SkillSur": "Sobrevivência",
-"DND5E.SkillPromptTitle": "Teste da Perícia {skill}",
+"DND5E.SkillPromptTitle": "Teste de Perícia: {skill}",
 "DND5E.Source": "Fonte",
 "DND5E.Special": "Especial",
 "DND5E.SpecialTraits": "Traços Especiais",
