@@ -2,21 +2,21 @@
   "name": "dnd5e_pt-BR",
   "title": "DnD5e Brazilian Portuguese Translation",
   "description": "<p>Adiciona o idioma Português (Brasil) para o sistema de jogo D&D 5E.</p><p>Obs. Esse módulo traduz somente os termos relacionados ao sistema de D&D 5E. Esse módulo não traduz outras partes do FoundryVTT, como a interface principal.</p>",
-  "version": "1.24.4",
+  "version": "1.3.0",
   "minimumCoreVersion": "0.7.6",
   "compatibleCoreVersion": "0.7.9",
   "dependencies": [
     {
       "name": "babele",
       "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
-      "version": "1.19"
+      "version": "1.24"
     }
   ],
   "author": "Melithian539, Bellenus, Innocenti, Erebo, Rafael Levi",
   "systems": [
     "dnd5e"
   ],
-  "minimumSystemVersion": "1.2.0",
+  "minimumSystemVersion": "1.2.4",
   "scripts": [],
   "styles": [
     "./css/5eptbr.css"
@@ -34,5 +34,5 @@
   ],
   "url": "https://gitlab.com/foundryvtt-pt-br/foundryvtt-dnd5e-brazilian-portuguese",
   "manifest": "https://gitlab.com/foundryvtt-pt-br/foundryvtt-dnd5e-brazilian-portuguese/raw/master/dnd5e_pt-BR/module.json",
-  "download": "https://gitlab.com/foundryvtt-pt-br/foundryvtt-dnd5e-brazilian-portuguese/-/jobs/artifacts/v1.24.4/raw/dnd5e_pt-BR.zip?job=build"
+  "download": "https://gitlab.com/foundryvtt-pt-br/foundryvtt-dnd5e-brazilian-portuguese/-/jobs/artifacts/v1.3.0/raw/dnd5e_pt-BR.zip?job=build"
 }
