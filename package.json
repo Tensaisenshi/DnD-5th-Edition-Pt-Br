@@ -1,41 +1,25 @@
 {
-    "name": "dnd-5e-pt-br",
-    "version": "1.24.0",
-    "description": "Adiciona o idioma Português (Brasil) para o sistema de jogo D&D 5E no FoundryVTT.",
-    "repository": {
-        "type": "git",
-        "url": "https://gitlab.com/foundryvtt-pt-br/foundryvtt-dnd5e-brazilian-portuguese.git"
-    },
-    "scripts": {
-        "commit": "./node_modules/commitizen/bin/git-cz",
-        "release": "./node_modules/standard-version/bin/cli.js -s"
-    },
-    "license": "MIT",
-    "devDependencies": {
-        "commitizen": "^4.2.1",
-        "standard-version": "^9.0.0"
-    },
-    "standard-version": {
-        "skip": {
-            "changelog": true
-        },
-        "bumpFiles": [
-            {
-                "filename": "dnd5e_pt-BR/module.json",
-                "type": "json"
-            },
-            {
-                "filename": "package.json",
-                "type": "json"
-            },
-            {
-                "filename": "package-lock.json",
-                "type": "json"
-            },
-            {
-                "filename": "dnd5e_pt-BR/module.json",
-                "updater": "src/download-updater.js"
-            }
-        ]
-    }
+  "name": "dnd5e_pt-br",
+  "description": "Adiciona o idioma Português (Brasil) para o sistema de jogo D&D 5E no FoundryVTT.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/fvtt-brasil/dnd5e.git"
+  },
+  "version": "1.4.0",
+  "scripts": {
+    "commit": "pnpx cz",
+    "lintjson": "pnpx jsonlint -q --enforce-double-quotes dnd5e_pt-BR lang"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.1",
+    "semantic-release": "^17.4.2",
+    "@prantlf/jsonlint": "^10.2.0",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/exec": "^5.0.0",
+    "@semantic-release/gitlab": "^6.0.9",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "conventional-changelog-conventionalcommits": "^4.4.0",
+    "semantic-release-plugin-update-version-in-files": "^1.1.0"
+  }
 }

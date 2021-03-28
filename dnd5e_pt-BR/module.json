@@ -32,7 +32,7 @@
       "path": "pt-BR.json"
     }
   ],
-  "url": "https://gitlab.com/foundryvtt-pt-br/foundryvtt-dnd5e-brazilian-portuguese",
-  "manifest": "https://gitlab.com/foundryvtt-pt-br/foundryvtt-dnd5e-brazilian-portuguese/raw/master/dnd5e_pt-BR/module.json",
-  "download": "https://gitlab.com/foundryvtt-pt-br/foundryvtt-dnd5e-brazilian-portuguese/-/jobs/artifacts/v1.4.0/raw/dnd5e_pt-BR.zip?job=build"
+  "url": "https://gitlab.com/fvtt-brasil/dnd5e",
+  "manifest": "https://gitlab.com/fvtt-brasil/dnd5e/-/raw/master/dnd5e_pt-BR/module.json",
+  "download": "https://gitlab.com/api/v4/projects/17061837/packages/generic/dnd5e_pt-BR/1.4.0/dnd5e_pt-BR.zip"
 }
