@@ -1,10 +1,13 @@
 /* global Hooks, game, Babele, mergeObject, Actors */
 
-// DND5E-PTBR
-// @author Caua539
+/**
+ * @author Caua539
+ */
+
 import { DND5E } from '../../systems/dnd5e/module/config.js';
 import Actor from '../../systems/dnd5e/module/actor/sheets/character.js';
 import NPC from '../../systems/dnd5e/module/actor/sheets/npc.js';
+import * as Converters from './src/converters.js';
 
 // Translate non localized strings from the DND5E.CONFIG
 Hooks.once('ready', function () {
@@ -16,6 +19,7 @@ Hooks.once('ready', function () {
       hvy: 'Armaduras Pesadas',
       shl: 'Escudos'
     };
+
     DND5E.abilityActivationTypes = {
       none: 'Nenhuma',
       action: 'Ação',
@@ -32,52 +36,29 @@ Hooks.once('ready', function () {
 });
 
 Hooks.once('init', () => {
+  game.settings.register('dnd5e_pt-BR', 'converters', {
+    name: 'Conversão de medidas',
+    hint: 'Ativa a conversão de pés, milhas e libras para metros, quilômetros e quilogramas. Alterar essa opção ira recarregar a aplicação.',
+    scope: 'world',
+    type: Boolean,
+    config: true,
+    default: false,
+    onChange: () => window.location.reload()
+  });
+
   if (typeof Babele !== 'undefined') {
     Babele.get().register({
       module: 'dnd5e_pt-BR',
       lang: 'pt-BR',
       dir: 'compendium'
     });
+  }
 
+  if (game.settings.get('dnd5e_pt-BR', 'converters')) {
     Babele.get().registerConverters({
-      weight: (value) => {
-        return parseInt(value) / 2;
-      },
-      range: (range) => {
-        if (range) {
-          if (range.units === 'ft') {
-            if (range.long) {
-              range = mergeObject(range, { long: range.long * 0.3 });
-            }
-            if (game.modules.get('metric-system-dnd5e').active) {
-              return mergeObject(range, { value: range.value * 0.3, units: 'm' });
-            }
-            return mergeObject(range, { value: range.value * 0.3 });
-          }
-          if (range.units === 'mi') {
-            if (range.long) {
-              range = mergeObject(range, { long: range.long * 1.5 });
-            }
-            if (game.modules.get('metric-system-dnd5e').active) {
-              return mergeObject(range, { value: range.value * 1.5, units: 'km' });
-            }
-            return mergeObject(range, { value: range.value * 1.5 });
-          }
-          return range;
-        }
-      },
-      target: (target) => {
-        if (target) {
-          if (target.units === 'ft') {
-            if (game.modules.get('metric-system-dnd5e').active) {
-              return mergeObject(target, { value: target.value * 0.3, units: 'm' });
-            }
-            return mergeObject(target, { value: target.value * 0.3 });
-          }
-          return target;
-        }
-      }
-
+      range: range => Converters.range(range),
+      weight: value => Converters.weight(value),
+      target: target => Converters.target(target)
     });
   }
 });
