@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://gitlab.com/fvtt-brasil/dnd5e.git"
   },
-  "version": "1.25.0",
+  "version": "1.26.1",
   "scripts": {
     "commit": "pnpx cz",
     "lintjson": "pnpx jsonlint -q --enforce-double-quotes dnd5e_pt-BR lang"
