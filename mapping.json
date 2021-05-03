@@ -1,0 +1,22 @@
+{
+  "Actor": {
+    "alignment": "data.details.alignment",
+    "type": "data.details.type",
+    "di": "data.traits.di.custom",
+    "dr": "data.traits.dr.custom",
+    "dv": "data.traits.dv.custom",
+    "ci": "data.traits.ci.custom"
+  },
+  "Item": {
+    "source": "data.source",
+    "material": "data.materials.value",
+    "range": {
+      "path": "data.range",
+      "converter": "range"
+    },
+    "target": {
+      "path": "data.target",
+      "converter": "target"
+    }
+  }
+}

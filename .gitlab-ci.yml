@@ -2,7 +2,7 @@ image: node:14-alpine
 
 workflow:
   rules:
-    - if: $CI_COMMIT_MESSAGE =~ /^chore\(release\).*/ || $CI_COMMIT_TAG
+    - if: $CI_COMMIT_MESSAGE =~ /^chore\((release|sync)\).*/ || $CI_COMMIT_TAG
       when: never
     - when: always
 
@@ -13,7 +13,7 @@ cache:
 
 before_script:
   - apk update
-  - apk add zip curl wget git openssh-client
+  - apk add zip curl git openssh-client
   - curl -L https://unpkg.com/@pnpm/self-installer | node
   - mkdir -p ~/.ssh
   - chmod 700 ~/.ssh
@@ -26,9 +26,23 @@ before_script:
   - pnpm install
 
 stages:
+  - sync
   - test
   - build
   - release
+
+sync:
+  stage: sync
+  script:
+    - xargs -L 1 -a .packs curl --create-dirs -OSs --output-dir packs
+    - pnpx fvttp --path packs --babele true --save packs
+    - mv packs/*.json lang/en
+    - git add lang
+    - "git commit -m 'chore(sync): update files' || echo 'No changes, nothing to commit!'"
+    - git remote rm origin && git remote add origin git@gitlab.com:$CI_PROJECT_PATH.git
+    - git push origin HEAD:$CI_COMMIT_REF_NAME
+  rules:
+      - if: $CI_PIPELINE_SOURCE == 'schedule'
 
 jsonlint:
   stage: test
@@ -40,14 +54,27 @@ semistandard:
   script:
     - pnpx semistandard
 
-publish:
-  stage: release
+build:
+  stage: build
   script:
-    - pnpx semantic-release
+    - export NEXT_VERSION=$(pnpx semantic-release --dry-run | grep -Pio '(?<=The next release version is )(.*)(?=$)')
+    - export NEXT_DOWNLOAD=$CI_API_V4_URL/projects/$CI_PROJECT_ID/packages/generic/dnd5e/$NEXT_VERSION/dnd5e_pt-BR.zip
+    - pnpx json -I -f dnd5e_pt-BR/module.json -e 'this.version="'$NEXT_VERSION'"' -e 'this.download="'$NEXT_DOWNLOAD'"'
+    - pnpx json -I -f package.json -e 'this.version="'$NEXT_VERSION'"'
+    - zip -r -9 dnd5e_pt-BR.zip dnd5e_pt-BR
   artifacts:
     name: dnd5e_pt-BR
     when: on_success
     paths:
-      - dnd5e_pt-BR.zip
+      - package.json
+      - dnd5e-BR.zip
+      - dnd5e-BR/module.json
   rules:
-      - if: $CI_COMMIT_BRANCH =~ /^(master|main|beta)/ && $CI_PIPELINE_SOURCE != 'schedule'
+    - if: $CI_COMMIT_BRANCH =~ /^(master|beta)/ && $CI_PIPELINE_SOURCE != 'schedule'
+
+publish:
+  stage: release
+  script:
+    - pnpx semantic-release
+  rules:
+      - if: $CI_COMMIT_BRANCH =~ /^(master|beta)/ && $CI_PIPELINE_SOURCE != 'schedule'
