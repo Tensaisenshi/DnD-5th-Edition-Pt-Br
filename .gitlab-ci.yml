@@ -13,7 +13,7 @@ cache:
 
 before_script:
   - apk update
-  - apk add zip curl git openssh-client
+  - apk add zip curl git openssh-client findutils
   - curl -L https://unpkg.com/@pnpm/self-installer | node
   - mkdir -p ~/.ssh
   - chmod 700 ~/.ssh
