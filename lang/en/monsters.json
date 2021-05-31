@@ -2,7 +2,7 @@
   "label": "monsters",
   "entries": {
     "0m8QyDN52qw9zzOM": {
-      "description": "<p>False Appearance. While the gargoyle remains motionless, it is indistinguishable from an inanimate statue.</p>\n<p>Actions</p>\n<p>Multiattack. The gargoyle makes two attacks: one with its bite and one with its claws.</p>\n<p>Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: <strong>5 (1d6 + 2) <em>piercing damage</em></strong>.</p>\n<p>Claws. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: <strong>5 (1d6 + 2) <em>slashing damage</em></strong>.</p>\n<p></p>",
+      "description": "<p>False Appearance. While the gargoyle remains motionless, it is indistinguishable from an inanimate statue.</p>\n<p>Actions</p>\n<p>Multiattack. The gargoyle makes two attacks: one with its bite and one with its claws.</p>\n<p>Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: <strong>5 (1d6 + 2) <em>piercing damage</em></strong>.</p>\n<p>Claws. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: <strong>5 (1d6 + 2) <em>slashing damage</em></strong>.</p>\n<p></p>\n<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "sXPmgYwYgosoytUu": {
           "name": "False Appearance",
@@ -22,7 +22,12 @@
         }
       },
       "alignment": "Chaotic Evil",
-      "type": "Elemental",
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
       "name": "Gargoyle"
     },
@@ -51,7 +56,12 @@
         }
       },
       "alignment": "Any Alignment",
-      "type": "Humanoid (any race)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Any Race",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Spy"
     },
     "1ES45ODWg3pCrkzv": {
@@ -71,7 +81,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Bulette"
     },
     "1OQbxoZI5BtlB2ME": {
@@ -126,11 +141,16 @@
           "description": "<section class=\"secret\">\n<p>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: <strong>7 (1d8 + 3) <em>piercing damage</em></strong> plus <strong>4 (1d8) <em>poison damage</em></strong>.</p></section>\n<p>The Drider attacks with its Longbow.</p>"
         }
       },
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Drider"
     },
     "1cwfYaACm5F0l4y3": {
-      "alignment": "Chaotic Evil",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "Kxa2DcVskilkNOH9": {
           "name": "Amphibious",
@@ -153,7 +173,13 @@
           "description": "<section class=\"secret\"><p>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: <strong>11 (2d6 + 4) <em>piercing damage</em></strong>. </p><p>If the target is a Huge or smaller creature, it must succeed on a Strength contest against the merrow or be pulled up to 20 feet toward the merrow.</p></section><p>The Merrow attacks with its Harpoon. If the target is a Huge or smaller creature, it must make a Strength contest against the merrow or be pulled up to 20 feet toward the merrow.</p>"
         }
       },
-      "type": "Monstrosity",
+      "alignment": "Chaotic Evil",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Merrow"
     },
     "1vaBSMUfOy6JPJ14": {
@@ -197,7 +223,12 @@
         }
       },
       "alignment": "Neutral Evil",
-      "type": "Humanoid (Elf)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Elf",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Drow"
     },
     "1zzRQps9jZdLZGqI": {
@@ -232,7 +263,12 @@
           "description": "<p>The devil makes three attacks: one with its bite, one with its claws, and one with its tail.</p>"
         }
       },
-      "type": "Fiend (Devil)",
+      "type": {
+        "value": "fiend",
+        "subtype": "Devil",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing and slashing from nonmagical attacks that aren't silvered",
       "name": "Ice Devil"
     },
@@ -257,7 +293,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Spider"
     },
     "2MZNHeOZweXAYbv1": {
@@ -288,7 +329,12 @@
           "description": "<p>The xorn can pinpoint, by scent, the location of precious metals and stones, such as coins and gems, within <strong>60 ft.</strong> of it.</p>"
         }
       },
-      "type": "Elemental",
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "piercing and slashing from nonmagical attacks that aren't adamantine",
       "name": "Xorn"
     },
@@ -360,7 +406,12 @@
           "description": "<p>The mere presence of a legendary creature can have strange and wondrous effects on its environment. Regional effects end abruptly or dissipate over time when the legendary creature dies.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Ancient Bronze Dragon"
     },
     "3UUNbGiG2Yf1ZPxM": {
@@ -388,7 +439,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Octopus"
     },
     "3YwmvDupMwycWNCO": {
@@ -412,7 +468,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Crocodile"
     },
     "3fzQVYQhXxCXRa2o": {
@@ -436,7 +497,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Ooze",
+      "type": {
+        "value": "ooze",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Gelatinous Cube"
     },
     "3o2rQBqpzjIHmrBW": {
@@ -471,7 +537,12 @@
           "description": "<p>The erinyes makes three attacks.</p>"
         }
       },
-      "type": "Fiend (Devil)",
+      "type": {
+        "value": "fiend",
+        "subtype": "Devil",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "Bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
       "name": "Erinyes"
     },
@@ -535,7 +606,12 @@
           "description": "<section class=\"secret\">\n<p>The dragon makes a tail attack.</p>\n</section>\n<p>The dragon slams its long tail against its foe!</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Adult White Dragon"
     },
     "45Z5kogZEhawX1Ey": {
@@ -558,7 +634,12 @@
           "description": "<section class=\"secret\"><p>Ranged Weapon Attack: +11 to hit, range 60/240 ft., one target. Hit: <strong>29 (4d10 + 7) <em>bludgeoning damage</em></strong>.</p><p></p></section><p>The Fire Giant attacks with its Rock.</p>"
         }
       },
-      "type": "Giant",
+      "type": {
+        "value": "giant",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Fire Giant"
     },
     "4EODJbmPlpnNGVR7": {
@@ -570,7 +651,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Deer"
     },
     "4OeZZguYgJcsZoM9": {
@@ -586,7 +672,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Plesiosaurus"
     },
     "4ZlUHt4xmB7GdPfk": {
@@ -614,7 +705,12 @@
         }
       },
       "alignment": "Neutral Evil",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Vulture"
     },
     "4tl0s2SnaLjkoDiI": {
@@ -626,7 +722,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Wasp"
     },
     "4udpeEneFSZK9NTB": {
@@ -654,7 +755,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "tiny",
+        "custom": ""
+      },
       "name": "Swarm of Spiders"
     },
     "55PkbskG5iBZGrgR": {
@@ -674,7 +780,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Elk"
     },
     "57DofLgRQx16ARoc": {
@@ -710,7 +821,12 @@
         }
       },
       "alignment": "Neutral",
-      "type": "Humanoid (lizardfolk)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Lizardfolk",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Lizardfolk"
     },
     "5P1VGAZQwOilwZQf": {
@@ -785,7 +901,12 @@
           "description": "<p>You and up to eight willing creatures who link hands in a circle are transported to a different plane of existence. You can specify a target destination in general terms, such as the City of Brass on the Elemental Plane of Fire or the palace of Dispater on the second level of the Nine Hells, and you appear in or near that destination. If you are trying to reach the City of Brass, for example, you might arrive in its Street of Steel, before its Gate of Ashes, or looking at the city from across the Sea of Fire, at the DM's discretion.</p><p>Alternatively, if you know the sigil sequence of a teleportation circle on another plane of existence, this spell can take you to that circle. If the teleportation circle is too small to hold all the creatures you transported, they appear in the closest unoccupied spaces next to the circle.</p><p>You can use this spell to banish an unwilling creature to another plane. Choose a creature within your reach and make a melee spell attack against it. On a hit, the creature must make a <strong>Charisma</strong> saving throw. If the creature fails this save, it is transported to a random location on the plane of existence you specify. A creature so transported must find its own way back to your current plane of existence.</p>"
         }
       },
-      "type": "Elemental",
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Djinni"
     },
     "5SgVGhQBswgWRwsF": {
@@ -809,7 +930,12 @@
         }
       },
       "alignment": "Neutral Evil",
-      "type": "Fiend",
+      "type": {
+        "value": "fiend",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Nightmare"
     },
     "5TmstVMURpVtmNR3": {
@@ -840,11 +966,16 @@
           "description": "<section class=\"secret\"><p>The veteran exhales fire in a 15-foot cone. Each creature in that area must make a  <strong>DC 15 Dexterity</strong> saving throw, taking <strong>24 (7d6) <em>fire damage</em></strong> on a failed save, or half as much damage on a successful one.</p><p></p></section><p>The veteran exhales fire in a 15-foot cone. Each creature in that area must make a <strong>Dexterity</strong> saving throw.</p>"
         }
       },
-      "type": "Humanoid (human)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Human",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Half-Red Dragon Veteran"
     },
     "5kZNNWzZ6HrfKuWf": {
-      "description": "<p>Centaurs are primarily found on plains and in forests, roaming in herds and hunting in large groups. Equine creatures with the upper-bodies of men and women extending from the neck, they are known for their strength and praised as bold hunters.</p>",
+      "description": "<p>Centaurs are primarily found on plains and in forests, roaming in herds and hunting in large groups. Equine creatures with the upper-bodies of men and women extending from the neck, they are known for their strength and praised as bold hunters.</p>\n<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "uhqyN44IRWXixgxU": {
           "name": "Pike",
@@ -868,7 +999,12 @@
         }
       },
       "alignment": "Neutral Good",
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Centaur"
     },
     "5ngbctIMeEnuC1p1": {
@@ -892,7 +1028,12 @@
         }
       },
       "alignment": "Lawful Evil",
-      "type": "Humanoid (Kobold)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Kobold",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Kobold"
     },
     "68bAMIpe4jvDeR9G": {
@@ -951,7 +1092,12 @@
           "description": "<p>This spell grants up to ten willing creatures you can see within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.</p>"
         }
       },
-      "type": "Giant",
+      "type": {
+        "value": "giant",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Storm Giant"
     },
     "6oc29m5uzzzb0pk3": {
@@ -982,7 +1128,12 @@
           "description": "<section class=\"secret\"><p>The vrock emits a horrific screech. Each creature within 20 feet of it that can hear it and that isn't a demon must succeed on a  <strong>DC 14 Constitution</strong> saving throw or be stunned until the end of the vrock's next turn .</p><p></p></section><p>The vrock emits a horrific screech. Each creature within 20 feet of it that can hear it and that isn't a demon must make a <strong>Constitution</strong> saving throw.</p>"
         }
       },
-      "type": "Fiend (demon)",
+      "type": {
+        "value": "fiend",
+        "subtype": "Demon",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Vrock"
     },
@@ -1011,7 +1162,12 @@
         }
       },
       "alignment": "Lawful Evil",
-      "type": "Humanoid (Goblinoid)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Goblinoid",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Hobgoblin"
     },
     "6wbasdWWqtXeIAyD": {
@@ -1122,7 +1278,12 @@
           "description": "<p>The sphinx casts a spell from its list of prepared spells, using a spell slot as normal.</p>"
         }
       },
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Gynosphinx"
     },
@@ -1146,7 +1307,12 @@
           "description": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+7 to hit,</strong>, <strong>10 ft.,</strong> one creature. Hit: <strong>11 (2d6 + 4) <em>piercing damage</em></strong>.</p>\n<p>The target must make a  <strong>DC 15 Constitution</strong> saving throw, taking <strong>24 (7d6) <em>poison damage</em></strong> on a failed save, or half as much damage on a successful one.</p>\n</section>\n<p>The Wyvern attacks with its Stinger. The target must make a <strong>Constitution</strong> saving throw.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Wyvern"
     },
     "7EmUVycEASn7SFL0": {
@@ -1166,7 +1332,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Plant",
+      "type": {
+        "value": "plant",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Violet Fungus"
     },
     "7KJ5vjnp0FJrdu6T": {
@@ -1178,11 +1349,16 @@
         }
       },
       "alignment": "Lawful Evil",
-      "type": "Undead",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Warhorse Skeleton"
     },
     "7tRhrxuknTpHpYcA": {
-      "alignment": "Chaotic Evil",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "tWfR8uJNnQxpXgDw": {
           "name": "Bite (Wolf or Hybrid Form Only)",
@@ -1209,7 +1385,13 @@
           "description": "<p>The werewolf has<strong> advantage </strong>on Wisdom (Perception) checks that rely on hearing or smell.</p>"
         }
       },
-      "type": "Humanoid (human, shapechanger)",
+      "alignment": "Chaotic Evil",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Human, Shapechanger",
+        "swarm": "",
+        "custom": ""
+      },
       "di": " bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
       "name": "Werewolf"
     },
@@ -1277,7 +1459,12 @@
           "description": "<p>The mere presence of a legendary creature can have strange and wondrous effects on its environment. Regional effects end abruptly or dissipate over time when the legendary creature dies.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Adult Brass Dragon"
     },
     "85ahD1jEo9B3POaQ": {
@@ -1304,7 +1491,12 @@
           "description": "<section class=\"secret\"><p>The dragon exhales poisonous gas in a 30-foot cone. Each creature in that area must make a  <strong>DC 14 Constitution</strong> saving throw, taking <strong>42 (12d6) <em>poison damage</em></strong> on a failed save, or half as much damage on a successful one.</p><p></p></section><p>The dragon exhales poisonous gas in a 30-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Young Green Dragon"
     },
     "8ExSFCar5Lbhdo7u": {
@@ -1387,7 +1579,12 @@
           "description": "<section class=\"secret\"><p>Ranged Weapon Attack: +8 to hit, range 15/30 ft., one creature. Hit: </p><p>The target must make a  <strong>DC 15 Constitution</strong> saving throw, taking <strong>45 (10d8) <em>poison damage</em></strong> on a failed save, or half as much damage on a successful one.</p></section><p>The Guardian Naga attacks with its Spit Poison. The target must make a <strong>Constitution</strong> saving throw.</p>"
         }
       },
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Guardian Naga"
     },
     "8KSVpQZyzius93ko": {
@@ -1419,7 +1616,12 @@
         }
       },
       "alignment": "Chaotic Evil",
-      "type": "Undead",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "Nonmagical Attacks",
       "name": "Will-o'-Wisp"
     },
@@ -1440,7 +1642,12 @@
         }
       },
       "alignment": "Chaotic Neutral",
-      "type": "Elemental",
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Magmin"
     },
@@ -1461,7 +1668,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Ape"
     },
     "8RgUhb31VvjUNZU1": {
@@ -1477,7 +1689,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Crab"
     },
     "8SMQl75HLjhuSeau": {
@@ -1504,7 +1721,12 @@
           "description": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+6 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>10 (2d6 + 3) <em>fire damage</em></strong>. </p><p>If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes <strong>5 (1d10) <em>fire damage</em></strong> at the start of each of its turns.</p></section><p>The Fire Elemental attacks with its Touch. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes <em>fire damage</em> at the start of each of its turns.</p>"
         }
       },
-      "type": "Elemental",
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Fire Elemental"
     },
@@ -1521,7 +1743,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Weasel"
     },
     "8aCTKP5qaBPFOqxM": {
@@ -1537,7 +1764,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Crocodile"
     },
     "8ihbbjkaOFTPbI73": {
@@ -1557,7 +1789,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "tiny",
+        "custom": ""
+      },
       "name": "Swarm of Rats"
     },
     "8pX2JhWUpTNNRBVx": {
@@ -1585,7 +1822,12 @@
         }
       },
       "alignment": "Neutral",
-      "type": "Aberration",
+      "type": {
+        "value": "aberration",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Gibbering Mouther"
     },
     "8xhuJXYMnlQD7LF6": {
@@ -1613,7 +1855,12 @@
         }
       },
       "alignment": "Chaotic Neutral",
-      "type": "Fey",
+      "type": {
+        "value": "fey",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Satyr"
     },
     "9bHoR8k5D2DKHaF3": {
@@ -1637,7 +1884,12 @@
         }
       },
       "alignment": "Neutral Good",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Eagle"
     },
     "9g4N9sjyh8Ql46to": {
@@ -1656,11 +1908,16 @@
           "description": "<section class=\"secret\"><p>Ranged Weapon Attack: +8 to hit, range 60/240 ft., one target. Hit: <strong>21 (3d10 + 5) <em>bludgeoning damage</em></strong>.</p><p></p></section><p>The Hill Giant attacks with its Rock.</p>"
         }
       },
-      "type": "Giant",
+      "type": {
+        "value": "giant",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Hill Giant"
     },
     "9ggQBmAKXraOtz7S": {
-      "alignment": "Lawful Evil",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "xt4Cm1tg8Xfodhdt": {
           "name": "Devil's Sight",
@@ -1687,7 +1944,13 @@
           "description": "<p>The devil makes two attacks: one with its beard and one with its glaive.</p>"
         }
       },
-      "type": "Fiend (devil)",
+      "alignment": "Lawful Evil",
+      "type": {
+        "value": "fiend",
+        "subtype": "Devil",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from non-magical attacks that aren't silvered",
       "name": "Bearded Devil"
     },
@@ -1708,7 +1971,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Blood Hawk"
     },
     "AOJvmk1IchxNxQzP": {
@@ -1724,7 +1992,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Crab"
     },
     "AijNdqMurWxDxUSl": {
@@ -1748,7 +2021,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Panther"
     },
     "AnseLn7HwuP97grf": {
@@ -1775,7 +2053,12 @@
           "description": "<p>The devil makes three attacks: two with its claws and one with its sting.</p>"
         }
       },
-      "type": "Fiend (devil)",
+      "type": {
+        "value": "fiend",
+        "subtype": "Devil",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from non-magical attacks that aren't silvered",
       "name": "Bone Devil"
     },
@@ -1839,7 +2122,12 @@
           "description": "<p>You transform a willing creature you touch, along with everything it's wearing and carrying, into a misty cloud for the duration. The spell ends if the creature drops to 0 hit points. An incorporeal creature isn't affected.</p>\n<p>While in this form, the target's only method of movement is a flying speed of 10 feet. The target can enter and occupy the space of another creature. The target has resistance to non-magical damage, and it has advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through small holes, narrow openings, and even mere cracks, though it treats liquids as though they were solid surfaces. The target can't fall and remains hovering in the air even when stunned or otherwise incapacitated.</p>\n<p>While in the form of a misty cloud, the target can't talk or manipulate objects, and any objects it was carrying or holding can't be dropped, used, or otherwise interacted with. The target can't attack or cast spells.</p>"
         }
       },
-      "type": "Giant",
+      "type": {
+        "value": "giant",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Cloud Giant"
     },
     "AyvniEKtyroOe83p": {
@@ -1862,7 +2150,12 @@
           "description": "<section class=\"secret\">\n<p>**Slowing Breath.** The dragon exhales gas in a 15-foot cone. Each creature in that area must succeed on a  <strong>DC 11 Constitution</strong> saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save.</p>\n</section>\n<p>The dragon exhales gas in a 15-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Copper Dragon Wyrmling"
     },
     "B7lBOr1AahNZs4a6": {
@@ -1989,7 +2282,12 @@
           "description": "<p>You make yourself—including your clothing, armor, weapons, and other belongings on your person—look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.</p><p>The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.</p><p>To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC.</p>"
         }
       },
-      "type": "Humanoid",
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "damage from spells;non-magical bludgeoning, piercing, and slashing (from stoneskin)",
       "name": "Archmage"
     },
@@ -2061,7 +2359,12 @@
           "description": "<section class=\"secret\">\n<p>The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared:</p>\n<p><strong>• Cantrips (at will)</strong>: mage hand, minor illusion, ray of frost</p>\n<p><strong>• 1st level (4 slots)</strong>: charm person, detect magic, sleep</p>\n<p><strong>• 2nd level (3 slots)</strong>: detect thoughts, hold person</p>\n<p><strong>• 3rd level (3 slots)</strong>: lightning bolt, water breathing</p>\n<p><strong>• 4th level (3 slots)</strong>: blight, dimension door</p>\n<p><strong>• 5th level (2 slots)</strong>: dominate person</p>\n</section>\n<p>The naga is a spellcaster. Its spellcasting ability is Intelligence and it needs only verbal components to cast its spells.</p>"
         }
       },
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Spirit Naga"
     },
     "BUCfQ7ihaXX75Vai": {
@@ -2089,7 +2392,12 @@
         }
       },
       "alignment": "Neutral Evil",
-      "type": "Elemental",
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Dust Mephit"
     },
     "Bupo3E9X5Ptx6XeT": {
@@ -2101,7 +2409,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Draft Horse"
     },
     "Buxe6dDK5Mw7kxe6": {
@@ -2124,7 +2437,12 @@
           "description": "<p>The giant makes two greataxe attacks.</p>"
         }
       },
-      "type": "Giant",
+      "type": {
+        "value": "giant",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Frost Giant"
     },
     "CHEUjiYrVM9X0vIT": {
@@ -2164,7 +2482,12 @@
         }
       },
       "alignment": "Any",
-      "type": "Humanoid",
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Acolyte"
     },
     "CqQ6pXQA5WXZNOm3": {
@@ -2188,11 +2511,16 @@
         }
       },
       "alignment": "Chaotic Evil",
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Harpy"
     },
     "CrnUJhTbkdZjCZsH": {
-      "alignment": "Lawful Evil",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "PhdUmTsYUeWSSDNN": {
           "name": "Shapechanger",
@@ -2219,7 +2547,13 @@
           "description": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+4 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>5 (1d6 + 2) <em>piercing damage</em></strong>.</p>\n</section>\n<p>The Wererat attacks with its Shortsword.</p>"
         }
       },
-      "type": "Humanoid (human, shapechanger)",
+      "alignment": "Lawful Evil",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Human, Shapechanger",
+        "swarm": "",
+        "custom": ""
+      },
       "di": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
       "name": "Wererat"
     },
@@ -2248,11 +2582,16 @@
         }
       },
       "alignment": "Any non-good alignment",
-      "type": "Humanoid",
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Thug"
     },
     "D5UqYD1EnTrJaMTO": {
-      "description": "<p>Knights are warriors who pledge service to rulers, religious orders, and noble causes. A knight's alignment determines the extent to which a pledge is honored. Whether undertaking a quest or patrolling a realm, a knight often travels with an entourage that includes squires and hirelings who are commoners.</p>\n<p></p>",
+      "description": "<p>Knights are warriors who pledge service to rulers, religious orders, and noble causes. A knight's alignment determines the extent to which a pledge is honored. Whether undertaking a quest or patrolling a realm, a knight often travels with an entourage that includes squires and hirelings who are commoners.</p>\n<p></p>\n<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "Y4OikSWAB33cwfR2": {
           "name": "Plate Armor",
@@ -2284,7 +2623,12 @@
         }
       },
       "alignment": "Any Alignment",
-      "type": "Humanoid (any race)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Any Race",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Knight"
     },
     "D5WjGwKskeUT8HXa": {
@@ -2308,7 +2652,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Black Bear"
     },
     "D5rwVIxmfFrdyyxT": {
@@ -2320,11 +2669,16 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Poisonous Snake"
     },
     "DDO9lDCDtNHkfShP": {
-      "alignment": "Lawful Evil",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "BqG5guVa93LaOAn1": {
           "name": "Shapechanger",
@@ -2395,7 +2749,13 @@
           "description": "<p>The vampire makes a bite attack.</p>"
         }
       },
-      "type": "Undead (shapechanger)",
+      "alignment": "Lawful Evil",
+      "type": {
+        "value": "undead",
+        "subtype": "Shapechanger",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Vampire"
     },
@@ -2416,7 +2776,12 @@
         }
       },
       "alignment": "Any Alignment",
-      "type": "Humanoid",
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Guard"
     },
     "EI8w6XjzCZICkox9": {
@@ -2432,7 +2797,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Eagle"
     },
     "EIgAW1dWVPpyWLUh": {
@@ -2443,7 +2813,12 @@
           "description": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+6 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>11 (2d6 + 4) <em>bludgeoning damage</em></strong>.</p><p></p></section><p>The Pegasus attacks with its Hooves.</p>"
         }
       },
-      "type": "Celestial",
+      "type": {
+        "value": "celestial",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Pegasus"
     },
     "EMvcuOpu7ABCmBWi": {
@@ -2479,7 +2854,12 @@
         }
       },
       "alignment": "Any non-good",
-      "type": "Humanoid",
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Assassin"
     },
     "ESEm3fGUfSKjzVUc": {
@@ -2511,11 +2891,16 @@
         }
       },
       "alignment": "Neutral Evil",
-      "type": "Elemental",
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Ice Mephit"
     },
     "ET4PEVEiNJLU4f7c": {
-      "alignment": "Neutral Evil",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "RADMbiPme1Hrfu8E": {
           "name": "Create Specter",
@@ -2534,7 +2919,13 @@
           "description": "<p>While in sunlight, the wraith has<strong> disadvantage </strong>on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</p>"
         }
       },
-      "type": "Undead",
+      "alignment": "Neutral Evil",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
       "name": "Wraith"
     },
@@ -2554,7 +2945,12 @@
           "description": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+5 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>10 (2d6 + 3) <em>piercing damage</em></strong>.</p>\n<p>If the target is a creature, it must succeed on a  <strong>DC 13 Strength</strong> saving throw or be knocked prone.</p>\n</section>\n<p>The Dire Wolf attacks with its Bite. If the target is a creature, it must make a <strong>Strength</strong> saving throw or be knocked prone.</p>"
         }
       },
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Dire Wolf"
     },
     "EZgiprHXA2D7Uyb3": {
@@ -2570,7 +2966,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Frog"
     },
     "EpYl7qifM5pq6W6B": {
@@ -2582,7 +2983,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Cockatrice"
     },
     "EqJUA3Z3181RSSFU": {
@@ -2602,7 +3008,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Construct",
+      "type": {
+        "value": "construct",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Flying Sword"
     },
     "F0yILX4xKKt4dxKY": {
@@ -2622,7 +3033,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Reef Shark"
     },
     "FQMFuzzSh73d0Nrd": {
@@ -2634,7 +3050,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Camel"
     },
     "FWSDiq9SZsdiBAa8": {
@@ -2646,11 +3067,16 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Sea Horse"
     },
     "FayqbnjBMszO6Pat": {
-      "description": "<p>Pounce. If the tiger moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a  <strong>DC 13 Strength</strong> saving throw or be knocked <a class=\"entity-link broken\" draggable=\"true\" data-entity=\"JournalEntry\" data-id=\"null\"><i class=\"fas fa-unlink\"></i> Prone</a>. If the target is <a class=\"entity-link broken\" draggable=\"true\" data-entity=\"JournalEntry\" data-id=\"null\"><i class=\"fas fa-unlink\"></i> Prone</a>, the tiger can make one bite attack against it as a bonus action.</p>\n<p>Actions</p>\n<p>Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: <strong>8 (1d10 + 3) <em>piercing damage</em></strong>.</p>\n<p>Claw. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: <strong>7 (1d8 + 3) <em>slashing damage</em></strong>.</p>\n<p></p>",
+      "description": "<p>Pounce. If the tiger moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a  <strong>DC 13 Strength</strong> saving throw or be knocked <a class=\"entity-link broken\" draggable=\"true\" data-entity=\"JournalEntry\" data-id=\"null\"><i class=\"fas fa-unlink\"></i> Prone</a>. If the target is <a class=\"entity-link broken\" draggable=\"true\" data-entity=\"JournalEntry\" data-id=\"null\"><i class=\"fas fa-unlink\"></i> Prone</a>, the tiger can make one bite attack against it as a bonus action.</p>\n<p>Actions</p>\n<p>Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: <strong>8 (1d10 + 3) <em>piercing damage</em></strong>.</p>\n<p>Claw. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: <strong>7 (1d8 + 3) <em>slashing damage</em></strong>.</p>\n<p></p>\n<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "G2GfXsv9MMfL3lc5": {
           "name": "Keen Smell",
@@ -2670,7 +3096,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Tiger"
     },
     "FzvZ6xl3U9GoL9ju": {
@@ -2701,7 +3132,12 @@
           "description": "<p>The dragon makes three attacks: one with its bite and two with its claws.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Young Brass Dragon"
     },
     "G9PENY6nw0xRxCJW": {
@@ -2793,7 +3229,12 @@
         }
       },
       "alignment": "Lawful Good",
-      "type": "Celestial",
+      "type": {
+        "value": "celestial",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Unicorn"
     },
     "GP8JMSDugRxuLOD2": {
@@ -2856,7 +3297,12 @@
           "description": "<p>The mere presence of a legendary creature can have strange and wondrous effects on its environment. Regional effects end abruptly or dissipate over time when the legendary creature dies.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Adult Green Dragon"
     },
     "GlaCGcgIP6YjBjGc": {
@@ -2876,7 +3322,12 @@
         }
       },
       "alignment": "Any Alignment",
-      "type": "Humanoid (any race)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Any Race",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Noble"
     },
     "GpeQYtlo8oGvGlkM": {
@@ -2900,7 +3351,12 @@
         }
       },
       "alignment": "Neutral Evil",
-      "type": "Humanoid (grimlock)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Grimlock",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Grimlock"
     },
     "GxgIVRX5GbVTifiF": {
@@ -2920,7 +3376,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Scorpion"
     },
     "HB49mCOVBXwWeKWQ": {
@@ -2944,7 +3405,12 @@
         }
       },
       "alignment": "Chaotic Evil",
-      "type": "Humanoid (Orc)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Orc",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Orc"
     },
     "HPUO3weiwRQnql0d": {
@@ -2983,7 +3449,12 @@
           "description": "<p>The cloaker magically creates three illusory duplicates of itself if it isn't in bright light. The duplicates move with it and mimic its actions, shifting position so as to make it impossible to track which cloaker is the real one. If the cloaker is ever in an area of bright light, the duplicates disappear.</p>\n<p>Whenever any creature targets the cloaker with an attack or a harmful spell while a duplicate remains, that creature rolls randomly to determine whether it targets the cloaker or one of the duplicates. A creature is unaffected by this magical effect if it can't see or if it relies on senses other than sight.</p>\n<p>A duplicate has the cloaker's AC and uses its saving throws. If an attack hits a duplicate, or if a duplicate fails a saving throw against an effect that deals damage, the duplicate disappears.</p>"
         }
       },
-      "type": "Aberration",
+      "type": {
+        "value": "aberration",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Cloaker"
     },
     "HlddcPm4cWptj3ka": {
@@ -3002,7 +3473,12 @@
           "description": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+10 to hit,</strong>, <strong>10 ft.,</strong> one target. Hit: <strong>20 (3d8 + 7) <em>bludgeoning damage</em></strong>.</p><p></p></section><p>The Tyrannosaurus Rex attacks with its Tail.</p>"
         }
       },
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Tyrannosaurus Rex"
     },
     "Hm4o2FgPZsdbXjLq": {
@@ -3041,7 +3517,12 @@
           "description": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+7 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>13 (2d8 + 4) <em>bludgeoning damage</em></strong>.</p><p></p></section><p>The Flesh Golem attacks with its Slam.</p>"
         }
       },
-      "type": "Construct",
+      "type": {
+        "value": "construct",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "di": "bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
       "name": "Flesh Golem"
     },
@@ -3054,7 +3535,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Centipede"
     },
     "I2x01hzOjVN4NUjf": {
@@ -3066,7 +3552,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Lizard"
     },
     "IZMbiAHqQpzPo0CX": {
@@ -3085,11 +3576,16 @@
           "description": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+4 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>7 (1d10 + 2) <em>piercing damage</em></strong> plus <strong>2 (1d4) <em>acid damage</em></strong>.</p><p></p></section><p>The Black Dragon Wyrmling attacks with its Bite.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Black Dragon Wyrmling"
     },
     "IiEDPMWqBlzkggYD": {
-      "alignment": "Lawful Neutral",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "sSs3hSzkKBMNBgTs": {
           "name": "Shield",
@@ -3112,7 +3608,13 @@
           "description": "<section>\n<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+5 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>7 (1d8 + 3) <em>bludgeoning damage</em></strong>, or <strong>8 (1d10 + 3) <em>bludgeoning damage</em></strong> if used with two hands to make a melee attack, plus <strong>3 (1d6) <em>fire damage</em></strong>.</p>\n</section>\n</section>\n<p>A heavy metal hammer capable of being wielded with a single hand with a shield or in two hands to deliver crushing concussive blows.</p>"
         }
       },
-      "type": "Elemental",
+      "alignment": "Lawful Neutral",
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Azer"
     },
     "Ixo5shumxy4I9qyD": {
@@ -3136,7 +3638,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Toad"
     },
     "IyIybE5t2adMEVUM": {
@@ -3160,7 +3667,12 @@
         }
       },
       "alignment": "Chaotic Evil",
-      "type": "Undead",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Ghast"
     },
     "J1QVPd8POvcPaqx4": {
@@ -3183,11 +3695,16 @@
           "description": "<section class=\"secret\">\n<p>**Paralyzing Breath.** The dragon exhales paralyzing gas in a 15-foot cone. Each creature in that area must succeed on a  <strong>DC 13 Constitution</strong> saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>\n</section>\n<p>The dragon exhales paralyzing gas in a 15-foot cone. Each creature in that area make a <strong>Constitution</strong> saving throw.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Silver Dragon Wyrmling"
     },
     "J8xjoG4Dxb8WkHtV": {
-      "alignment": "Any Alignment",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "0otc04A190Q8hTBK": {
           "name": "Splint Armor",
@@ -3210,11 +3727,17 @@
           "description": "<section class=\"secret\"><p>Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: <strong>6 (1d10 + 1) <em>piercing damage</em></strong>.</p><p></p></section><p>The Veteran attacks with its Heavy Crossbow.</p>"
         }
       },
-      "type": "Humanoid (any race)",
+      "alignment": "Any Alignment",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Any Race",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Veteran"
     },
     "J9hgSaZODGjrNl9B": {
-      "alignment": "Neutral Evil",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "TizBVS6hRuBa8JYY": {
           "name": "Charge (Boar or Hybrid Form Only)",
@@ -3241,7 +3764,13 @@
           "description": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+5 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>10 (2d6 + 3) <em>bludgeoning damage</em></strong>.</p>\n</section>\n<p>The Wereboar attacks with its Maul.</p>"
         }
       },
-      "type": "Humanoid (human, shapechanger)",
+      "alignment": "Neutral Evil",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Human, Shapechanger",
+        "swarm": "",
+        "custom": ""
+      },
       "di": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
       "name": "Wereboar"
     },
@@ -3258,7 +3787,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Baboon"
     },
     "K15Yl8JmB5iPircc": {
@@ -3310,7 +3844,12 @@
         }
       },
       "alignment": "any",
-      "type": "Humanoid (any race)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Any Race",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Druid"
     },
     "K4vsSlHqbBAHUDHY": {
@@ -3341,7 +3880,12 @@
           "description": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+8 to hit,</strong>, <strong>10 ft.,</strong> one target. Hit: <strong>10 (1d10 + 5) <em>piercing damage</em></strong>.</p><p></p></section><p>The Hydra attacks with its Bite.</p>"
         }
       },
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Hydra"
     },
     "K5cKmPoFkpuOotis": {
@@ -3361,7 +3905,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Ape"
     },
     "KC4tYOolARhajP18": {
@@ -3377,7 +3926,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "tiny",
+        "custom": ""
+      },
       "name": "Swarm of Centipedes"
     },
     "KCvt4FdOVJbuZ3T0": {
@@ -3452,7 +4006,12 @@
           "description": "<p>The tarrasque makes one bite attack or uses its Swallow.</p>"
         }
       },
-      "type": "Monstrosity (titan)",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "Titan",
+        "swarm": "",
+        "custom": ""
+      },
       "di": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Tarrasque"
     },
@@ -3472,7 +4031,12 @@
           "description": "<p>The dragon can breathe air and water.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Green Dragon Wyrmling"
     },
     "KLCkHep28HBfdsky": {
@@ -3499,7 +4063,12 @@
           "description": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+7 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>14 (2d8 + 5) <em>piercing damage</em></strong>.</p><p></p></section><p>The Ettin attacks with its Morningstar.</p>"
         }
       },
-      "type": "Giant",
+      "type": {
+        "value": "giant",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Ettin"
     },
     "KOHVWl5RU9XBR8Jb": {
@@ -3554,7 +4123,12 @@
           "description": "<section class=\"secret\">\n<p>The dryad targets one humanoid or beast that she can see within 30 feet of her. If the target can see the dryad, it must succeed on a  <strong>DC 14 Wisdom</strong> saving throw or be magically charmed.</p>\n<p>The charmed creature regards the dryad as a trusted friend to be heeded and protected. Although the target isn't under the dryad's control, it takes the dryad's requests or actions in the most favorable way it can.Each time the dryad or its allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the dryad dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target's saving throw is successful, the target is immune to the dryad's Fey Charm for the next 24 hours.The dryad can have no more than one humanoid and up to three beasts charmed at a time.</p>\n</section>\n<p>The dryad targets one humanoid or beast that she can see within 30 feet of her. If the target can see the dryad, it must make a <strong>Wisdom</strong> saving throw. Each time the dryad or its allies do anything harmful to the target, it can repeat the saving throw.</p>"
         }
       },
-      "type": "Fey",
+      "type": {
+        "value": "fey",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Dryad"
     },
     "KUpbXdn1XmHEeOPk": {
@@ -3570,7 +4144,12 @@
         }
       },
       "alignment": "Neutral",
-      "type": "Humanoid (merfolk)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Merfolk",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Merfolk"
     },
     "KXG5XLIwKhn1V0Y5": {
@@ -3594,7 +4173,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "tiny",
+        "custom": ""
+      },
       "name": "Swarm of Quippers"
     },
     "KtM6IV9I5l1MWUDk": {
@@ -3625,7 +4209,12 @@
           "description": "<section class=\"secret\">\n<p>Up to four chains the devil can see within 60 feet of it magically sprout razor-edged barbs and animate under the devil's control, provided that the chains aren't being worn or carried.</p>\n<p>Each animated chain is an object with AC 20, 20 hit points, resistance to <em>piercing damage</em>, and immunity to psychic and thunder damage. When the devil uses Multiattack on its turn, it can use each animated chain to make one additional chain attack. An animated chain can grapple one creature of its own but can't make attacks while grappling. An animated chain reverts to its inanimate state if reduced to 0 hit points or if the devil is incapacitated or dies.</p>\n</section>\n<p>Up to four chains the devil can see within 60 feet of it magically sprout razor-edged barbs and animate under the devil's control, provided that the chains aren't being worn or carried.</p>"
         }
       },
-      "type": "Fiend (devil)",
+      "type": {
+        "value": "fiend",
+        "subtype": "Devil",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from non-magical attacks that aren't silvered",
       "name": "Chain Devil"
     },
@@ -3689,7 +4278,12 @@
           "description": "<p>The oni magically <strong>polymorphs</strong> into a <strong>Small</strong> or<strong> Medium humanoid</strong>, into <strong>a Large giant</strong>, or <strong>back into its true form</strong>. Other than its size, its statistics are the same in each form.<strong> The only equipment that is transformed is its glaive</strong>, which shrinks so that it can be wielded in humanoid form. If the oni dies, it reverts to its true form, and its glaive reverts to its normal size.</p>"
         }
       },
-      "type": "Giant",
+      "type": {
+        "value": "giant",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Oni"
     },
     "LPdX5YLlwci0NDZx": {
@@ -3705,7 +4299,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Raven"
     },
     "LTomFUTBrkRi0Pj5": {
@@ -3768,7 +4367,12 @@
           "description": "<section class=\"secret\"><p><em>Ranged Spell Attack:</em><strong>+7 to hit,</strong>, <strong>120 ft.,</strong> one target. Hit: <strong>17 (5d6) <em>fire damage</em></strong>.</p><p></p></section><p>The Efreeti attacks with its Hurl Flame.</p>"
         }
       },
-      "type": "Elemental",
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Efreeti"
     },
     "M4eX4Mu5IHCr3TMf": {
@@ -3831,7 +4435,12 @@
           "description": "<section class=\"secret\">\n<p>If a legendary creature has lair actions, it can use them to harness the ambient magic in its lair. On initiative count 20 (losing all initiative ties), it can use one of its lair action options. It can’t do so while incapacitated or otherwise unable to take actions. If surprised, it can’t use one until after its first turn in the combat.</p>\n</section>\n<p>If a legendary creature has lair actions, it can use them to harness the ambient magic in its lair. </p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Adult Black Dragon"
     },
     "MADGs8pWMVyyFOf1": {
@@ -3862,12 +4471,17 @@
           "description": "<section class=\"secret\">\n<p><em>Ranged Spell Attack:</em><strong>+7 to hit,</strong>, <strong>150 ft.,</strong> one target. Hit: <strong>14 (4d6) <em>fire damage</em></strong>.</p>\n<p>If the target is a flammable object that isn't being worn or carried, it also catches fire.</p>\n</section>\n<p>The Horned Devil attacks with its Hurl Flame. If the target is a flammable object that isn't being worn or carried, it also catches fire.</p>"
         }
       },
-      "type": "Fiend (Devil)",
+      "type": {
+        "value": "fiend",
+        "subtype": "Devil",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
       "name": "Horned Devil"
     },
     "MAoCGF5VkQwhmgvI": {
-      "alignment": "Lawful Evil",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "7GyypGVW1RhhbcqC": {
           "name": "Tail Spike Regrowth",
@@ -3890,7 +4504,13 @@
           "description": "<section class=\"secret\"><p>Ranged Weapon Attack: +5 to hit, range 100/200 ft., one target. Hit: <strong>7 (1d8 + 3) <em>piercing damage</em></strong>.</p><p></p></section><p>The Manticore attacks with its Tail Spike.</p>"
         }
       },
-      "type": "Monstrosity",
+      "alignment": "Lawful Evil",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Manticore"
     },
     "MO382D2sxtAIuUC5": {
@@ -3965,7 +4585,12 @@
           "description": "<p>The mere presence of a legendary creature can have strange and wondrous effects on its environment. Regional effects end abruptly or dissipate over time when the legendary creature dies.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Adult Gold Dragon"
     },
     "MUpBNDoJEr09bLaO": {
@@ -3993,7 +4618,12 @@
         }
       },
       "alignment": "Neutral Good",
-      "type": "Fey",
+      "type": {
+        "value": "fey",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Sprite"
     },
     "MWlwLlKXh8jUUxOL": {
@@ -4013,7 +4643,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Shark"
     },
     "MZYCPIVoBs918qGZ": {
@@ -4033,7 +4668,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Jackal"
     },
     "MiYRAIHwm9It1in8": {
@@ -4053,7 +4693,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Mammoth"
     },
     "MnoL59nOOfYatAkQ": {
@@ -4108,7 +4753,12 @@
           "description": "<section class=\"secret\"><p><em>Melee Spell Attack:</em><strong>+5 to hit,</strong>, <strong>5 ft.,</strong> one creature. Hit: The target is magically cursed for 1 hour. Until the curse ends, the target has disadvantage on Wisdom saving throws and all ability checks.</p><p></p></section><p>The target has disadvantage on Wisdom saving throws and all ability checks.</p>"
         }
       },
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Lamia"
     },
     "NAISFPoNNgUCsEyW": {
@@ -4124,7 +4774,12 @@
         }
       },
       "alignment": "Neutral Evil",
-      "type": "Undead",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Zombie"
     },
     "NB6wUgVqeOQtsQKu": {
@@ -4155,7 +4810,12 @@
           "description": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+10 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>16 (3d6 + 6) <em>bludgeoning damage</em></strong>.</p><p></p></section><p>The Treant attacks with its Slam.</p>"
         }
       },
-      "type": "Plant",
+      "type": {
+        "value": "plant",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Treant"
     },
     "NmQLj0zv4FmfuSan": {
@@ -4190,7 +4850,12 @@
           "description": "<p>The dragon makes three attacks: one with its bite and two with its claws.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Young Bronze Dragon"
     },
     "NpvwE1feOHyEqAbP": {
@@ -4205,7 +4870,12 @@
           "description": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+6 to hit,</strong>, <strong>5 ft.,</strong> one creature. Hit: <strong>13 (2d8 + 4) <em>bludgeoning damage</em></strong>.</p>\n<p>The target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the snake can't constrict another target.</p>\n</section>\n<p>The Giant Constrictor Snake attacks with its Constrict. The target is grappled. Until this grapple ends, the creature is restrained, and the snake can't constrict another target.</p>"
         }
       },
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Constrictor Snake"
     },
     "NwQpeeaMxAC3fRft": {
@@ -4232,7 +4902,12 @@
           "description": "<section class=\"secret\">\n<p>When a pudding that is Medium or larger is subjected to lightning or <em>slashing damage</em>, it splits into two new puddings if it has at least 10 Hit Points. Each new pudding has Hit Points equal to half the original pudding's, rounded down. New puddings are one size smaller than the original pudding.</p>\n</section>\n<p>The pudding splits into two new puddings. New puddings are one size smaller than the original pudding.</p>"
         }
       },
-      "type": "Ooze",
+      "type": {
+        "value": "ooze",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Black Pudding"
     },
     "O3ABqI55Ir1du1Xa": {
@@ -4260,7 +4935,12 @@
         }
       },
       "alignment": "Any Alignment",
-      "type": "Humanoid",
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Scout"
     },
     "OBujQLLPSmlJiZnL": {
@@ -4276,7 +4956,12 @@
         }
       },
       "alignment": "Chaotic Evil",
-      "type": "Undead",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Ghoul"
     },
     "OGPHF4sCVOAi87TU": {
@@ -4327,7 +5012,12 @@
           "description": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+9 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>7 (2d4 + 2) <em>bludgeoning damage</em></strong>.</p><p></p></section><p>The Glabrezu attacks with its Fist.</p>"
         }
       },
-      "type": "Fiend (demon)",
+      "type": {
+        "value": "fiend",
+        "subtype": "Demon",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": " bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Glabrezu"
     },
@@ -4356,7 +5046,12 @@
         }
       },
       "alignment": "Chaotic Evil",
-      "type": "Fey",
+      "type": {
+        "value": "fey",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Sea Hag"
     },
     "P6qC8jB3pnEH0tIE": {
@@ -4383,7 +5078,12 @@
           "description": "<p>The chuul senses magic <strong>within 120 feet</strong> of it at will. This trait otherwise works like the detect magic spell but isn't itself magical.</p>"
         }
       },
-      "type": "Aberration",
+      "type": {
+        "value": "aberration",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Chuul"
     },
     "PH78NBdvoaszAb61": {
@@ -4403,7 +5103,12 @@
         }
       },
       "alignment": "Neutral Evil",
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Death Dog"
     },
     "PHO4J98zK2p4KNyc": {
@@ -4415,7 +5120,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Pony"
     },
     "PVD5wRdyO7iCJPs1": {
@@ -4479,7 +5189,12 @@
         }
       },
       "alignment": "Any Alignment",
-      "type": "Humanoid (any race)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Any Race",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Priest"
     },
     "PcZ0QjIG6bHpffp9": {
@@ -4503,7 +5218,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "tiny",
+        "custom": ""
+      },
       "name": "Swarm of Bats"
     },
     "PtotS52HpHX596cZ": {
@@ -4526,7 +5246,12 @@
           "description": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+9 to hit,</strong>, <strong>10 ft.,</strong> one creature. Hit: <strong>19 (3d6 + 9) <em>piercing damage</em></strong>.</p><p>The target must make a  <strong>DC 19 Constitution</strong> saving throw, taking <strong>42 (12d6) <em>poison damage</em></strong> on a failed save, or half as much damage on a successful one.</p></section><p>The Purple Worm attacks with its Tail Stinger. The target must make a <strong>Constitution</strong> saving throw.</p>"
         }
       },
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Purple Worm"
     },
     "PuPo4H4Dcxigf0fY": {
@@ -4546,7 +5271,12 @@
         }
       },
       "alignment": "Chaotic Evil",
-      "type": "Undead",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "Bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Specter"
     },
@@ -4571,7 +5301,12 @@
         }
       },
       "alignment": "Chaotic Evil",
-      "type": "Undead",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "Bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Shadow"
     },
@@ -4607,7 +5342,12 @@
           "description": "<section class=\"secret\">\n<p>**Weakening Breath.** The dragon exhales gas in a 30-foot cone. Each creature in that area must succeed on a  <strong>DC 17 Strength</strong> saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>\n</section>\n<p>The dragon exhales gas in a 30-foot cone. Each creature in that area must make a <strong>Strength</strong> saving throw.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Young Gold Dragon"
     },
     "QtJairF0h18BRhEM": {
@@ -4639,7 +5379,12 @@
         }
       },
       "alignment": "Chaotic Evil",
-      "type": "Humanoid",
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Bugbear"
     },
     "R2GPY9BhRmmwZwkh": {
@@ -4671,7 +5416,12 @@
         }
       },
       "alignment": "Chaotic Evil",
-      "type": "Humanoid (gnoll)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Gnoll",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Gnoll"
     },
     "RCv5y7iWlfNxkinx": {
@@ -4730,7 +5480,12 @@
           "description": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+14 to hit,</strong>, <strong>10 ft.,</strong> one target. Hit: <strong>24 (3d10 + 8) <em>bludgeoning damage</em></strong>.</p></section>\n<p>The Pit Fiend attacks with its Tail.</p>"
         }
       },
-      "type": "Fiend (devil)",
+      "type": {
+        "value": "fiend",
+        "subtype": "Devil",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
       "name": "Pit Fiend"
     },
@@ -4746,7 +5501,12 @@
           "description": "<section class=\"secret\"><p>If damage reduces the zombie to <strong>0 hit points</strong>, it must make a <strong>Constitution</strong> saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to <strong>1 hit point</strong> instead.</p></section><p>If damage reduces the zombie to <strong>0 hit points</strong>, it must make a <strong>Constitution</strong> saving throw.</p>"
         }
       },
-      "type": "Undead",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Ogre Zombie"
     },
     "S0zDrv6lbnwWaz9E": {
@@ -4762,7 +5522,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "tiny",
+        "custom": ""
+      },
       "name": "Swarm of Insects"
     },
     "SBCe2BSa6opTS5M4": {
@@ -4778,7 +5543,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Rhinoceros"
     },
     "SMfgOsfPgf6rb01k": {
@@ -4794,7 +5564,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Flying Snake"
     },
     "SNT0JNVSngUTsj4m": {
@@ -4853,7 +5628,12 @@
           "description": "<p>The mere presence of a legendary creature can have strange and wondrous effects on its environment. Regional effects end abruptly or dissipate over time when the legendary creature dies.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Ancient Blue Dragon"
     },
     "SOin81NWijHRvXFK": {
@@ -4880,7 +5660,12 @@
           "description": "<p>The giant has<strong> advantage </strong>on Dexterity (Stealth) checks made to hide in rocky terrain.</p>"
         }
       },
-      "type": "Giant",
+      "type": {
+        "value": "giant",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Stone Giant"
     },
     "SXXvwaLBNuzBymp3": {
@@ -4892,7 +5677,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Axe Beak"
     },
     "SoK7l5zJQKxTVgLL": {
@@ -4912,7 +5702,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Bat"
     },
     "SqZRuJ8lt2KGJBbq": {
@@ -4924,7 +5719,12 @@
         }
       },
       "alignment": "Any",
-      "type": "Humanoid",
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Commoner"
     },
     "SsuCaF2fIEoDdFA3": {
@@ -4944,7 +5744,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Boar"
     },
     "T1xZTDCGuvMBSq8d": {
@@ -4960,7 +5765,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Warhorse"
     },
     "T2PExQE84ZcIbAXz": {
@@ -4983,7 +5793,12 @@
           "description": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+5 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>10 (2d6 + 3) <em>slashing damage</em></strong>.</p><p></p></section><p>The Hippogriff attacks with its Claws.</p>"
         }
       },
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Hippogriff"
     },
     "TaK6nQMGqZ0y8gt7": {
@@ -4999,7 +5814,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Plant",
+      "type": {
+        "value": "plant",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Shrieker"
     },
     "TjWQOgI3A4UAl7lC": {
@@ -5027,7 +5847,12 @@
         }
       },
       "alignment": "Neutral Evil",
-      "type": "Humanoid (goblinoid)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Goblinoid",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Goblin"
     },
     "UFW8M3JHzHkxUEGM": {
@@ -5150,7 +5975,12 @@
           "description": "<p>The mummy lord magically transforms into a whirlwind of sand, moves up to 60 feet, and reverts to its normal form. While in whirlwind form, the mummy lord is immune to all damage, and it can't be grappled, petrified, knocked prone, restrained, or stunned. Equipment worn or carried by the mummy lord remain in its possession.</p>"
         }
       },
-      "type": "Undead",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "di": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Mummy Lord"
     },
@@ -5167,7 +5997,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Plant",
+      "type": {
+        "value": "plant",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Awakened Tree"
     },
     "UTuKdTah1DKfPwWe": {
@@ -5183,7 +6018,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Constrictor Snake"
     },
     "UthHOT7QfZfEIUue": {
@@ -5211,7 +6051,12 @@
         }
       },
       "alignment": "Neutral Evil",
-      "type": "Elemental",
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Steam Mephit"
     },
     "VBkp2rGQKvMcCOus": {
@@ -5227,7 +6072,12 @@
         }
       },
       "alignment": "Neutral Evil",
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Worg"
     },
     "VBzqw2rOUvTuNOPI": {
@@ -5246,7 +6096,12 @@
           "description": "<section class=\"secret\"><p>The remorhaz makes one bite attack against a Medium or smaller creature it is grappling. </p><p>If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the remorhaz, and it takes <strong>21 (6d6) <em>acid damage</em></strong> at the start of each of the remorhaz's turns.</p></section><p>The Remorhaz attacks with its Swallow.</p>"
         }
       },
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Remorhaz"
     },
     "VCuG0Z3MrO8kfDU0": {
@@ -5321,7 +6176,12 @@
           "description": "<p>The mere presence of a legendary creature can have strange and wondrous effects on its environment. Regional effects end abruptly or dissipate over time when the legendary creature dies.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Adult Bronze Dragon"
     },
     "VVXly3ue0i3YgGrB": {
@@ -5341,7 +6201,12 @@
         }
       },
       "alignment": "Neutral",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Owl"
     },
     "Vk7uHVkJ5b26gaTh": {
@@ -5361,11 +6226,16 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Mule"
     },
     "VmdyZDjqAc8vdncY": {
-      "alignment": "neutral evil",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "P3P1EukfOip32dtd": {
           "name": "Telepathic Bond",
@@ -5384,7 +6254,7 @@
           "description": "<section class=\"secret\"><p>One humanoid the fiend can see within 30 feet of it must make a <strong>Wisdom</strong> saving throw or be magically charmed for 1 day. The charmed target obeys the fiend's verbal or telepathic commands.</p><p>If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this fiend's Charm for the next 24 hours.The fiend can have only one target charmed at a time. If it charms another, the effect on the previous target ends.</p></section><p>One humanoid the fiend can see within 30 feet of it must make a <strong>Wisdom</strong> saving throw.</p>"
         },
         "eb0O9cQ8N6lovLyI": {
-          "name": " Draining Kiss",
+          "name": "Draining Kiss",
           "description": "<section class=\"secret\"><p>The fiend kisses a creature charmed by it or a willing creature. The target must make a  <strong>DC 15 Constitution</strong> saving throw against this magic, taking <strong>32 (5d10 + 5) <em>psychic damage</em></strong> on a failed save, or half as much damage on a successful one. </p><p>The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</p></section><p>The target must make a <strong>Constitution</strong> saving throw against this magic.</p>"
         },
         "s1s5asgUorljP7SV": {
@@ -5392,7 +6262,13 @@
           "description": "<section class=\"secret\"><p></p><p></p></section><p>The fiend magically enters the Ethereal Plane from the Material Plane, or vice versa.</p>"
         }
       },
-      "type": "fiend (shapechanger)",
+      "alignment": "neutral evil",
+      "type": {
+        "value": "fiend",
+        "subtype": "Shapechanger",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Succubus/Incubus"
     },
@@ -5417,7 +6293,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Rust Monster"
     },
     "WOdeacKCYVhgLDuN": {
@@ -5433,11 +6314,16 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Weasel"
     },
     "Wcsjbl25uiUsyQwn": {
-      "alignment": "Unaligned",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "mGamlcdui038L6gU": {
           "name": "Bite",
@@ -5448,7 +6334,13 @@
           "description": "<section class=\"secret\">\n<p>The ankheg spits acid in a line that is 30 ft. long and 5 ft. wide, provided that it has no creature grappled.</p>\n<p>Each creature in that line must make a  <strong>DC 13 Dexterity</strong> saving throw, taking <strong>10 (3d6) <em>acid damage</em></strong> on a failed save, or half as much damage on a successful one.</p>\n</section>\n<p>The ankheg spits acid in a line that is 30 ft. long and 5 ft. wide. Each creature in that line must make a <strong>Dexterity</strong> saving throw.</p>"
         }
       },
-      "type": "Monstrosity",
+      "alignment": "Unaligned",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Ankheg"
     },
     "XEByBLeOkDgL3mrr": {
@@ -5519,7 +6411,12 @@
           "description": "<section class=\"secret\"><p></p><p></p></section><p>The planetar touches another creature. The target magically regains 30 (6d8 + 3) hit points and is freed from any curse, disease, poison, blindness, or deafness.</p>"
         }
       },
-      "type": "Celestial",
+      "type": {
+        "value": "celestial",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Planetar"
     },
@@ -5535,7 +6432,12 @@
           "description": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+6 to hit,</strong>, <strong>0 ft.,</strong> one creature in the swarm's space. Hit: <strong>7 (2d6) <em>piercing damage</em></strong>, or <strong>3 (1d6) <em>piercing damage</em></strong> if the swarm has half of its hit points or fewer.</p>\n<p>The target must make a  <strong>DC 10 Constitution</strong> saving throw, taking <strong>14 (4d6) <em>poison damage</em></strong> on a failed save, or half as much damage on a successful one.</p>\n</section>\n<p>The Swarm of Poisonous Snakes attacks with a flurry of Bites. The target must make a <strong>Constitution</strong> saving throw.</p>"
         }
       },
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "tiny",
+        "custom": ""
+      },
       "name": "Swarm of Poisonous Snakes"
     },
     "XiSWKZzAUxdmFOLL": {
@@ -5554,7 +6456,12 @@
           "description": "<section class=\"secret\">\n<p>The avatar sweeps its spectral scythe through a creature within 5 feet of it, dealing <strong>7 (1d8 + 3) <em>slashing damage</em></strong> plus <strong>4 (1d8) <em>necrotic damage</em></strong>.</p>\n</section>\n<p>The avatar sweeps its spectral scythe through a creature within 5 feet of it.</p>"
         }
       },
-      "type": "Undead",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Avatar of Death"
     },
     "Y0vxQVF7w2P38FK2": {
@@ -5566,7 +6473,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Scorpion"
     },
     "YOqhbf8WsX0jH9Fu": {
@@ -5605,7 +6517,12 @@
           "description": "<p>The golem makes two slam attacks.</p>"
         }
       },
-      "type": "Construct",
+      "type": {
+        "value": "construct",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "di": "Bludgeoning, Piercing, and Slashing from nonmagical attacks that aren't adamantine",
       "name": "Clay Golem"
     },
@@ -5622,7 +6539,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Mastiff"
     },
     "YUaprnengdFDNG8P": {
@@ -5638,7 +6560,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "tiny",
+        "custom": ""
+      },
       "name": "Swarm of Wasps"
     },
     "Z0GiAv3bJxTjUfjM": {
@@ -5654,7 +6581,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Fire Beetle"
     },
     "ZHAFrnCwCz17dmLc": {
@@ -5681,7 +6613,12 @@
           "description": "<section class=\"secret\">\n<p>The troll regains <strong>10 hit points</strong> at the start of its turn. If the troll takes <strong>acid</strong> or <strong><em>fire damage</em></strong>, this trait doesn't function at the start of the troll's next turn. The troll dies only if it starts its turn with <strong>0 hit points</strong> and doesn't regenerate.</p>\n</section>\n<p>The troll regains <strong>10 hit points</strong> at the start of its turn.</p>"
         }
       },
-      "type": "Giant",
+      "type": {
+        "value": "giant",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Troll"
     },
     "ZM1P6LoYSwMiIJN9": {
@@ -5729,7 +6666,12 @@
         }
       },
       "alignment": "Neutral Good",
-      "type": "Humanoid (gnome)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Gnome",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Deep Gnome"
     },
     "ZQTCZfTV9ZoTjNCU": {
@@ -5745,7 +6687,12 @@
         }
       },
       "alignment": "Neutral",
-      "type": "Construct",
+      "type": {
+        "value": "construct",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Homunculus"
     },
     "ZW39DE2zI3TXVYC9": {
@@ -5757,7 +6704,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Poisonous Snake"
     },
     "ZaP1H91t4FzbRqR5": {
@@ -5840,7 +6792,12 @@
           "description": "<p>You touch a creature. If it is poisoned, you neutralize the poison. If more than one poison afflicts the target, you neutralize one poison that you know is present, or you neutralize one at random.</p>\n<p>For the duration, the target has advantage on saving throws against being poisoned, and it has resistance to <em>poison damage</em>.</p>"
         }
       },
-      "type": "Celestial",
+      "type": {
+        "value": "celestial",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "di": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Couatl"
     },
@@ -5900,7 +6857,12 @@
           "description": "<p>The mere presence of a legendary creature can have strange and wondrous effects on its environment. Regional effects end abruptly or dissipate over time when the legendary creature dies.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Adult Red Dragon"
     },
     "aAqfEHPiVbhMwZ6j": {
@@ -5916,7 +6878,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Hyena"
     },
     "aKt7vFAS1J0x3FQm": {
@@ -5951,7 +6918,12 @@
           "description": "<section class=\"secret\"><p>Ranged Weapon Attack: +4 to hit, range 30/60 ft., one Large or smaller creature. Hit: The creature is restrained by webbing. </p><p>As an action, the restrained creature can make a DC 11 Strength check, escaping from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 10, 5 hit points, is vulnerable to <em>fire damage</em> and immune to <em>bludgeoning damage</em>.</p></section><p>The creature is restrained by webbing. As an action, the restrained creature can make a Strength check, escaping from the webbing on a success. </p>"
         }
       },
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Ettercap"
     },
     "aTITHYYxthuZBPBn": {
@@ -6014,7 +6986,12 @@
           "description": "<p>The mere presence of a legendary creature can have strange and wondrous effects on its environment. Regional effects end abruptly or dissipate over time when the legendary creature dies.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Ancient White Dragon"
     },
     "azCbLQt5LAYwTI7U": {
@@ -6037,7 +7014,12 @@
           "description": "<section class=\"secret\">\n<p>**Sleep Breath.** The dragon exhales sleep gas in a 15-foot cone. Each creature in that area must succeed on a  <strong>DC 11 Constitution</strong> saving throw or fall unconscious for 1 minute. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</p>\n</section>\n<p>The dragon exhales sleep gas in a 15-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Brass Dragon Wyrmling"
     },
     "banHjKDMCegbUwYE": {
@@ -6060,7 +7042,12 @@
           "description": "<section class=\"secret\">\n<p>Each creature in the elemental's space must make a  <strong>DC 13 Strength</strong> saving throw. On a failure, a target takes <strong>15 (3d8 + 2) <em>bludgeoning damage</em></strong> and is flung up 20 feet away from the elemental in a random direction and knocked prone.</p>\n<p>If a thrown target strikes an object, such as a wall or floor, the target takes <strong>3 (1d6) <em>bludgeoning damage</em></strong> for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a  <strong>DC 13 Dexterity</strong> saving throw or take the same damage and be knocked prone. If the saving throw is successful, the target takes half the <em>bludgeoning damage</em> and isn't flung away or knocked prone.</p>\n</section>\n<p>Each creature in the elemental's space must make a <strong>Strength</strong> saving throw. On a failure, a target is flung up 20 feet away from the elemental in a random direction and knocked prone. If the target is thrown at another creature, that creature must make a <strong>Dexterity</strong> saving throw or take the same damage and be knocked prone.</p>"
         }
       },
-      "type": "Elemental",
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from non-magical attacks",
       "name": "Air Elemental"
     },
@@ -6088,7 +7075,12 @@
           "description": "<p>The dragon makes three attacks: one with its bite and two with its claws.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Young Black Dragon"
     },
     "bfh29vIEoGzI240e": {
@@ -6247,12 +7239,17 @@
           "description": "<section class=\"secret\">\n<p>If a legendary creature has lair actions, it can use them to harness the ambient magic in its lair. On initiative count 20 (losing all initiative ties), it can use one of its lair action options. It can’t do so while incapacitated or otherwise unable to take actions. If surprised, it can’t use one until after its first turn in the combat.</p>\n</section>\n<p>If a legendary creature has lair actions, it can use them to harness the ambient magic in its lair. </p>"
         }
       },
-      "type": "Undead",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "di": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Lich"
     },
     "bwtkdzavdNHISgp4": {
-      "alignment": "Chaotic Evil",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "MLfZqvhaJjB78YiT": {
           "name": "Invisibility",
@@ -6275,7 +7272,13 @@
           "description": "<section class=\"secret\"><p>One creature of the quasit's choice within 20 ft. of it must succeed on a  <strong>DC 10 Wisdom</strong> saving throw or be frightened for 1 minute. </p><p>The target can repeat the saving throw at the end of each of its turns, with disadvantage if the quasit is within line of sight, ending the effect on itself on a success.</p></section><p>One creature of the quasit's choice within 20 ft. of it must make a <strong>Wisdom</strong> saving throw. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the quasit is within line of sight, ending the effect on itself on a success.</p>"
         }
       },
-      "type": "Fiend (demon, shapechanger)",
+      "alignment": "Chaotic Evil",
+      "type": {
+        "value": "fiend",
+        "subtype": "Demon, Shapechanger",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Quasit"
     },
@@ -6296,7 +7299,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Sea Horse"
     },
     "cDr1JtzEV26bP5Ym": {
@@ -6312,7 +7320,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Hyena"
     },
     "cGM3iVYTtCsYXjzO": {
@@ -6371,7 +7384,12 @@
           "description": "<section class=\"secret\">\n<p>The dragon beats its wings. <strong>Each creature within 10 feet of the dragon</strong> must succeed on a <strong>DC 20 Dexterity saving throw</strong> or take <strong>14 (2d6+7) bludgeoning</strong> damage and be <strong>knocked prone.</strong> The dragon can then <strong>fly up to half its flying speed.</strong></p>\n</section>\n<p>The dragon beats its wings!</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Adult Blue Dragon"
     },
     "cJGY1ZywUOo6heNR": {
@@ -6395,7 +7413,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Badger"
     },
     "ciLSItjCpwT7nMmk": {
@@ -6419,7 +7442,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Killer Whale"
     },
     "ckOF3vQrnjFnZIDU": {
@@ -6494,7 +7522,12 @@
           "description": "<p>The dragon magically <strong>polymorphs</strong> into a <strong>humanoid</strong> or <strong>beast</strong> that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).</p>\n<p>In a new form, the dragon <strong>retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. </strong>Its statistics and capabilities are otherwise replaced by those of the new form, <strong>except any class features or legendary actions of that form.</strong></p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Ancient Gold Dragon"
     },
     "d0prpsGSAorDadec": {
@@ -6514,7 +7547,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Owl"
     },
     "dLQiESMsfsXijD5c": {
@@ -6546,7 +7584,12 @@
         }
       },
       "alignment": "Lawful Evil",
-      "type": "Fiend (devil, shapechanger)",
+      "type": {
+        "value": "fiend",
+        "subtype": "Devil, Shapechanger",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
       "name": "Imp"
     },
@@ -6563,7 +7606,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "tiny",
+        "custom": ""
+      },
       "name": "Swarm of Beetles"
     },
     "e5IQxSJO7ySEDdSH": {
@@ -6582,7 +7630,12 @@
           "description": "<section class=\"secret\"><p>If the triceratops moves at least <strong>20 ft.</strong> straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a <strong>DC 13 Strength saving throw</strong> or be knocked prone. If the target is prone, the triceratops can make one stomp attack against it as a bonus action.</p></section><p>If the triceratops moves at least <strong>20 ft.</strong> straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a Strength saving throw.</p>"
         }
       },
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Triceratops"
     },
     "eIGowKTkEBC9gUzx": {
@@ -6601,7 +7654,12 @@
           "description": "<p>This crude armor consists of thick furs and pelts. It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor.</p>"
         }
       },
-      "type": "Giant",
+      "type": {
+        "value": "giant",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Ogre"
     },
     "eORmAXuV5v3nWsQL": {
@@ -6625,7 +7683,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Construct",
+      "type": {
+        "value": "construct",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Animated Armor"
     },
     "ec3lhsNv1ZRu7Qaq": {
@@ -6652,7 +7715,12 @@
           "description": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+7 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>11 (2d6 + 4) <em>slashing damage</em></strong>.</p><p></p></section><p>The Hezrou attacks with its Claws.</p>"
         }
       },
-      "type": "Fiend (demon)",
+      "type": {
+        "value": "fiend",
+        "subtype": "Demon",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Hezrou"
     },
@@ -6692,7 +7760,12 @@
           "description": "<section class=\"secret\"><p>The marlith adds 5 to its <strong>AC</strong> against one melee Attack that would hit it. To do so, the marlith must see the attacker and be wielding a melee weapon.</p></section><p>The marlith adds 5 to its <strong>AC</strong> against one melee Attack that would hit it.</p>"
         }
       },
-      "type": "Fiend (demon)",
+      "type": {
+        "value": "fiend",
+        "subtype": "Demon",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Marilith"
     },
@@ -6720,7 +7793,12 @@
           "description": "<section class=\"secret\"><p>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: <strong>6 (1d8 + 2) <em>piercing damage</em></strong> plus <strong>7 (2d6) <em>poison damage</em></strong>.</p><p></p></section><p>The Medusa attacks with its Longbow.</p>"
         }
       },
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Medusa"
     },
     "eykRfV85DQJoCkmc": {
@@ -6751,7 +7829,12 @@
           "description": "<section class=\"secret\">\n<p>**Paralyzing Breath.** The dragon exhales paralyzing gas in a 30-foot cone. Each creature in that area must succeed on a  <strong>DC 17 Constitution</strong> saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>\n</section>\n<p>The dragon exhales paralyzing gas in a 30-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Young Silver Dragon"
     },
     "f6HaKROPIcBRmSd1": {
@@ -6775,7 +7858,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Construct",
+      "type": {
+        "value": "construct",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Rug of Smothering"
     },
     "f9JbhBfWucrY2eDA": {
@@ -6799,7 +7887,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Wolf Spider"
     },
     "fkCNtbvPOMd7mipF": {
@@ -6827,7 +7920,12 @@
         }
       },
       "alignment": "Neutral Good",
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Pseudodragon"
     },
     "fkJ8Z8zi2JtlcHh9": {
@@ -6847,7 +7945,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Vulture"
     },
     "fnkPNfIpS62LqOu4": {
@@ -6863,7 +7966,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Hawk"
     },
     "fqbFYtbtkrL53FOC": {
@@ -6887,7 +7995,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Ooze",
+      "type": {
+        "value": "ooze",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Gray Ooze"
     },
     "fsPruAIDOg4tVrgb": {
@@ -6927,7 +8040,12 @@
         }
       },
       "alignment": "Any Alignment",
-      "type": "Humanoid",
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Gladiator"
     },
     "g40zN6xMye6bSS94": {
@@ -6943,7 +8061,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "tiny",
+        "custom": ""
+      },
       "name": "Swarm of Ravens"
     },
     "g7FSu2oU4YHPgWNA": {
@@ -6967,7 +8090,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Darkmantle"
     },
     "gGeLeV411iQ5Yijs": {
@@ -6990,7 +8118,12 @@
           "description": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+7 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>13 (2d8 + 4) <em>bludgeoning damage</em></strong>.</p><p></p></section><p>The Shambling Mound attacks with its Slam.</p>"
         }
       },
-      "type": "Plant",
+      "type": {
+        "value": "plant",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Shambling Mound"
     },
     "gKRtiMNAjZiCVfwz": {
@@ -7002,7 +8135,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Stirge"
     },
     "gaSTr7DFZJLmgI2J": {
@@ -7018,7 +8156,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Plant",
+      "type": {
+        "value": "plant",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Awakened Shrub"
     },
     "geM2F7HvVGhtk3h4": {
@@ -7089,7 +8232,12 @@
           "description": "<p>The mere presence of a legendary creature can have strange and wondrous effects on its environment. Regional effects end abruptly or dissipate over time when the legendary creature dies.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Adult Silver Dragon"
     },
     "gf9QbHdMAfvFtxcv": {
@@ -7160,7 +8308,12 @@
           "description": "<p>The mere presence of a legendary creature can have strange and wondrous effects on its environment. Regional effects end abruptly or dissipate over time when the legendary creature dies.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Ancient Silver Dragon"
     },
     "h052EIIUmRwJum65": {
@@ -7183,7 +8336,12 @@
           "description": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+6 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>11 (2d6 + 4) <em>slashing damage</em></strong>.</p><p></p></section><p>The Griffon attacks with its Claws.</p>"
         }
       },
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Griffon"
     },
     "h98AuPfomEPcCibP": {
@@ -7222,7 +8380,12 @@
           "description": "<section class=\"secret\">\n<p>The golem exhales poisonous gas in a 15-foot cone. Each creature in that area must make a  <strong>DC 19 Constitution</strong> saving throw, taking <strong>45 (10d8) <em>poison damage</em></strong> on a failed save, or half as much damage on a successful one.</p>\n</section>\n<p>The golem exhales poisonous gas in a 15-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw.</p>"
         }
       },
-      "type": "Construct",
+      "type": {
+        "value": "construct",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "di": "bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
       "name": "Iron Golem"
     },
@@ -7239,7 +8402,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Cat"
     },
     "hQt3qIahnB1Odb40": {
@@ -7259,7 +8427,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Elk"
     },
     "hY9ptpO5Xl2tfkcj": {
@@ -7286,7 +8459,12 @@
           "description": "<section class=\"secret\">\n<p>**Repulsion Breath.** The dragon exhales repulsion energy in a 30-foot cone. Each creature in that area must succeed on a  <strong>DC 12 Strength</strong> saving throw. On a failed save, the creature is pushed 30 feet away from the dragon.</p>\n</section>\n<p>The dragon exhales repulsion energy in a 30-foot cone. Each creature in that area must make a <strong>Strength</strong> saving throw.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Bronze Dragon Wyrmling"
     },
     "hb6pjvdCNYmLLp8V": {
@@ -7310,11 +8488,16 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Polar Bear"
     },
     "hjhERRzafCiFFVLA": {
-      "alignment": "Unaligned",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "ZFsvhBgKXqgf17TZ": {
           "name": "Keen Smell",
@@ -7341,7 +8524,13 @@
           "description": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+5 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>6 (1d6 + 3) <em>slashing damage</em></strong>.</p></section>\n<p>The Lion attacks with its Claw.</p>"
         }
       },
-      "type": "Beast",
+      "alignment": "Unaligned",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Lion"
     },
     "hqj2yXtgwt64v3Lj": {
@@ -7356,7 +8545,12 @@
           "description": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+5 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>10 (2d6 + 3) <em>piercing damage</em></strong> plus <strong>7 (2d6) <em>poison damage</em></strong>.</p></section>\n<p>The Basilisk attacks with its Bite.</p>"
         }
       },
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Basilisk"
     },
     "hx240PG5r5qpRet3": {
@@ -7388,7 +8582,12 @@
         }
       },
       "alignment": "Neutral",
-      "type": "Monstrosity (shapechanger)",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "Shapechanger",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Mimic"
     },
     "iGBdQA3IuKsurcUy": {
@@ -7428,11 +8627,16 @@
         }
       },
       "alignment": "Lawful Evil",
-      "type": "Humanoid (dwarf)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Dwarf",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Duergar"
     },
     "iSCL4Q82ivnYelzc": {
-      "alignment": "Lawful Evil",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "fhBBeyLSor6NVA0l": {
           "name": "Keen Hearing and Smell",
@@ -7451,7 +8655,13 @@
           "description": "<section class=\"secret\"><p>The hound exhales fire in a 15-foot cone. Each creature in that area must make a  <strong>DC 12 Dexterity</strong> saving throw, taking <strong>21 (6d6) <em>fire damage</em></strong> on a failed save, or half as much damage on a successful one.</p><p></p></section><p>The hound exhales fire in a 15-foot cone. Each creature in that area must make a <strong>Dexterity</strong> saving throw.</p>"
         }
       },
-      "type": "Fiend",
+      "alignment": "Lawful Evil",
+      "type": {
+        "value": "fiend",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Hell Hound"
     },
     "ijsfYEDqSuwQXwNN": {
@@ -7482,7 +8692,12 @@
           "description": "<section class=\"secret\"><p>The dragon turtle exhales scalding steam in a 60-foot cone. Each creature in that area must make a  <strong>DC 18 Constitution</strong> saving throw, taking <strong>52 (15d6) <em>fire damage</em></strong> on a failed save, or half as much damage on a successful one.</p><p>Being underwater doesn't grant resistance against this damage.</p></section><p>The dragon turtle exhales scalding steam in a 60-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Dragon Turtle"
     },
     "irz834sqAxRihtSG": {
@@ -7549,7 +8764,12 @@
           "description": "<p>The mere presence of a legendary creature can have strange and wondrous effects on its environment. Regional effects end abruptly or dissipate over time when the legendary creature dies.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Adult Copper Dragon"
     },
     "jLPhaBnMtAbB5dp1": {
@@ -7568,7 +8788,12 @@
           "description": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+8 to hit,</strong>, <strong>5 ft.,</strong> one <strong>prone</strong> creature. Hit: <strong>22 (3d10 + 6) <em>bludgeoning damage</em></strong>.</p></section>\n<p>The Elephant attacks with its Stomp.</p>"
         }
       },
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Elephant"
     },
     "jOANE6M0My6UJF4e": {
@@ -7588,7 +8813,12 @@
         }
       },
       "alignment": "Lawful Good",
-      "type": "Fey",
+      "type": {
+        "value": "fey",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Blink Dog"
     },
     "jcZblJ6lqtW0ePxe": {
@@ -7616,7 +8846,12 @@
         }
       },
       "alignment": "Neutral",
-      "type": "Aberration",
+      "type": {
+        "value": "aberration",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Otyugh"
     },
     "kSAi2KRonL4G4JpO": {
@@ -7640,7 +8875,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Frog"
     },
     "kVg37NlPcACAzjCT": {
@@ -7703,7 +8943,12 @@
           "description": "<section class=\"secret\">\n<p>While Underwater, the Kraken expels an ink cloud in a 60-foot radius. The cloud spreads around corners, and that area is heavily obscured to creatures other than the Kraken. Each creature other than the Kraken that ends its turn there must succeed on a  <strong>DC 23 Constitution</strong> saving throw, taking <strong>16 (3d10) <em>poison damage</em></strong> on a failed save, or half as much damage on a successful one. A strong current disperses the cloud, which otherwise disappears at the end of the kraken's next turn.</p>\n</section>\n<p>The Kraken expels an ink cloud. The cloud spreads around corners, and that area is heavily obscured to creatures other than the Kraken. Each creature other than the Kraken that ends its turn there must succeed on a Constitution saving throw.</p>"
         }
       },
-      "type": "Monstrosity (titan)",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "Titan",
+        "swarm": "",
+        "custom": ""
+      },
       "di": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Kraken"
     },
@@ -7731,11 +8976,16 @@
           "description": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+7 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>10 (1d12 + 4) <em>bludgeoning damage</em></strong>.</p></section>\n<p>The Chimera attacks with its Horns.</p>"
         }
       },
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Chimera"
     },
     "kz1t6xeXVwODpYb2": {
-      "description": "<p>Hailing from uncivilized lands, unpredictable berserkers come together in war parties and seek conflict wherever they can find it.</p>",
+      "description": "<p>Hailing from uncivilized lands, unpredictable berserkers come together in war parties and seek conflict wherever they can find it.</p>\n<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "vdaEgOdpIO2o7GNX": {
           "name": "Hide Armor",
@@ -7751,7 +9001,12 @@
         }
       },
       "alignment": "Any Chaotic",
-      "type": "Humanoid (any race)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Any Race",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Berserker"
     },
     "kz2fW9xb5CcvXLX4": {
@@ -7775,7 +9030,12 @@
         }
       },
       "alignment": "Chaotic Evil",
-      "type": "Fiend (demon)",
+      "type": {
+        "value": "fiend",
+        "subtype": "Demon",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Dretch"
     },
     "lOYt73eaJojBDxAV": {
@@ -7870,7 +9130,12 @@
           "description": "<section class=\"secret\">\n<p>If a legendary creature has lair actions, it can use them to harness the ambient magic in its lair. On initiative count 20 (losing all initiative ties), it can use one of its lair action options. It can’t do so while incapacitated or otherwise unable to take actions. If surprised, it can’t use one until after its first turn in the combat.</p>\n</section>\n<p>If a legendary creature has lair actions, it can use them to harness the ambient magic in its lair. </p>"
         }
       },
-      "type": "Celestial",
+      "type": {
+        "value": "celestial",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Solar"
     },
@@ -7891,7 +9156,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Boar"
     },
     "llSG0Hi4eGlRlQ4o": {
@@ -7915,7 +9185,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Phase Spider"
     },
     "lyNBFmJdbh4NLRzz": {
@@ -7951,7 +9226,12 @@
         }
       },
       "alignment": "Lawful Evil",
-      "type": "Humanoid (Sahuagin)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Sahuagin",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Sahuagin"
     },
     "m4H3hjamBNMH09S9": {
@@ -7998,7 +9278,12 @@
           "description": "<p>You return a dead creature you touch to life, provided that it has been dead no longer than 10 days. If the creature's soul is both willing and at liberty to rejoin the body, the creature returns to life with 1 hit point.</p><p>This spell also neutralizes any poisons and cures nonmagical diseases that affected the creature at the time it died. This spell doesn't, however, remove magical diseases, curses, or similar effects; if these aren't first removed prior to casting the spell, they take effect when the creature returns to life. The spell can't return an undead creature to life.</p><p>This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival—its head, for instance—the spell automatically fails.</p><p>Coming back from the dead is an ordeal. The target takes a −4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears.</p>"
         }
       },
-      "type": "Celestial",
+      "type": {
+        "value": "celestial",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Deva"
     },
@@ -8022,7 +9307,12 @@
           "description": "<p>The dragon makes three attacks: one with its bite and two with its claws.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Young Blue Dragon"
     },
     "mQnsXanewsPiV7QE": {
@@ -8102,11 +9392,16 @@
         }
       },
       "alignment": "Any Alignment",
-      "type": "Humanoid (any race)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Any Race",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Mage"
     },
     "mWbrPhcKOz6oLXMV": {
-      "alignment": "Neutral",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "Cp2MgsVDDSRiF2aj": {
           "name": "Ambusher",
@@ -8133,7 +9428,13 @@
           "description": "<section class=\"secret\"><p>The doppelganger can use its action to <strong>polymorph</strong> into a Small or Medium humanoid it has seen, or back into its true form.</p><p>Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</p></section><p>The doppelganger can use its action to <strong>polymorph</strong> into a Small or Medium humanoid it has seen, or back into its true form.</p>"
         }
       },
-      "type": "Monstrosity (shapechanger)",
+      "alignment": "Neutral",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "Shapechanger",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Doppelganger"
     },
     "n4TEv7inVUkyZviN": {
@@ -8153,7 +9454,12 @@
         }
       },
       "alignment": "Any Non-Lawful",
-      "type": "Humanoid",
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Bandit"
     },
     "nEC1BRwM8Lx9hLXW": {
@@ -8280,7 +9586,12 @@
           "description": "<p>The mere presence of a legendary creature can have strange and wondrous effects on its environment. Regional effects end abruptly or dissipate over time when the legendary creature dies.</p>"
         }
       },
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "di": "bludgeoning, piercing, and slashing from non-magical attacks",
       "name": "Androsphinx"
     },
@@ -8301,7 +9612,12 @@
         }
       },
       "alignment": "any alignment",
-      "type": "Humanoid",
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Tribal Warrior"
     },
     "nU8GN8La8DCt8SDb": {
@@ -8317,7 +9633,12 @@
         }
       },
       "alignment": "Lawful Evil",
-      "type": "Undead",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Skeleton"
     },
     "nZthq6WHLhcdu3te": {
@@ -8340,7 +9661,12 @@
           "description": "<section class=\"secret\"><p>The gorgon exhales petrifying gas in a 30-foot cone. Each creature in that area must succeed on a  <strong>DC 13 Constitution</strong> saving throw. </p><p>On a failed save, a target begins to turn to stone and is restrained. The restrained target must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is petrified until freed by the greater restoration spell or other magic.</p></section><p>The gorgon exhales petrifying gas in a 30-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw. </p>"
         }
       },
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Gorgon"
     },
     "naSoHU9KbkgeNIwB": {
@@ -8367,7 +9693,12 @@
           "description": "<section class=\"secret\">\n<p>**Weakening Breath.** The dragon exhales gas in a 15-foot cone. Each creature in that area must succeed on a  <strong>DC 13 Strength</strong> saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>\n</section>\n<p>The dragon exhales gas in a 15-foot cone. Each creature in that area must make a <strong>Strength</strong> saving throw.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Gold Dragon Wyrmling"
     },
     "najtPRiHLR6buSWe": {
@@ -8382,7 +9713,12 @@
           "description": "<section class=\"secret\"><p>The dragon exhales lightning in a 30-foot line that is 5 feet wide. Each creature in that line must make a  <strong>DC 12 Dexterity</strong> saving throw, taking <strong>22 (4d10) <em>lightning damage</em></strong> on a failed save, or half as much damage on a successful one.</p><p></p></section><p>The dragon exhales lightning in a 30-foot line that is 5 feet wide. Each creature in that line must make a <strong>Dexterity</strong> saving throw.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Blue Dragon Wyrmling"
     },
     "namJz755U1EhvEJa": {
@@ -8409,7 +9745,12 @@
           "description": "<section class=\"secret\"><p>Each creature in the elemental's space must make a  <strong>DC 15 Strength</strong> saving throw. On a failure, a target takes <strong>13 (2d8 + 4) <em>bludgeoning damage</em></strong>. If it is Large or smaller, it is also grappled (escape DC 14). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. </p><p>If the saving throw is successful, the target is pushed out of the elemental's space.The elemental can grapple one Large creature or up to two Medium or smaller creatures at one time. At the start of each of the elemental's turns, each target grappled by it takes <strong>13 (2d8 + 4) <em>bludgeoning damage</em></strong>. A creature within 5 feet of the elemental can pull a creature or object out of it by taking an action to make a DC 14 Strength check and succeeding.</p></section><p>Each creature in the elemental's space must make a <strong>Strength</strong> saving throw. If it is Large or smaller, it is also grappled. Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. A creature within 5 feet of the elemental can pull a creature or object out of it by taking an action to make a Strength check and succeeding.</p>"
         }
       },
-      "type": "Elemental",
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Water Elemental"
     },
@@ -8430,7 +9771,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Quipper"
     },
     "oDspGxRQFBhE74L2": {
@@ -8453,7 +9799,12 @@
           "description": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+6 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>10 (2d6 + 3) <em>bludgeoning damage</em></strong>.</p><p></p></section><p>The Invisible Stalker attacks with its Slam.</p>"
         }
       },
-      "type": "Elemental",
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Invisible Stalker"
     },
@@ -8486,7 +9837,12 @@
         }
       },
       "alignment": "Neutral Evil",
-      "type": "Elemental",
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Magma Mephit"
     },
     "oQvORD924obyPdCc": {
@@ -8502,11 +9858,16 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Badger"
     },
     "oRBnO5OHoOZzlCOr": {
-      "alignment": "Neutral Good",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "D8QWBbYLFAT7uIiz": {
           "name": "Shapechanger",
@@ -8533,7 +9894,13 @@
           "description": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+7 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>10 (1d12 + 4) <em>slashing damage</em></strong>.</p>\n</section>\n<p>The Werebear attacks with its Greataxe.</p>"
         }
       },
-      "type": "Humanoid (human, shapechanger)",
+      "alignment": "Neutral Good",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Human, Shapechanger",
+        "swarm": "",
+        "custom": ""
+      },
       "di": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
       "name": "Werebear"
     },
@@ -8558,7 +9925,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Brown Bear"
     },
     "p980augbCIdpK9ZX": {
@@ -8581,7 +9953,12 @@
           "description": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+13 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>23 (4d6 + 9) <em>slashing damage</em></strong>.</p><p>The target is grappled (escape DC 19). Until this grapple ends, the target is restrained, and the roc can't use its talons on another target.</p></section><p>The Roc attacks with its Talons. The target is grappled. Until this grapple ends, the target is restrained, and the roc can't use its talons on another target.</p>"
         }
       },
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Roc"
     },
     "p9Xnr820UAZBOIVN": {
@@ -8609,7 +9986,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Octopus"
     },
     "pAuiNDr7nvpsW9nG": {
@@ -8680,7 +10062,12 @@
           "description": "<p>The mere presence of a legendary creature can have strange and wondrous effects on its environment. Regional effects end abruptly or dissipate over time when the legendary creature dies.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Ancient Brass Dragon"
     },
     "pLzSh4dA517Tn73E": {
@@ -8692,7 +10079,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Lizard"
     },
     "pOPQU4UnR27zA0jf": {
@@ -8719,7 +10111,12 @@
           "description": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+6 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>13 (2d8 + 4) <em>piercing damage</em></strong>.</p><p></p></section><p>The Minotaur attacks with its Gore.</p>"
         }
       },
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Minotaur"
     },
     "pozQUPTnLZW8epox": {
@@ -8735,7 +10132,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Rat"
     },
     "q1YJIeIt6rK8fCKn": {
@@ -8755,7 +10157,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Rat"
     },
     "qNdFhY3JOkCfhG3d": {
@@ -8818,7 +10225,12 @@
           "description": "<p>The mere presence of a legendary creature can have strange and wondrous effects on its environment. Regional effects end abruptly or dissipate over time when the legendary creature dies.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Ancient Black Dragon"
     },
     "qW8cBwg7ghCA4Cw6": {
@@ -8849,7 +10261,12 @@
           "description": "<p>The dragon makes three attacks: one with its bite and two with its claws.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Young Copper Dragon"
     },
     "qXzMsRTHEodqO8l2": {
@@ -8924,7 +10341,12 @@
           "description": "<p>This spell gives the willing creature you touch the ability to see things as they actually are. For the duration, the creature has truesight, notices secret doors hidden by magic, and can see into the Ethereal Plane, all out to a range of 120 feet.</p>"
         }
       },
-      "type": "Fiend",
+      "type": {
+        "value": "fiend",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "di": "Bludgeoning, piercing, and slashing from nonmagical attacks",
       "dv": "Piercing from magic weapons wielded by good creatures",
       "name": "Rakshasa"
@@ -8962,7 +10384,12 @@
         }
       },
       "alignment": "Neutral Evil",
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Roper"
     },
     "qav2dvMIUiMQCCsy": {
@@ -8982,7 +10409,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Bat"
     },
     "qkLNA1lKMMJpxuWg": {
@@ -9002,7 +10434,12 @@
         }
       },
       "alignment": "Any Non-Good Alignment",
-      "type": "Humanoid",
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Cultist"
     },
     "qoFEjfrANBdrCP6m": {
@@ -9034,7 +10471,12 @@
         }
       },
       "alignment": "Any Alignment",
-      "type": "Undead",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Ghost"
     },
@@ -9058,12 +10500,22 @@
           "description": "<p>The dragon makes three attacks: one with its bite and two with its claws.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Young Red Dragon"
     },
     "rLl22hYeAH3ljhdI": {
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Fly"
     },
     "rUg5JMnKNnZNBAq9": {
@@ -9094,7 +10546,12 @@
           "description": "<section class=\"secret\"><p></p><p></p></section><p>The nalfeshnee magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.</p>"
         }
       },
-      "type": "Fiend (demon)",
+      "type": {
+        "value": "fiend",
+        "subtype": "Demon",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Nalfeshnee"
     },
@@ -9123,7 +10580,12 @@
         }
       },
       "alignment": "Any Non-Lawful Alignment",
-      "type": "Humanoid (any race)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Any Race",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Bandit Captain"
     },
     "rbyp54px2D0ql4QK": {
@@ -9154,7 +10616,12 @@
           "description": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+4 to hit,</strong>, <strong>5 ft.,</strong> one creature. Hit: <strong>5 (1d6 + 2) <em>necrotic damage</em></strong>.</p>\n<p>The target must succeed on a  <strong>DC 13 Constitution</strong> saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</p>\n<p>A humanoid slain by this attack rises 24 hours later as a zombie under the wight's control, unless the humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at one time.</p>\n</section>\n<p>The Wight attacks with its Life Drain. The target must make a <strong>Constitution</strong> saving throw.</p>"
         }
       },
-      "type": "Undead",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
       "name": "Wight"
     },
@@ -9175,7 +10642,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Goat"
     },
     "rz8UTUnFT87BsAFR": {
@@ -9187,7 +10659,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Riding Horse"
     },
     "sApYLZj9PTZ40wJr": {
@@ -9210,7 +10687,12 @@
           "description": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+8 to hit,</strong>, <strong>10 ft.,</strong> one target. Hit: <strong>14 (2d8 + 5) <em>bludgeoning damage</em></strong>.</p><p></p></section><p>The Earth Elemental attacks with its Slam.</p>"
         }
       },
-      "type": "Elemental",
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Earth Elemental"
     },
@@ -9246,12 +10728,17 @@
           "description": "<section class=\"secret\">\n<p><em>Ranged Spell Attack:</em><strong>+5 to hit,</strong>, <strong>150 ft.,</strong> one target. Hit: <strong>10 (3d6) <em>fire damage</em></strong>.</p>\n<p>If the target is a flammable object that isn't being worn or carried, it also catches fire.</p>\n</section>\n<p>The Barbed Devil attacks with its Hurl Flame. If the target is a flammable object that isn't being worn or carried, it also catches fire.</p>"
         }
       },
-      "type": "Fiend (devil)",
+      "type": {
+        "value": "fiend",
+        "subtype": "Devil",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from non-magical attacks that aren't silvered",
       "name": "Barbed Devil"
     },
     "saq6WM959pKHuaqP": {
-      "alignment": "Neutral Evil",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "If61JQI7rS8GsA5a": {
           "name": "Dancing Lights",
@@ -9290,7 +10777,13 @@
           "description": "<section class=\"secret\"><p>The hag magically turns invisible until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While invisible, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is invisible with her.</p><p></p></section><p>The hag magically turns invisible. Any equipment she wears or carries is invisible with her.</p>"
         }
       },
-      "type": "Fey",
+      "alignment": "Neutral Evil",
+      "type": {
+        "value": "fey",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Green Hag"
     },
     "shhHtE7b92PefCWB": {
@@ -9354,7 +10847,12 @@
         }
       },
       "alignment": "Lawful Evil",
-      "type": "Aberration",
+      "type": {
+        "value": "aberration",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Aboleth"
     },
     "siBUEAj4UVdaiH6p": {
@@ -9374,7 +10872,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Hunter Shark"
     },
     "t8WYD7ak07X7xpx8": {
@@ -9394,7 +10897,12 @@
         }
       },
       "alignment": "Lawful Evil",
-      "type": "Undead",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Mummy"
     },
@@ -9419,7 +10927,12 @@
         }
       },
       "alignment": "Neutral",
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Grick"
     },
@@ -9444,7 +10957,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Saber-Toothed Tiger"
     },
     "tYfQIxCJT0WaaKmc": {
@@ -9504,7 +11022,12 @@
         }
       },
       "alignment": "Any Non-Good",
-      "type": "Humanoid (any race)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Any Race",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Cult Fanatic"
     },
     "tubcO7kaQ4w0soxS": {
@@ -9524,7 +11047,12 @@
         }
       },
       "alignment": "Lawful Evil",
-      "type": "Fiend (Devil)",
+      "type": {
+        "value": "fiend",
+        "subtype": "Devil",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Lemure"
     },
     "u0FWdplSOMTXGnN1": {
@@ -9595,7 +11123,12 @@
           "description": "<section class=\"secret\">\n<p>**Slowing Breath.** The dragon exhales gas in a 90-foot cone. Each creature in that area must succeed on a  <strong>DC 22 Constitution</strong> saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save.</p>\n</section>\n<p>The dragon exhales gas in a 90-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Ancient Copper Dragon"
     },
     "u1UQfHutP5eEKkjM": {
@@ -9622,7 +11155,12 @@
           "description": "<p>The dragon makes three attacks: one with its bite and two with its claws.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Young White Dragon"
     },
     "uZ8NrRenwYZ4qNf6": {
@@ -9661,7 +11199,12 @@
           "description": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+14 to hit,</strong>, <strong>30 ft.,</strong> one target. Hit: <strong>15 (2d6 + 8) <em>slashing damage</em></strong> plus <strong>10 (3d6) <em>fire damage</em></strong>.</p>\n<p>The target must succeed on a  <strong>DC 20 Strength</strong> saving throw or be pulled up to 25 feet toward the balor.</p>\n</section>\n<p>The Balor attacks with its Whip. The target must make a <strong>Strength</strong> saving throw.</p>"
         }
       },
-      "type": "Fiend (demon)",
+      "type": {
+        "value": "fiend",
+        "subtype": "Demon",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from non-magical attacks",
       "name": "Balor"
     },
@@ -9690,7 +11233,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Spider"
     },
     "vFeFRlF2FOgf2HIL": {
@@ -9749,7 +11297,12 @@
           "description": "<p>The mere presence of a legendary creature can have strange and wondrous effects on its environment. Regional effects end abruptly or dissipate over time when the legendary creature dies.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Ancient Red Dragon"
     },
     "vc2TAgIuq4yInjbf": {
@@ -9764,7 +11317,12 @@
           "description": "<section class=\"secret\"><p>The dragon exhales an icy blast of hail in a 15-foot cone. Each creature in that area must make a  <strong>DC 12 Constitution</strong> saving throw, taking <strong>22 (5d8) <em>cold damage</em></strong> on a failed save, or half as much damage on a successful one.</p><p></p></section><p>The dragon exhales an icy blast of hail in a 15-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "White Dragon Wyrmling"
     },
     "x47ZnpHfYl0ptDM9": {
@@ -9791,7 +11349,12 @@
           "description": "<section class=\"secret\">\n<p>The behir makes one bite attack against a <strong>Medium or smaller target it is grappling</strong>. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is blinded and restrained, it has total cover against attacks and other effects outside the behir, and it takes <strong>21 (6d6) <em>acid damage</em></strong> at the start of each of the behir's turns. A behir can have only one creature swallowed at a time.</p>\n<p>If the behir takes 30 damage or more on a single turn from the swallowed creature, the behir must succeed on a  <strong>DC 14 Constitution</strong> saving throw at the end of that turn or regurgitate the creature, which falls prone in a space within 10 ft. of the behir. If the behir dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 15 ft. of movement, exiting prone.</p>\n</section>\n<p>The Behir attacks with its Swallow.</p>"
         }
       },
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Behir"
     },
     "xBhG7Dos3tkg9jWz": {
@@ -9815,7 +11378,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Ooze",
+      "type": {
+        "value": "ooze",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Ochre Jelly"
     },
     "xple5bvGj42uGgdd": {
@@ -9834,11 +11402,16 @@
           "description": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+6 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>13 (2d8 + 4) <em>piercing damage</em></strong>.</p><p></p></section><p>The Minotaur Skeleton attacks with its Gore.</p>"
         }
       },
-      "type": "Undead",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Minotaur Skeleton"
     },
     "xvh2UOKv1bh03Gih": {
-      "alignment": "Neutral Evil",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "bUkTkdnQ3XbRcXkD": {
           "name": "Innate Spellcasting",
@@ -9885,7 +11458,13 @@
           "description": "<section class=\"secret\"><p>While on the Ethereal Plane, the hag magically touches a sleeping humanoid on the Material Plane. A protection from evil and good spell cast on the target prevents this contact, as does a magic circle. </p><p>As long as the contact persists, the target has dreadful visions. If these visions last for at least 1 hour, the target gains no benefit from its rest, and its hit point maximum is reduced by 5 (1d10). If this effect reduces the target's hit point maximum to 0, the target dies, and if the target was evil, its soul is trapped in the hag's soul bag. The reduction to the target's hit point maximum lasts until removed by the greater restoration spell or similar magic.</p></section><p>While on the Ethereal Plane, the hag magically touches a sleeping humanoid on the Material Plane. As long as the contact persists, the target has dreadful visions.</p>"
         }
       },
-      "type": "Fiend",
+      "alignment": "Neutral Evil",
+      "type": {
+        "value": "fiend",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
       "name": "Night Hag"
     },
@@ -9906,7 +11485,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Goat"
     },
     "yGTh874etxUckmAf": {
@@ -9933,7 +11517,12 @@
           "description": "<section class=\"secret\">\n<p>The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a  <strong>DC 12 Dexterity</strong> saving throw, taking <strong>18 (4d8) <em>cold damage</em></strong> on a failed save, or half as much damage on a successful one. Recharge 5-6.</p></section>\n<p>The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a <strong>Dexterity</strong> saving throw.</p>"
         }
       },
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Winter Wolf"
     },
     "yVNPVJIBpQ2Mp3Xa": {
@@ -9960,9 +11549,24 @@
           "description": "<section class=\"secret\">\n<p>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20 ft./60 ft., one target. Hit: <strong>11 (2d6 + 4) <em>piercing damage</em></strong>, or <strong>13 (2d8 + 4) <em>piercing damage</em></strong> if used with two hands to make a melee attack, plus <strong>3 (1d6) <em>fire damage</em></strong>.</p></section>\n<p>The Salamander attacks with its Spear.</p>"
         }
       },
-      "type": "Elemental",
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Salamander"
+    },
+    "yVvpCv0iIHVdH65a": {
+      "alignment": "Lawful Evil",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "name": "Adult Blue Dracolich"
     },
     "yawTeS8u2FCfzzZH": {
       "description": "<p>Wolves are the largest of the wild dog species roaming the plains and forests of our wonderful world.&nbsp; Anywhere from light brown to a midnight black in coloration, wolves stand as the common ancestor to all natural dog species currently inhabiting the planet.&nbsp; Wolves have a long, broad muzzle filled with sharp teeth, a thick coat to insulate them from difficult winters, and keen eyes and ears with which they may track a target.&nbsp; The most amazing aspect of the wolf is its incredible nose which can smell prey from up to one and a half miles away.&nbsp; This amazing nose (packed with hundreds of millions of scent receptors) can also determine the mood of other wolves, what they’ve eaten, and even where they’ve been..</p>\n<p><strong>The Wolves Among Us.</strong> As is common with many other dog species, wolves live in communities called packs.&nbsp; WIthin the pack, wolves hunt together, raise their young together, and provide group protection.&nbsp; When encountering wolves, be wary should you only spy a single animal prowling the area.&nbsp; It’s quite likely where there is a straggler wolf, the rest of the pack lurks nearby ready to defend their family from attack.&nbsp; Wolves, which unable to speak, are able to “communicate” via barks and growls as well as follow simplistic tactics such as flanking maneuvers or surprise attacks.&nbsp; The strength of the pack allows for the wolves to combine their intelligence and form a deadly fighting force of gnashing teeth.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>",
@@ -9981,7 +11585,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Wolf"
     },
     "z0zvgcIugizwcuxJ": {
@@ -10001,7 +11610,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Beast",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Giant Rat (Diseased)"
     },
     "z3gSIXHHWYaHjfBT": {
@@ -10033,7 +11647,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Construct",
+      "type": {
+        "value": "construct",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "di": "bludgeoning, piercing, and slashing from nonmagical attacks that aren’t adamantine",
       "name": "Stone Golem"
     },
@@ -10065,7 +11684,12 @@
           "description": "<p>When a creature makes an Attack against the wearer of the guardian's Amulet, the Guardian grants a +2 bonus to the wearer's AC if the Guardian is within 5 feet of the wearer.</p>"
         }
       },
-      "type": "Construct",
+      "type": {
+        "value": "construct",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Shield Guardian"
     },
     "zIr3NaNF0mWz5Ahq": {
@@ -10104,7 +11728,12 @@
           "description": "<section class=\"secret\">\n<p>Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: <strong>6 (1d8 + 2) <em>piercing damage</em></strong>.</p>\n</section>\n<p>The Weretiger attacks with its Longbow.</p>"
         }
       },
-      "type": "Humanoid (human, shapechanger)",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Human, Shapechanger",
+        "swarm": "",
+        "custom": ""
+      },
       "di": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
       "name": "Weretiger"
     },
@@ -10129,7 +11758,12 @@
         }
       },
       "alignment": "Unaligned",
-      "type": "Monstrosity",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Owlbear"
     },
     "zgWkII3VoE4AHCND": {
@@ -10144,7 +11778,12 @@
           "description": "<section class=\"secret\"><p>The dragon exhales fire in a 15-foot cone. Each creature in that area must make a  <strong>DC 13 Dexterity</strong> saving throw, taking <strong>24 (7d6) <em>fire damage</em></strong> on a failed save, or half as much damage on a successful one.</p><p></p></section><p>The dragon exhales fire in a 15-foot cone. Each creature in that area must make a <strong>Dexterity</strong> saving throw.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Red Dragon Wyrmling"
     },
     "zjqjcRWKDMc59Tnx": {
@@ -10207,11 +11846,16 @@
           "description": "<p>The mere presence of a legendary creature can have strange and wondrous effects on its environment. Regional effects end abruptly or dissipate over time when the legendary creature dies.</p>"
         }
       },
-      "type": "Dragon",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "name": "Ancient Green Dragon"
     },
     "zpaZb7I8alY32vWV": {
-      "description": "<p>Vampire spawn are undead creatures that come into being when vampires slay mortals. Like their creators, spawn remain bound to their coffins and to the soil of their graves. Vampire spawn appear much as they did in life, although their features are often hardened, with a predatory look.</p>",
+      "description": "<p>Vampire spawn are undead creatures that come into being when vampires slay mortals. Like their creators, spawn remain bound to their coffins and to the soil of their graves. Vampire spawn appear much as they did in life, although their features are often hardened, with a predatory look.</p>\n<p><em>Token artwork by Forgotten Adventures.</em></p>",
       "items": {
         "HebvJc2NqYvdR79s": {
           "name": "Bite",
@@ -10239,7 +11883,12 @@
         }
       },
       "alignment": "Neutral Evil",
-      "type": "Undead",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "dr": "bludgeoning, piercing, and slashing from nonmagical attacks",
       "name": "Vampire Spawn"
     }
