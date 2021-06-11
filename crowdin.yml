@@ -1,0 +1,24 @@
+"project_id_env": "CROWDIN_PROJECT_ID"
+"api_token_env": "CROWDIN_PERSONAL_TOKEN"
+"base_path": "."
+"base_url": "https://fvtt.crowdin.com"
+
+"preserve_hierarchy": false
+
+"commit_message": "chore(crowdin): new translations %original_file_name% from Crowdin"
+"append_commit_message": false
+
+files:
+  [
+    {
+      "source": "/lang/en/*.json",
+      "translation": "/lang/%locale%/compendium/dnd5e.%original_file_name%",
+      "ignore": ["/lang/en/en.json"],
+      "update_option": "update_as_unapproved",
+    },
+    {
+      "source": "/lang/en/en.json",
+      "translation": "/lang/%locale%/system.json",
+      "update_option": "update_as_unapproved",
+    },
+  ]
