@@ -2468,10 +2468,6 @@
           "name": "Bless",
           "description": "<p>You bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target can roll 1d4 and add the number rolled to the attack roll or saving throw.</p>\n<p><strong>Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</p>"
         },
-        "c6RtpDfZ4mpNo1Ka": {
-          "name": "Cure Wounds",
-          "description": "<p>A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p>\n<p><strong>Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</p>"
-        },
         "CebfFzlNbHsUEd3I": {
           "name": "Sanctuary",
           "description": "<p>You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a <strong>Wisdom</strong> saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from area effects, such as the explosion of a Fireball.</p>\n<p>If the warded creature makes an attack or casts a spell that affects an enemy creature, this spell ends.</p>"
@@ -2479,6 +2475,10 @@
         "swpThURVHnaQRjfY": {
           "name": "Club",
           "description": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+2 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>2 (1d4) <em>bludgeoning damage</em></strong>.</p></section>\n<p>The Acolyte attacks with their Club.</p>"
+        },
+        "fVvLFaAC7IPVx7LX": {
+          "name": "Cure Wounds",
+          "description": "<p>A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p><p><strong>Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</p>"
         }
       },
       "alignment": "Any",
@@ -3582,7 +3582,8 @@
         "swarm": "",
         "custom": ""
       },
-      "name": "Black Dragon Wyrmling"
+      "name": "Black Dragon Wyrmling",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>"
     },
     "IiEDPMWqBlzkggYD": {
       "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>",
@@ -4037,7 +4038,8 @@
         "swarm": "",
         "custom": ""
       },
-      "name": "Green Dragon Wyrmling"
+      "name": "Green Dragon Wyrmling",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>"
     },
     "KLCkHep28HBfdsky": {
       "alignment": "Chaotic Evil",
@@ -5147,10 +5149,6 @@
           "name": "Thaumaturgy",
           "description": "<p>You create one of the following magical effects within range:</p>\n<ul>\n<li>Your voice booms up to three times as loud as normal for 1 minute.</li>\n<li>You cause flames to flicker, brighten, dim, or change color for 1 minute.</li>\n<li>You cause harmless tremors in the ground for 1 minute.</li>\n<li>You create a sound that originates from a point of your choice within range.</li>\n<li>You cause an unlocked door or window to fly open or slam shut.</li>\n<li>You alter the appearance of your eyes for 1 minute.</li>\n</ul>\n<p>If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.</p>"
         },
-        "zqrrds5FRY4p6j1q": {
-          "name": "Cure Wounds",
-          "description": "<p>A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p>\n<p><strong>Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</p>"
-        },
         "IuZhkaFDV6WSInX2": {
           "name": "Guiding Bolt",
           "description": "<p>A flash of light streaks toward a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 4d6 <em>radiant damage</em>, and the next attack roll made against this target before the end of your next turn has advantage, thanks to the mystical dim light glittering on the target until then.</p>\n<p><strong>Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>"
@@ -5186,6 +5184,10 @@
         "noxyV6bnkRwU1Hqr": {
           "name": "Light",
           "description": "<p>You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.</p><p>If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.</p>"
+        },
+        "izr8tkLxScri1fXe": {
+          "name": "Cure Wounds",
+          "description": "<p>A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p><p><strong>Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</p>"
         }
       },
       "alignment": "Any Alignment",
@@ -9719,7 +9721,8 @@
         "swarm": "",
         "custom": ""
       },
-      "name": "Blue Dragon Wyrmling"
+      "name": "Blue Dragon Wyrmling",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>"
     },
     "namJz755U1EhvEJa": {
       "alignment": "Neutral",
@@ -11323,7 +11326,8 @@
         "swarm": "",
         "custom": ""
       },
-      "name": "White Dragon Wyrmling"
+      "name": "White Dragon Wyrmling",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>"
     },
     "x47ZnpHfYl0ptDM9": {
       "alignment": "Neutral Evil",
@@ -11784,7 +11788,8 @@
         "swarm": "",
         "custom": ""
       },
-      "name": "Red Dragon Wyrmling"
+      "name": "Red Dragon Wyrmling",
+      "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>"
     },
     "zjqjcRWKDMc59Tnx": {
       "alignment": "Lawful Evil",
