@@ -1,10 +1,10 @@
-[![Version](https://img.shields.io/badge/dynamic/json?color=blue&label=Version&prefix=v&query=version&url=https%3A%2F%2Fgitlab.com%2Ffoundryvtt-pt-br%2Ffoundryvtt-dnd5e-brazilian-portuguese%2F-%2Fraw%2Fmaster%2Fdnd5e_pt-BR%2Fmodule.json)](https://foundryvtt.com/packages/translation_dnd5e_ptBR) [![Min Core](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Min%20Core&prefix=v&query=minimumCoreVersion&url=https%3A%2F%2Fgitlab.com%2Ffoundryvtt-pt-br%2Ffoundryvtt-dnd5e-brazilian-portuguese%2F-%2Fraw%2Fmaster%2Fdnd5e_pt-BR%2Fmodule.json)](http://foundryvtt.com/) [![Compatible](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Compatible&prefix=v&query=compatibleCoreVersion&url=https%3A%2F%2Fgitlab.com%2Ffoundryvtt-pt-br%2Ffoundryvtt-dnd5e-brazilian-portuguese%2F-%2Fraw%2Fmaster%2Fdnd5e_pt-BR%2Fmodule.json)](http://foundryvtt.com/) [![DnD 5e Compatible](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=5e%20Compatible&prefix=v&query=minimumSystemVersion&url=https%3A%2F%2Fgitlab.com%2Ffoundryvtt-pt-br%2Ffoundryvtt-dnd5e-brazilian-portuguese%2F-%2Fraw%2Fmaster%2Fdnd5e_pt-BR%2Fmodule.json)](https://foundryvtt.com/packages/dnd5e/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT) [![Discord invite](https://img.shields.io/badge/Chat-on_Discord-blue?logo=discord&logoColor=white)](https://discord.gg/Ay42VG)
-
 FoundryVTT 5th Edition Brazilian Portuguese
 ===========================================
 
 
 ## Português ([english version](https://gitlab.com/fvtt-brasil/dnd5e/-/edit/master/README.md#english "English version"))
+
+## Atenção - Este é um clone do projeto [DnD5e Brazilian Portuguese Translation](https://gitlab.com/fvtt-brasil/dnd5e) com modificações segundo minhas preferências pessoais. Eu recomendo a todos usar a versão original e não esta, pois não posso garantir manter este clone atualizado o tempo todo.
 
 Esse módulo adiciona o idioma *Português (Brasil)* como uma opção a ser selecionada nas configurações do Foundry VTT. Selecionar essa opção traduzirá vários aspectos da aplicação relacionados ao sistema [D&D 5E](https://gitlab.com/foundrynet/dnd5e "Foundry VTT 5th Edition"), como as fichas de personagem, rolagens, e compêndios (com o módulo [Babele](https://foundryvtt.com/packages/babele/ "Babele")), entre outros.
 
@@ -35,6 +35,7 @@ Feito isso ative o módulo nas configurações do mundo em que pretende usá-lo 
 <br/>
 
 ## English
+## Caution - This is a clone of the [DnD5e Brazilian Portuguese Translation](https://gitlab.com/fvtt-brasil/dnd5e) project with my modification of personal preferences. I advise to use the original version instead of this one since I cannot garantee it will always be up to date.
 
 This module adds the language *Portuguese (Brazil)* as an option to be defined in the Foundry VTT settings. Selecting this option will translate several aspects of the application related to the [D&D 5E](https://gitlab.com/foundrynet/dnd5e "Foundry VTT 5th Edition") system, such as character sheets, rolls, and compendiums (with the [Babele](https://foundryvtt.com/packages/babele/ "Babele") module), among others.
 
