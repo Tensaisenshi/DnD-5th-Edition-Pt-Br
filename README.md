@@ -2,7 +2,7 @@ FoundryVTT 5th Edition Brazilian Portuguese
 ===========================================
 
 
-## Português ([english version](https://gitlab.com/fvtt-brasil/dnd5e/-/edit/master/README.md#english "English version"))
+## Português ([english version](https://github.com/Tensaisenshi/DnD-5th-Edition-Pt-Br/edit/master/README.md#english "English version"))
 
 ## Atenção - Este é um clone do projeto [DnD5e Brazilian Portuguese Translation](https://gitlab.com/fvtt-brasil/dnd5e) com modificações segundo minhas preferências pessoais. Eu recomendo a todos usar a versão original e não esta, pois não posso garantir manter este clone atualizado o tempo todo.
 
